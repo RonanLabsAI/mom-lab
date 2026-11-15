@@ -1,0 +1,62 @@
+# mom-lab .gitignore (initial commit 2026-11-13 PT, W8 workstream)
+# Rule: code, configs, prereg/addenda, notebooks, freeze manifests, scores and analysis JSONs are tracked.
+# Large data, raw downloads, model outputs, weights and adapters are not. Rebuild data with the builders
+# (scripts/data/, scripts/partd_c/, scripts/partd_f/); see README.md.
+
+# environments and caches
+.venv/
+.venv-*/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# large or rebuildable data
+/data/
+/data_partd/
+/data_partd_c/raw/
+/data_partd_f/eval/
+/data_gate_zs/
+/data_gate_fs/
+/data_partd_d/
+logs/**/*.npy
+logs/**/cache.jsonl
+
+# raw model generations (GBs; released separately, not in git)
+results/**/gen/
+distill_gap/results/*.jsonl
+
+# weights, adapters, checkpoints, archives
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.gguf
+*.tar
+*.tar.gz
+*.zip
+adapters/
+runs/
+checkpoints/
+evalcache/
+
+# copies of shared fleet state (other sessions, other projects)
+logs/fleet-claims*
+
+# secrets
+.env
+.env.*
+*.key
+*.pem
+
+# paper build outputs
+paper/main.pdf
+paper/main.log
+paper/main.blg
+paper/*.aux
+logs/queue/gate.golds.jsonl
+
+# run logs are not published (public export, 2026-11-14 PT)
+/logs/*
+!/logs/README.md
+!/logs/analysis/

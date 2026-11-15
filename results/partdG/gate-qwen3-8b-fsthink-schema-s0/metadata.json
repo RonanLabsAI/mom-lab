@@ -1,0 +1,156 @@
+{
+  "model": "research-mom-gate-qwen3-8b",
+  "revision": "vllm-0.30.1rc1.dev245+gaf7f9488c xgrammar-0.2.7",
+  "endpoint": "http://127.0.0.1:4001/v1",
+  "hardware": "RTX PRO 6000 batch-invariant (Station LEFT)",
+  "run_id": "gate-qwen3-8b-fsthink-schema-s0",
+  "step": "partdG",
+  "settings": {
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "top_k": 20,
+    "presence_penalty": 0.0,
+    "seed": 0,
+    "max_tokens_override": 16384,
+    "chat_template_kwargs": {
+      "enable_thinking": true
+    },
+    "default_max_tokens": 2048,
+    "limit": null
+  },
+  "git_hash": "f23fbcdf4bc739d1a5815989fa11050e34c174d2",
+  "generated_utc": "2026-11-14T06:53:15+00:00",
+  "gate": {
+    "schema_path": "/opt/release-user/projects/RonanLabs/mom-lab-w8/configs/gate/metar_schema.json",
+    "schema": {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "title": "metar",
+      "description": "METAR decode, 14 fields. Encodes only what the Part D-C prompt states (keys, order, types, the HH:MM time format and the enumerated values the prompt lists). Gate: preregs/2026-11-14-metar-schema-gate.md.",
+      "type": "object",
+      "properties": {
+        "station": {
+          "type": "string"
+        },
+        "day": {
+          "type": "integer"
+        },
+        "time_utc": {
+          "type": "string",
+          "pattern": "^[0-9]{2}:[0-9]{2}$"
+        },
+        "wind_dir_deg": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "const": "VRB"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "wind_speed_kt": {
+          "type": "integer"
+        },
+        "wind_gust_kt": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "visibility_sm": {
+          "type": "number"
+        },
+        "weather": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "clouds": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "cover": {
+                "enum": [
+                  "FEW",
+                  "SCT",
+                  "BKN",
+                  "OVC",
+                  "VV"
+                ]
+              },
+              "base_ft": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "cover",
+              "base_ft"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "ceiling_ft": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "temperature_c": {
+          "type": "integer"
+        },
+        "dewpoint_c": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "altimeter_inhg": {
+          "type": "number"
+        },
+        "flight_category": {
+          "enum": [
+            "LIFR",
+            "IFR",
+            "MVFR",
+            "VFR"
+          ]
+        }
+      },
+      "required": [
+        "station",
+        "day",
+        "time_utc",
+        "wind_dir_deg",
+        "wind_speed_kt",
+        "wind_gust_kt",
+        "visibility_sm",
+        "weather",
+        "clouds",
+        "ceiling_ft",
+        "temperature_c",
+        "dewpoint_c",
+        "altimeter_inhg",
+        "flight_category"
+      ],
+      "additionalProperties": false
+    },
+    "wrapper": "scripts/gate/schema_generate.py"
+  }
+}

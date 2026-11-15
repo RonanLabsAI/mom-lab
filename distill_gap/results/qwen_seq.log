@@ -1,0 +1,21 @@
+2026-11-08 08:26:57 PT serve qwen3-0.6b
+2026-11-08 08:30:13 PT run qwen3-0.6b
+qwen3-0.6b: wrote 1000 new, 0 already done
+2026-11-08 09:21:55 PT done qwen3-0.6b rc=0
+2026-11-08 09:21:56 PT serve qwen3-1.7b
+2026-11-08 09:24:51 PT run qwen3-1.7b
+qwen3-1.7b: wrote 1000 new, 0 already done
+2026-11-08 10:46:39 PT done qwen3-1.7b rc=0
+2026-11-08 10:46:40 PT serve qwen3-4b
+2026-11-08 10:49:45 PT run qwen3-4b
+qwen3-4b: wrote 1000 new, 0 already done
+2026-11-08 12:07:13 PT done qwen3-4b rc=0
+2026-11-08 12:07:14 PT serve qwen3-8b
+2026-11-08 12:10:19 PT run qwen3-8b
+qwen3-8b: wrote 1000 new, 0 already done
+2026-11-08 13:46:41 PT done qwen3-8b rc=0
+2026-11-08 13:46:43 PT serve qwen3-32b
+2026-11-08 13:50:18 PT run qwen3-32b
+qwen3-32b: wrote 1000 new, 0 already done
+2026-11-08 21:58:06 PT done qwen3-32b rc=0
+2026-11-08 21:58:07 PT ALL DONE

@@ -1,0 +1,628 @@
+{
+ "n": 1000,
+ "n_stations": 73,
+ "missing": [],
+ "best": {
+  "8B": "8B few-shot+thinking + schema s0",
+  "32B": "32B thinking + schema s0",
+  "overall": "32B thinking + schema s0"
+ },
+ "scores": {
+  "4B+metar": 99.83333333333334,
+  "8B zero-shot (C)": 2.1,
+  "8B few-shot (F)": 41.7,
+  "8B few-shot+thinking s0 (F)": 82.9,
+  "8B few-shot+thinking (F)": 83.16666666666667,
+  "32B thinking (F)": 88.9,
+  "32B zero-shot (F)": 38.5,
+  "8B zero-shot (gate, no schema)": 2.1,
+  "8B few-shot (gate, no schema)": 41.7,
+  "8B zero-shot + schema": 20.4,
+  "8B few-shot + schema": 42.9,
+  "32B zero-shot (gate, no schema)": 38.6,
+  "32B few-shot (gate, no schema)": 67.6,
+  "32B zero-shot + schema": 38.1,
+  "32B few-shot + schema": 66.2,
+  "8B few-shot+thinking + schema s0": 84.2,
+  "32B thinking + schema s0": 89.6
+ },
+ "field_accuracy": {
+  "4B+metar": {
+   "station": 100.0,
+   "day": 100.0,
+   "time_utc": 99.96666666666665,
+   "wind_dir_deg": 100.0,
+   "wind_speed_kt": 100.0,
+   "wind_gust_kt": 100.0,
+   "visibility_sm": 100.0,
+   "weather": 99.93333333333334,
+   "clouds": 100.0,
+   "ceiling_ft": 100.0,
+   "temperature_c": 100.0,
+   "dewpoint_c": 100.0,
+   "altimeter_inhg": 100.0,
+   "flight_category": 99.93333333333334
+  },
+  "8B zero-shot (C)": {
+   "station": 99.9,
+   "day": 99.7,
+   "time_utc": 15.8,
+   "wind_dir_deg": 71.7,
+   "wind_speed_kt": 99.2,
+   "wind_gust_kt": 99.2,
+   "visibility_sm": 98.3,
+   "weather": 97.7,
+   "clouds": 95.3,
+   "ceiling_ft": 84.4,
+   "temperature_c": 68.4,
+   "dewpoint_c": 66.3,
+   "altimeter_inhg": 99.7,
+   "flight_category": 60.1
+  },
+  "8B few-shot (F)": {
+   "station": 100.0,
+   "day": 100.0,
+   "time_utc": 100.0,
+   "wind_dir_deg": 99.9,
+   "wind_speed_kt": 100.0,
+   "wind_gust_kt": 99.7,
+   "visibility_sm": 98.7,
+   "weather": 94.4,
+   "clouds": 97.5,
+   "ceiling_ft": 83.3,
+   "temperature_c": 76.2,
+   "dewpoint_c": 92.5,
+   "altimeter_inhg": 100.0,
+   "flight_category": 69.4
+  },
+  "8B few-shot+thinking s0 (F)": {
+   "station": 100.0,
+   "day": 100.0,
+   "time_utc": 99.6,
+   "wind_dir_deg": 98.9,
+   "wind_speed_kt": 100.0,
+   "wind_gust_kt": 100.0,
+   "visibility_sm": 100.0,
+   "weather": 98.6,
+   "clouds": 98.4,
+   "ceiling_ft": 94.2,
+   "temperature_c": 97.3,
+   "dewpoint_c": 96.9,
+   "altimeter_inhg": 100.0,
+   "flight_category": 92.7
+  },
+  "8B few-shot+thinking (F)": {
+   "station": 99.96666666666665,
+   "day": 99.96666666666665,
+   "time_utc": 99.73333333333335,
+   "wind_dir_deg": 98.76666666666667,
+   "wind_speed_kt": 99.96666666666665,
+   "wind_gust_kt": 99.96666666666665,
+   "visibility_sm": 99.96666666666665,
+   "weather": 98.2,
+   "clouds": 98.36666666666667,
+   "ceiling_ft": 94.66666666666667,
+   "temperature_c": 96.96666666666665,
+   "dewpoint_c": 96.86666666666667,
+   "altimeter_inhg": 99.96666666666665,
+   "flight_category": 93.16666666666667
+  },
+  "32B thinking (F)": {
+   "station": 99.2,
+   "day": 100.0,
+   "time_utc": 99.9,
+   "wind_dir_deg": 97.8,
+   "wind_speed_kt": 100.0,
+   "wind_gust_kt": 100.0,
+   "visibility_sm": 100.0,
+   "weather": 99.4,
+   "clouds": 98.4,
+   "ceiling_ft": 98.7,
+   "temperature_c": 99.9,
+   "dewpoint_c": 100.0,
+   "altimeter_inhg": 100.0,
+   "flight_category": 93.6
+  },
+  "32B zero-shot (F)": {
+   "station": 98.0,
+   "day": 99.8,
+   "time_utc": 100.0,
+   "wind_dir_deg": 73.2,
+   "wind_speed_kt": 100.0,
+   "wind_gust_kt": 99.9,
+   "visibility_sm": 98.3,
+   "weather": 99.2,
+   "clouds": 98.7,
+   "ceiling_ft": 90.8,
+   "temperature_c": 87.3,
+   "dewpoint_c": 93.5,
+   "altimeter_inhg": 100.0,
+   "flight_category": 67.2
+  },
+  "8B zero-shot (gate, no schema)": {
+   "station": 99.9,
+   "day": 99.7,
+   "time_utc": 15.8,
+   "wind_dir_deg": 71.7,
+   "wind_speed_kt": 99.2,
+   "wind_gust_kt": 99.2,
+   "visibility_sm": 98.3,
+   "weather": 97.7,
+   "clouds": 95.3,
+   "ceiling_ft": 84.4,
+   "temperature_c": 68.4,
+   "dewpoint_c": 66.3,
+   "altimeter_inhg": 99.7,
+   "flight_category": 60.1
+  },
+  "8B few-shot (gate, no schema)": {
+   "station": 100.0,
+   "day": 100.0,
+   "time_utc": 100.0,
+   "wind_dir_deg": 99.9,
+   "wind_speed_kt": 100.0,
+   "wind_gust_kt": 99.7,
+   "visibility_sm": 98.7,
+   "weather": 94.4,
+   "clouds": 97.5,
+   "ceiling_ft": 83.3,
+   "temperature_c": 76.2,
+   "dewpoint_c": 92.5,
+   "altimeter_inhg": 100.0,
+   "flight_category": 69.4
+  },
+  "8B zero-shot + schema": {
+   "station": 100.0,
+   "day": 99.7,
+   "time_utc": 99.2,
+   "wind_dir_deg": 71.6,
+   "wind_speed_kt": 99.0,
+   "wind_gust_kt": 99.4,
+   "visibility_sm": 98.5,
+   "weather": 98.0,
+   "clouds": 94.3,
+   "ceiling_ft": 83.4,
+   "temperature_c": 68.5,
+   "dewpoint_c": 69.8,
+   "altimeter_inhg": 99.8,
+   "flight_category": 59.6
+  },
+  "8B few-shot + schema": {
+   "station": 100.0,
+   "day": 100.0,
+   "time_utc": 100.0,
+   "wind_dir_deg": 99.9,
+   "wind_speed_kt": 100.0,
+   "wind_gust_kt": 99.7,
+   "visibility_sm": 99.2,
+   "weather": 94.5,
+   "clouds": 97.5,
+   "ceiling_ft": 84.9,
+   "temperature_c": 76.6,
+   "dewpoint_c": 92.5,
+   "altimeter_inhg": 100.0,
+   "flight_category": 69.9
+  },
+  "32B zero-shot (gate, no schema)": {
+   "station": 98.0,
+   "day": 99.8,
+   "time_utc": 100.0,
+   "wind_dir_deg": 73.2,
+   "wind_speed_kt": 100.0,
+   "wind_gust_kt": 99.9,
+   "visibility_sm": 98.4,
+   "weather": 99.2,
+   "clouds": 98.6,
+   "ceiling_ft": 91.0,
+   "temperature_c": 87.6,
+   "dewpoint_c": 93.7,
+   "altimeter_inhg": 100.0,
+   "flight_category": 67.0
+  },
+  "32B few-shot (gate, no schema)": {
+   "station": 100.0,
+   "day": 100.0,
+   "time_utc": 100.0,
+   "wind_dir_deg": 99.7,
+   "wind_speed_kt": 100.0,
+   "wind_gust_kt": 99.8,
+   "visibility_sm": 100.0,
+   "weather": 98.4,
+   "clouds": 100.0,
+   "ceiling_ft": 91.8,
+   "temperature_c": 99.0,
+   "dewpoint_c": 99.7,
+   "altimeter_inhg": 100.0,
+   "flight_category": 74.0
+  },
+  "32B zero-shot + schema": {
+   "station": 98.0,
+   "day": 99.9,
+   "time_utc": 100.0,
+   "wind_dir_deg": 73.1,
+   "wind_speed_kt": 100.0,
+   "wind_gust_kt": 99.9,
+   "visibility_sm": 98.8,
+   "weather": 99.4,
+   "clouds": 98.9,
+   "ceiling_ft": 91.5,
+   "temperature_c": 87.6,
+   "dewpoint_c": 93.0,
+   "altimeter_inhg": 100.0,
+   "flight_category": 67.1
+  },
+  "32B few-shot + schema": {
+   "station": 100.0,
+   "day": 100.0,
+   "time_utc": 100.0,
+   "wind_dir_deg": 99.8,
+   "wind_speed_kt": 100.0,
+   "wind_gust_kt": 99.8,
+   "visibility_sm": 100.0,
+   "weather": 98.0,
+   "clouds": 100.0,
+   "ceiling_ft": 90.6,
+   "temperature_c": 98.2,
+   "dewpoint_c": 99.6,
+   "altimeter_inhg": 100.0,
+   "flight_category": 73.7
+  },
+  "8B few-shot+thinking + schema s0": {
+   "station": 100.0,
+   "day": 100.0,
+   "time_utc": 99.8,
+   "wind_dir_deg": 98.1,
+   "wind_speed_kt": 100.0,
+   "wind_gust_kt": 100.0,
+   "visibility_sm": 100.0,
+   "weather": 98.4,
+   "clouds": 98.0,
+   "ceiling_ft": 95.0,
+   "temperature_c": 97.2,
+   "dewpoint_c": 97.6,
+   "altimeter_inhg": 100.0,
+   "flight_category": 94.1
+  },
+  "32B thinking + schema s0": {
+   "station": 99.5,
+   "day": 99.6,
+   "time_utc": 99.9,
+   "wind_dir_deg": 97.8,
+   "wind_speed_kt": 99.9,
+   "wind_gust_kt": 99.9,
+   "visibility_sm": 99.9,
+   "weather": 99.3,
+   "clouds": 98.4,
+   "ceiling_ft": 98.7,
+   "temperature_c": 99.8,
+   "dewpoint_c": 99.8,
+   "altimeter_inhg": 99.9,
+   "flight_category": 94.2
+  }
+ },
+ "parse_fail_rate": {
+  "4B+metar": 0.0,
+  "8B zero-shot (C)": 0.1,
+  "8B few-shot (F)": 0.0,
+  "8B few-shot+thinking s0 (F)": 0.0,
+  "8B few-shot+thinking (F)": 0.03333333333333333,
+  "32B thinking (F)": 0.0,
+  "32B zero-shot (F)": 0.0,
+  "8B zero-shot (gate, no schema)": 0.1,
+  "8B few-shot (gate, no schema)": 0.0,
+  "8B zero-shot + schema": 0.0,
+  "8B few-shot + schema": 0.0,
+  "32B zero-shot (gate, no schema)": 0.0,
+  "32B few-shot (gate, no schema)": 0.0,
+  "32B zero-shot + schema": 0.0,
+  "32B few-shot + schema": 0.0,
+  "8B few-shot+thinking + schema s0": 0.0,
+  "32B thinking + schema s0": 0.1
+ },
+ "lenient_time_all_fields": {
+  "8B zero-shot (gate, no schema)": 18.5,
+  "8B few-shot (gate, no schema)": 41.7,
+  "8B zero-shot + schema": 20.4,
+  "8B few-shot + schema": 42.9,
+  "32B zero-shot (gate, no schema)": 38.6,
+  "32B few-shot (gate, no schema)": 67.6,
+  "32B zero-shot + schema": 38.1,
+  "32B few-shot + schema": 66.2,
+  "8B few-shot+thinking + schema s0": 84.2,
+  "32B thinking + schema s0": 89.6
+ },
+ "cost_per_item": {
+  "8B zero-shot (gate, no schema)": {
+   "out_tokens": 162.435,
+   "latency_s": 10.8496778
+  },
+  "8B few-shot (gate, no schema)": {
+   "out_tokens": 143.85,
+   "latency_s": 17.702877400000002
+  },
+  "8B zero-shot + schema": {
+   "out_tokens": 159.259,
+   "latency_s": 10.889423800000001
+  },
+  "8B few-shot + schema": {
+   "out_tokens": 139.52,
+   "latency_s": 17.359705199999997
+  },
+  "32B zero-shot (gate, no schema)": {
+   "out_tokens": 161.746,
+   "latency_s": 47.081796600000004
+  },
+  "32B few-shot (gate, no schema)": {
+   "out_tokens": 148.812,
+   "latency_s": 68.4142434
+  },
+  "32B zero-shot + schema": {
+   "out_tokens": 158.423,
+   "latency_s": 48.401979
+  },
+  "32B few-shot + schema": {
+   "out_tokens": 139.304,
+   "latency_s": 67.12963520000001
+  },
+  "8B few-shot+thinking + schema s0": {
+   "out_tokens": 1639.181,
+   "latency_s": 119.40155899999998
+  },
+  "32B thinking + schema s0": {
+   "out_tokens": 935.401,
+   "latency_s": 254.43316959999999
+  }
+ },
+ "token_ratio_to_adapter": {
+  "8B zero-shot (gate, no schema)": 1.1341114317631726,
+  "8B few-shot (gate, no schema)": 1.0043520759635078,
+  "8B zero-shot + schema": 1.1119367901694284,
+  "8B few-shot + schema": 0.9741202755539007,
+  "32B zero-shot (gate, no schema)": 1.1293008750698195,
+  "32B few-shot (gate, no schema)": 1.038996462483709,
+  "32B zero-shot + schema": 1.1060998882889592,
+  "32B few-shot + schema": 0.9726121765034444,
+  "8B few-shot+thinking + schema s0": 11.444663470489667,
+  "32B thinking + schema s0": 6.530913703221001
+ },
+ "token_counts_unreliable": [],
+ "truncation_pct": {
+  "8B zero-shot (gate, no schema)": 0.0,
+  "8B few-shot (gate, no schema)": 0.0,
+  "8B zero-shot + schema": 0.0,
+  "8B few-shot + schema": 0.0,
+  "32B zero-shot (gate, no schema)": 0.0,
+  "32B few-shot (gate, no schema)": 0.0,
+  "32B zero-shot + schema": 0.0,
+  "32B few-shot + schema": 0.0,
+  "8B few-shot+thinking + schema s0": 0.0,
+  "32B thinking + schema s0": 0.1
+ },
+ "canary": {
+  "8B zero-shot + schema": {
+   "truncated": 0,
+   "unparseable": 0,
+   "schema_invalid": 0,
+   "fenced": 0
+  },
+  "8B few-shot + schema": {
+   "truncated": 0,
+   "unparseable": 0,
+   "schema_invalid": 0,
+   "fenced": 0
+  },
+  "32B zero-shot + schema": {
+   "truncated": 0,
+   "unparseable": 0,
+   "schema_invalid": 0,
+   "fenced": 0
+  },
+  "32B few-shot + schema": {
+   "truncated": 0,
+   "unparseable": 0,
+   "schema_invalid": 0,
+   "fenced": 0
+  },
+  "8B few-shot+thinking + schema s0": {
+   "truncated": 0,
+   "unparseable": 0,
+   "schema_invalid": 0,
+   "fenced": 0
+  },
+  "32B thinking + schema s0": {
+   "truncated": 1,
+   "unparseable": 0,
+   "schema_invalid": 0,
+   "fenced": 0
+  }
+ },
+ "gap": {
+  "best_schema_arm": "32B thinking + schema s0",
+  "share_of_gap_from_8B zero-shot (C)_closed": 0.8952933151432468,
+  "share_of_gap_from_8B few-shot+thinking (F)_closed": 0.3859999999999993,
+  "share_of_gap_from_32B thinking (F)_closed": 0.06402439024390137
+ },
+ "tests": [
+  {
+   "hyp": "G1",
+   "x": "4B+metar",
+   "y": "8B few-shot+thinking + schema s0",
+   "kind": "beats",
+   "diff": 15.63333333333334,
+   "lo": 13.333333333333343,
+   "hi": 17.900833333333335,
+   "verdict": "PASS"
+  },
+  {
+   "hyp": "G2",
+   "x": "4B+metar",
+   "y": "32B thinking + schema s0",
+   "kind": "beats",
+   "diff": 10.233333333333348,
+   "lo": 8.399166666666671,
+   "hi": 12.233333333333334,
+   "verdict": "PASS"
+  },
+  {
+   "hyp": "G3",
+   "x": "4B+metar",
+   "y": "32B thinking + schema s0",
+   "kind": "desc",
+   "diff": 10.233333333333348,
+   "lo": 8.399166666666671,
+   "hi": 12.233333333333334,
+   "verdict": "not equivalent"
+  },
+  {
+   "hyp": "G1-cluster",
+   "x": "4B+metar",
+   "y": "8B few-shot+thinking + schema s0",
+   "kind": "beats",
+   "diff": 15.63333333333334,
+   "lo": 12.234951711608337,
+   "hi": 19.244120713623715,
+   "verdict": "PASS"
+  },
+  {
+   "hyp": "G2-cluster",
+   "x": "4B+metar",
+   "y": "32B thinking + schema s0",
+   "kind": "beats",
+   "diff": 10.233333333333348,
+   "lo": 7.510061039504073,
+   "hi": 13.00560371758825,
+   "verdict": "PASS"
+  },
+  {
+   "hyp": "G3-cluster",
+   "x": "4B+metar",
+   "y": "32B thinking + schema s0",
+   "kind": "desc",
+   "diff": 10.233333333333348,
+   "lo": 7.510061039504073,
+   "hi": 13.00560371758825,
+   "verdict": "not equivalent"
+  },
+  {
+   "hyp": "G4",
+   "x": "8B zero-shot + schema",
+   "y": "8B zero-shot (gate, no schema)",
+   "kind": "desc",
+   "diff": 18.299999999999997,
+   "lo": 15.9,
+   "hi": 20.7,
+   "verdict": "descriptive",
+   "note": "same server"
+  },
+  {
+   "hyp": "G4",
+   "x": "8B few-shot + schema",
+   "y": "8B few-shot (gate, no schema)",
+   "kind": "desc",
+   "diff": 1.1999999999999957,
+   "lo": -0.002499999999999716,
+   "hi": 2.5,
+   "verdict": "descriptive",
+   "note": "same server"
+  },
+  {
+   "hyp": "G4",
+   "x": "32B zero-shot + schema",
+   "y": "32B zero-shot (gate, no schema)",
+   "kind": "desc",
+   "diff": -0.5,
+   "lo": -1.8999999999999988,
+   "hi": 0.9000000000000057,
+   "verdict": "descriptive",
+   "note": "same server"
+  },
+  {
+   "hyp": "G4",
+   "x": "32B few-shot + schema",
+   "y": "32B few-shot (gate, no schema)",
+   "kind": "desc",
+   "diff": -1.3999999999999915,
+   "lo": -2.700000000000003,
+   "hi": -0.10000000000000853,
+   "verdict": "descriptive",
+   "note": "same server"
+  },
+  {
+   "hyp": "G4",
+   "x": "8B few-shot+thinking + schema s0",
+   "y": "8B few-shot+thinking s0 (F)",
+   "kind": "desc",
+   "diff": 1.2999999999999972,
+   "lo": -1.2000000000000028,
+   "hi": 3.799999999999997,
+   "verdict": "descriptive",
+   "note": "different serving path, no reasoning parser"
+  },
+  {
+   "hyp": "G4",
+   "x": "32B thinking + schema s0",
+   "y": "32B thinking (F)",
+   "kind": "desc",
+   "diff": 0.6999999999999886,
+   "lo": -1.5024999999999997,
+   "hi": 2.9000000000000057,
+   "verdict": "descriptive",
+   "note": "different serving path, no reasoning parser"
+  },
+  {
+   "hyp": "context",
+   "x": "4B+metar",
+   "y": "8B few-shot+thinking (F)",
+   "kind": "desc",
+   "diff": 16.66666666666667,
+   "lo": 14.999166666666653,
+   "hi": 18.46666666666667,
+   "verdict": "descriptive"
+  },
+  {
+   "hyp": "context",
+   "x": "4B+metar",
+   "y": "32B thinking (F)",
+   "kind": "desc",
+   "diff": 10.933333333333337,
+   "lo": 9.066666666666677,
+   "hi": 13.0,
+   "verdict": "descriptive"
+  },
+  {
+   "hyp": "context",
+   "x": "32B thinking + schema s0",
+   "y": "8B few-shot+thinking (F)",
+   "kind": "desc",
+   "diff": 6.433333333333323,
+   "lo": 4.032499999999998,
+   "hi": 8.6675,
+   "verdict": "descriptive"
+  },
+  {
+   "hyp": "context",
+   "x": "32B thinking + schema s0",
+   "y": "32B thinking (F)",
+   "kind": "desc",
+   "diff": 0.6999999999999886,
+   "lo": -1.5024999999999997,
+   "hi": 2.9000000000000057,
+   "verdict": "descriptive"
+  }
+ ],
+ "headline": "Stands",
+ "void_reasons": [],
+ "parity": {
+  "reference": "/opt/release-user/projects/RonanLabs/mom-lab/results/partdC/base-qwen3-8b/gen/aviation/metar.test.jsonl",
+  "n_ref": 1000,
+  "n_new": 1000,
+  "identical": 1000,
+  "ok": true
+ },
+ "rules": {
+  "bootstrap": 2000,
+  "rng": "numpy default_rng(0)",
+  "ci": "95% percentile",
+  "margin": 2.0
+ }
+}

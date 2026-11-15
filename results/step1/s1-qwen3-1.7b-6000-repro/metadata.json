@@ -1,0 +1,23 @@
+{
+  "model": "qwen3-1.7b",
+  "revision": "",
+  "endpoint": "http://host-3cc546d0.invalid:8611/v1",
+  "hardware": "RTX PRO 6000 Max-Q",
+  "run_id": "s1-qwen3-1.7b-6000-repro",
+  "step": "step1",
+  "settings": {
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "top_k": 20,
+    "presence_penalty": 1.5,
+    "seed": 0,
+    "max_tokens_override": 6144,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "default_max_tokens": 2048,
+    "limit": null
+  },
+  "git_hash": "unknown",
+  "generated_utc": "2026-10-29T06:29:32+00:00"
+}

@@ -1,0 +1,10 @@
+s1-qwen3-0.6b-spark3-greedy      A=42.46  gsm8k=64.8 math500=52.0 humaneval_plus=24.4 mbpp_plus=41.8 livecodebench=10.8 bird_dev=13.8 bfcl=76.0 flores200=37.3 mmlu_pro=28.0 ifeval=59.3
+s1-qwen3-0.6b-spark3-repro       A=None  math500=50.8 ifeval=56.3
+s1-qwen3-1.7b-6000-greedy        A=54.4  gsm8k=81.5 math500=66.8 humaneval_plus=62.2 mbpp_plus=51.3 livecodebench=13.8 bird_dev=27.1 bfcl=86.2 flores200=44.0 mmlu_pro=37.2 ifeval=67.8
+s1-qwen3-1.7b-6000-repro         A=None  math500=75.6 ifeval=66.7
+s1-qwen3-1.7b-gb300-greedy       A=54.31  gsm8k=80.7 math500=67.2 humaneval_plus=63.4 mbpp_plus=52.4 livecodebench=12.3 bird_dev=27.0 bfcl=86.2 flores200=44.1 mmlu_pro=37.9 ifeval=65.9
+s1-qwen3-1.7b-gb300-repro        A=None  math500=73.2 ifeval=66.3
+s1-qwen3-4b-6000-greedy          A=64.01  gsm8k=92.4 math500=75.2 humaneval_plus=73.2 mbpp_plus=68.3 livecodebench=21.5 bird_dev=42.0 bfcl=91.4 flores200=47.7 mmlu_pro=51.1 ifeval=78.5
+s1-qwen3-4b-6000-repro           A=None  math500=86.8 ifeval=81.1
+s1-qwen3-8b-gb300-greedy         A=66.08  gsm8k=93.9 math500=76.4 humaneval_plus=82.9 mbpp_plus=70.9 livecodebench=24.6 bird_dev=43.3 bfcl=92.6 flores200=49.2 mmlu_pro=52.0 ifeval=81.5
+s1-qwen3-8b-gb300-repro          A=None  math500=84.8 ifeval=83.0

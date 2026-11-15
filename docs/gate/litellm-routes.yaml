@@ -1,0 +1,24 @@
+# APPROVAL ITEM (W8 METAR schema gate). Add-only, temporary LiteLLM routes. Not applied.
+# Target: /srv/release-data/services/litellm/cfg/config.yaml on the Threadripper, inside the model_list, after the station tier.
+# Procedure (gpu-routing PLAN.md): back up first, apply in a quiet window, restart, test.
+#   cp config.yaml config.yaml.bak-$(date +%Y%m%d)-mom-gate
+#   <paste the block below>
+#   docker restart litellm          # ~22 s gap for EVERY route, production included: Stephen picks the window
+#   python3 ~/projects/gpu-routing/route_test.py   # all existing names still PASS
+#   python3 -P scripts/gate/run_gate.py check      # the two research routes are listed
+# Removal after the gate: delete the block, restart again in a quiet window (or leave it until the next planned
+# restart; with no container on :8691 the routes simply fail).
+# Backend: one vLLM container (mom-gate-8691) on the Station LEFT RTX PRO 6000 (research-only, idle), started and
+# removed by scripts/gate/run_gate.py under fleet claim mom-gate-left6000-<date>. Only one model is served at a time,
+# so both names point at the same port with different served-model names.
+# drop_params: false is route-scoped so the router passes chat_template_kwargs, top_k, seed and response_format
+# through unchanged (the global setting is drop_params: true). The gate canary (schema-valid, unfenced outputs) and parity check verify it.
+# Also needed: direct-gpu-allowlist.txt does not need an entry (the jobs call the router, not the machine).
+# >>> research-mom-gate (W8, temporary)
+- model_name: research-mom-gate-qwen3-8b
+  litellm_params: {model: hosted_vllm/qwen3-8b, api_base: "http://host-3cc546d0.invalid:8691/v1", api_key: none, timeout: 3600, stream_timeout: 600, max_retries: 0, drop_params: false}
+  model_info: {mode: chat, max_input_tokens: 32768, owned_compute: station-a-rtx6000, research_temp: true}
+- model_name: research-mom-gate-qwen3-32b
+  litellm_params: {model: hosted_vllm/qwen3-32b, api_base: "http://host-3cc546d0.invalid:8691/v1", api_key: none, timeout: 3600, stream_timeout: 600, max_retries: 0, drop_params: false}
+  model_info: {mode: chat, max_input_tokens: 32768, owned_compute: station-a-rtx6000, research_temp: true}
+# <<< research-mom-gate

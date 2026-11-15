@@ -1,0 +1,4 @@
+4268497cdf216308930e388516563d1ea83e6e79a6b5d75f9369d843805247f5  data_gate_fs/eval/aviation/metar/dev.jsonl
+3a9f78b6551c59411502500bcd2d59ef772a12e201c403b4fc41282175f85f7e  data_gate_fs/eval/aviation/metar/test.jsonl
+9a74d3b2d7d47f4a08a4b3027e53ff11b91af142b25ebb593381a326f7706716  data_gate_zs/eval/aviation/metar/dev.jsonl
+38c22667c30d00710113a9a344c9093085a5f9571dcbf04f67faaf9e7e7414e5  data_gate_zs/eval/aviation/metar/test.jsonl

@@ -1,0 +1,34 @@
+{
+ "metar_example_train_ids": [
+  "metar-train-05572",
+  "metar-train-07690",
+  "metar-train-07864",
+  "metar-train-02320",
+  "metar-train-03335"
+ ],
+ "medcalc_exemplar_sha256": "9ae0909b2b056ad0b846250c078835b036ef17430256374271e22cc2bc20dfbc",
+ "overlap": {
+  "dev": {
+   "own_exemplar": [
+    "medcalc-dev-04352"
+   ],
+   "any_exemplar": [
+    "medcalc-dev-04352"
+   ]
+  },
+  "test": {
+   "own_exemplar": [
+    "medcalc-test-00441",
+    "medcalc-test-00485"
+   ],
+   "any_exemplar": [
+    "medcalc-test-00441",
+    "medcalc-test-00485",
+    "medcalc-test-00854",
+    "medcalc-test-00861",
+    "medcalc-test-00874"
+   ]
+  }
+ },
+ "seed": 20261102
+}

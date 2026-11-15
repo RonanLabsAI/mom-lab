@@ -1,0 +1,11 @@
+{
+ "python_metar": {
+  "compared": 9300,
+  "pm_errors": 0,
+  "mismatches": {}
+ },
+ "awc": {
+  "awc_compared": 4481,
+  "awc_agree": 4481
+ }
+}

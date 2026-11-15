@@ -1,0 +1,121 @@
+{
+ "bytes": {
+  "weights": {
+   "1.7B": 4063515592,
+   "4B": 8044982000,
+   "8B": 16381516776,
+   "4B-AWQ": 2666027672,
+   "8B-AWQ": 6098581864,
+   "4B-FP8": 5190052872,
+   "8B-FP8": 9436628784
+  },
+  "adapters": {
+   "1.7B": 209347152,
+   "4B": 264375776
+  },
+  "router": 470641600
+ },
+ "systems": {
+  "Qwen3-1.7B": {
+   "weights": 4063515592,
+   "adapters": 0,
+   "router": 0,
+   "kv_b1x8192": 939524096,
+   "total_b1x8192_GB": 5.003,
+   "kv_b16x4096": 7516192768,
+   "total_b16x4096_GB": 11.58
+  },
+  "Qwen3-1.7B + 3 LoRA (code,sql,tools) + router": {
+   "weights": 4063515592,
+   "adapters": 209347152,
+   "router": 470641600,
+   "kv_b1x8192": 939524096,
+   "total_b1x8192_GB": 5.683,
+   "kv_b16x4096": 7516192768,
+   "total_b16x4096_GB": 12.26
+  },
+  "Qwen3-1.7B + 3 full-FT replay specialists + router": {
+   "weights": 16254062368,
+   "adapters": 0,
+   "router": 470641600,
+   "kv_b1x8192": 939524096,
+   "total_b1x8192_GB": 17.664,
+   "kv_b16x4096": 7516192768,
+   "total_b16x4096_GB": 24.241
+  },
+  "Qwen3-4B": {
+   "weights": 8044982000,
+   "adapters": 0,
+   "router": 0,
+   "kv_b1x8192": 1207959552,
+   "total_b1x8192_GB": 9.253,
+   "kv_b16x4096": 9663676416,
+   "total_b16x4096_GB": 17.709
+  },
+  "Qwen3-4B + 2 LoRA (sql,tools) + router": {
+   "weights": 8044982000,
+   "adapters": 264375776,
+   "router": 470641600,
+   "kv_b1x8192": 1207959552,
+   "total_b1x8192_GB": 9.988,
+   "kv_b16x4096": 9663676416,
+   "total_b16x4096_GB": 18.444
+  },
+  "Qwen3-8B": {
+   "weights": 16381516776,
+   "adapters": 0,
+   "router": 0,
+   "kv_b1x8192": 1207959552,
+   "total_b1x8192_GB": 17.589,
+   "kv_b16x4096": 9663676416,
+   "total_b16x4096_GB": 26.045
+  },
+  "Qwen3-4B AWQ": {
+   "weights": 2666027672,
+   "adapters": 0,
+   "router": 0,
+   "kv_b1x8192": 1207959552,
+   "total_b1x8192_GB": 3.874,
+   "kv_b16x4096": 9663676416,
+   "total_b16x4096_GB": 12.33
+  },
+  "Qwen3-4B AWQ + 2 LoRA + router": {
+   "weights": 2666027672,
+   "adapters": 264375776,
+   "router": 470641600,
+   "kv_b1x8192": 1207959552,
+   "total_b1x8192_GB": 4.609,
+   "kv_b16x4096": 9663676416,
+   "total_b16x4096_GB": 13.065
+  },
+  "Qwen3-8B AWQ": {
+   "weights": 6098581864,
+   "adapters": 0,
+   "router": 0,
+   "kv_b1x8192": 1207959552,
+   "total_b1x8192_GB": 7.307,
+   "kv_b16x4096": 9663676416,
+   "total_b16x4096_GB": 15.762
+  },
+  "Qwen3-4B FP8": {
+   "weights": 5190052872,
+   "adapters": 0,
+   "router": 0,
+   "kv_b1x8192": 1207959552,
+   "total_b1x8192_GB": 6.398,
+   "kv_b16x4096": 9663676416,
+   "total_b16x4096_GB": 14.854
+  },
+  "Qwen3-8B FP8": {
+   "weights": 9436628784,
+   "adapters": 0,
+   "router": 0,
+   "kv_b1x8192": 1207959552,
+   "total_b1x8192_GB": 10.645,
+   "kv_b16x4096": 9663676416,
+   "total_b16x4096_GB": 19.1
+  }
+ },
+ "h2_ratio_bf16": 0.5678549093183239,
+ "h2_ratio_awq": 0.6307650198439851
+}

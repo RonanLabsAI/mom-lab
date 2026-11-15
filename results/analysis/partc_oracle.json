@@ -1,0 +1,201 @@
+{
+ "router": "oracle",
+ "systems": {
+  "1.7B base": {
+   "para2": 49.66328462683765,
+   "seeds": 1
+  },
+  "1.7B pooled": {
+   "para2": 53.12303989208474,
+   "seeds": 3
+  },
+  "1.7B lora": {
+   "para2": 51.848469812022834,
+   "seeds": 3
+  },
+  "1.7B replay": {
+   "para2": 53.96450192805495,
+   "seeds": 3
+  },
+  "1.7B distill": {
+   "para2": 53.83361220106669,
+   "seeds": 3
+  },
+  "4B base": {
+   "para2": 63.32914161859045,
+   "seeds": 1
+  },
+  "4B pooled": {
+   "para2": 62.141262129878065,
+   "seeds": 3
+  },
+  "4B lora": {
+   "para2": 63.525075314524145,
+   "seeds": 3
+  },
+  "4B distill": {
+   "para2": 62.98426629991906,
+   "seeds": 3
+  },
+  "4B pooled-Base-init": {
+   "para2": 62.05624403473781,
+   "seeds": 1
+  },
+  "4B 8B": {
+   "para2": 66.08140986192466,
+   "seeds": 1
+  },
+  "4B awq4": {
+   "para2": 60.08661382212662,
+   "seeds": 1
+  },
+  "4B awq4+lora": {
+   "para2": 61.485474220987015,
+   "seeds": 3
+  },
+  "4B awq8": {
+   "para2": 64.09711863122187,
+   "seeds": 1
+  },
+  "4B fp8-4": {
+   "para2": 61.9138609368724,
+   "seeds": 1
+  },
+  "4B fp8-8": {
+   "para2": 65.37857670558886,
+   "seeds": 1
+  },
+  "4B lora-replay": {
+   "para2": 63.471332760781586,
+   "seeds": 1
+  }
+ },
+ "tests": [
+  {
+   "hyp": "H1-1.7B",
+   "test": "1.7B lora > base [para2]",
+   "diff": 2.1851851851851833,
+   "lo": 0.4806057368557376,
+   "hi": 3.9879208754208797,
+   "bar": 0.0,
+   "verdict": "PASS"
+  },
+  {
+   "hyp": "H1-1.7B",
+   "test": "1.7B lora >= pooled - 2 [para2]",
+   "diff": -1.2745700800619062,
+   "lo": -2.9602600572679547,
+   "hi": 0.4989242555116412,
+   "bar": -2.0,
+   "verdict": "INCONCLUSIVE"
+  },
+  {
+   "hyp": "H3-1.7B",
+   "test": "1.7B lora >= distill - 2 [para2]",
+   "diff": -1.9851423890438582,
+   "lo": -3.4320431192187772,
+   "hi": -0.48240249935518664,
+   "bar": -2.0,
+   "verdict": "INCONCLUSIVE"
+  },
+  {
+   "hyp": "H1-replay (secondary)",
+   "test": "1.7B replay > base [para2]",
+   "diff": 4.301217301217299,
+   "lo": 2.697809829059822,
+   "hi": 5.9180053742553715,
+   "bar": 0.0,
+   "verdict": "PASS"
+  },
+  {
+   "hyp": "H1-replay (secondary)",
+   "test": "1.7B replay >= pooled - 2 [para2]",
+   "diff": 0.8414620359702099,
+   "lo": -0.5635562152170076,
+   "hi": 2.2683269681640037,
+   "bar": -2.0,
+   "verdict": "PASS"
+  },
+  {
+   "hyp": "H1-4B",
+   "test": "4B lora > base [para2]",
+   "diff": 0.19593369593369658,
+   "lo": -0.8792961667961698,
+   "hi": 1.318851981351985,
+   "bar": 0.0,
+   "verdict": "INCONCLUSIVE"
+  },
+  {
+   "hyp": "H1-4B",
+   "test": "4B lora >= pooled - 2 [para2]",
+   "diff": 1.3838131846460797,
+   "lo": -0.31496556744232096,
+   "hi": 3.1939924309625876,
+   "bar": -2.0,
+   "verdict": "PASS"
+  },
+  {
+   "hyp": "H3-4B",
+   "test": "4B lora >= distill - 2 [para2]",
+   "diff": 0.5408090146050881,
+   "lo": -0.8559856646993647,
+   "hi": 2.030234524244192,
+   "bar": -2.0,
+   "verdict": "PASS"
+  },
+  {
+   "hyp": "H2",
+   "test": "4B lora >= 8B - 2 [para2]",
+   "diff": -2.5563345474005104,
+   "lo": -4.472245811289466,
+   "hi": -0.5639388651008853,
+   "bar": -2.0,
+   "verdict": "INCONCLUSIVE"
+  },
+  {
+   "hyp": "H2-4bit",
+   "test": "AWQ-4B+lora >= AWQ-8B - 2 [para2]",
+   "diff": -2.6116444102348595,
+   "lo": -4.505417936356283,
+   "hi": -0.6769128691298071,
+   "bar": -2.0,
+   "verdict": "INCONCLUSIVE"
+  },
+  {
+   "hyp": "C-sec 4B lora-replay",
+   "test": "4B lora-replay >= pooled - 2 [para2]",
+   "diff": 1.3300706309035206,
+   "lo": -0.3779258123979774,
+   "hi": 3.1728121913073952,
+   "bar": -2.0,
+   "verdict": "PASS"
+  },
+  {
+   "hyp": "C-sec 4B lora-replay",
+   "test": "4B lora-replay vs lora [para2]",
+   "diff": -0.053742553742559096,
+   "lo": -0.7091653716653734,
+   "hi": 0.5666375291375214,
+   "bar": 0.0,
+   "verdict": "INCONCLUSIVE"
+  }
+ ],
+ "missing": [],
+ "router_acc": {
+  "gsm8k_pp": 1.0,
+  "bird_pp": 1.0,
+  "mbpp_pp": 1.0,
+  "bfcl_pp": 1.0,
+  "mmlupro_pp": 1.0,
+  "flores_pp": 1.0
+ },
+ "combined": {
+  "H1-1.7B": "INCONCLUSIVE",
+  "H3-1.7B": "INCONCLUSIVE",
+  "H1-replay (secondary)": "PASS",
+  "H1-4B": "INCONCLUSIVE",
+  "H3-4B": "INCONCLUSIVE",
+  "H2": "INCONCLUSIVE",
+  "H2-4bit": "INCONCLUSIVE"
+ }
+}

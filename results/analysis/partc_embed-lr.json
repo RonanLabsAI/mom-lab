@@ -1,0 +1,201 @@
+{
+ "router": "embed-lr",
+ "systems": {
+  "1.7B base": {
+   "para2": 49.66328462683765,
+   "seeds": 1
+  },
+  "1.7B pooled": {
+   "para2": 53.12303989208474,
+   "seeds": 3
+  },
+  "1.7B lora": {
+   "para2": 51.652755675905404,
+   "seeds": 3
+  },
+  "1.7B replay": {
+   "para2": 53.68377930723222,
+   "seeds": 3
+  },
+  "1.7B distill": {
+   "para2": 53.83361220106669,
+   "seeds": 3
+  },
+  "4B base": {
+   "para2": 63.32914161859045,
+   "seeds": 1
+  },
+  "4B pooled": {
+   "para2": 62.141262129878065,
+   "seeds": 3
+  },
+  "4B lora": {
+   "para2": 63.50383729328612,
+   "seeds": 3
+  },
+  "4B distill": {
+   "para2": 62.98426629991906,
+   "seeds": 3
+  },
+  "4B pooled-Base-init": {
+   "para2": 62.05624403473781,
+   "seeds": 1
+  },
+  "4B 8B": {
+   "para2": 66.08140986192466,
+   "seeds": 1
+  },
+  "4B awq4": {
+   "para2": 60.08661382212662,
+   "seeds": 1
+  },
+  "4B awq4+lora": {
+   "para2": 61.50036673587953,
+   "seeds": 3
+  },
+  "4B awq8": {
+   "para2": 64.09711863122187,
+   "seeds": 1
+  },
+  "4B fp8-4": {
+   "para2": 61.9138609368724,
+   "seeds": 1
+  },
+  "4B fp8-8": {
+   "para2": 65.37857670558886,
+   "seeds": 1
+  },
+  "4B lora-replay": {
+   "para2": 63.471332760781586,
+   "seeds": 1
+  }
+ },
+ "tests": [
+  {
+   "hyp": "H1-1.7B",
+   "test": "1.7B lora > base [para2]",
+   "diff": 1.9894710490677525,
+   "lo": 0.23823557613971325,
+   "hi": 3.8599396243736623,
+   "bar": 0.0,
+   "verdict": "PASS"
+  },
+  {
+   "hyp": "H1-1.7B",
+   "test": "1.7B lora >= pooled - 2 [para2]",
+   "diff": -1.470284216179337,
+   "lo": -3.152712868648169,
+   "hi": 0.3426828436707317,
+   "bar": -2.0,
+   "verdict": "INCONCLUSIVE"
+  },
+  {
+   "hyp": "H3-1.7B",
+   "test": "1.7B lora >= distill - 2 [para2]",
+   "diff": -2.180856525161289,
+   "lo": -3.6089709957691705,
+   "hi": -0.6744750915644286,
+   "bar": -2.0,
+   "verdict": "INCONCLUSIVE"
+  },
+  {
+   "hyp": "H1-replay (secondary)",
+   "test": "1.7B replay > base [para2]",
+   "diff": 4.02049468039457,
+   "lo": 2.342877970982607,
+   "hi": 5.666546310453218,
+   "bar": 0.0,
+   "verdict": "PASS"
+  },
+  {
+   "hyp": "H1-replay (secondary)",
+   "test": "1.7B replay >= pooled - 2 [para2]",
+   "diff": 0.5607394151474807,
+   "lo": -0.8303235668689675,
+   "hi": 2.0242340713864238,
+   "bar": -2.0,
+   "verdict": "PASS"
+  },
+  {
+   "hyp": "H1-4B",
+   "test": "4B lora > base [para2]",
+   "diff": 0.17469567469566982,
+   "lo": -0.9057692307692212,
+   "hi": 1.2863571613571585,
+   "bar": 0.0,
+   "verdict": "INCONCLUSIVE"
+  },
+  {
+   "hyp": "H1-4B",
+   "test": "4B lora >= pooled - 2 [para2]",
+   "diff": 1.362575163408053,
+   "lo": -0.36914882143545497,
+   "hi": 3.183088914364938,
+   "bar": -2.0,
+   "verdict": "PASS"
+  },
+  {
+   "hyp": "H3-4B",
+   "test": "4B lora >= distill - 2 [para2]",
+   "diff": 0.5195709933670614,
+   "lo": -0.8909289363161121,
+   "hi": 2.031209937962282,
+   "bar": -2.0,
+   "verdict": "PASS"
+  },
+  {
+   "hyp": "H2",
+   "test": "4B lora >= 8B - 2 [para2]",
+   "diff": -2.577572568638537,
+   "lo": -4.506883535110149,
+   "hi": -0.5620632765577639,
+   "bar": -2.0,
+   "verdict": "INCONCLUSIVE"
+  },
+  {
+   "hyp": "H2-4bit",
+   "test": "AWQ-4B+lora >= AWQ-8B - 2 [para2]",
+   "diff": -2.5967518953423436,
+   "lo": -4.502981489736633,
+   "hi": -0.6614414141656044,
+   "bar": -2.0,
+   "verdict": "INCONCLUSIVE"
+  },
+  {
+   "hyp": "C-sec 4B lora-replay",
+   "test": "4B lora-replay >= pooled - 2 [para2]",
+   "diff": 1.3300706309035206,
+   "lo": -0.3731217495198214,
+   "hi": 3.1909502999678883,
+   "bar": -2.0,
+   "verdict": "PASS"
+  },
+  {
+   "hyp": "C-sec 4B lora-replay",
+   "test": "4B lora-replay vs lora [para2]",
+   "diff": -0.032504532504532335,
+   "lo": -0.6906241906241849,
+   "hi": 0.6229636104636137,
+   "bar": 0.0,
+   "verdict": "INCONCLUSIVE"
+  }
+ ],
+ "missing": [],
+ "router_acc": {
+  "gsm8k_pp": 0.9761904761904762,
+  "bird_pp": 0.9633333333333334,
+  "mbpp_pp": 1.0,
+  "bfcl_pp": 0.9685314685314685,
+  "mmlupro_pp": 0.6802721088435374,
+  "flores_pp": 0.06
+ },
+ "combined": {
+  "H1-1.7B": "INCONCLUSIVE",
+  "H3-1.7B": "INCONCLUSIVE",
+  "H1-replay (secondary)": "PASS",
+  "H1-4B": "INCONCLUSIVE",
+  "H3-4B": "INCONCLUSIVE",
+  "H2": "INCONCLUSIVE",
+  "H2-4bit": "INCONCLUSIVE"
+ }
+}

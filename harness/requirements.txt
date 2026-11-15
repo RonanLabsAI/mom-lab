@@ -1,0 +1,18 @@
+absl-py==2.5.1
+antlr4-python3-runtime==4.13.2
+bfcl-eval==2026.3.23
+httpx==0.28.1
+immutabledict==4.3.1
+langdetect==1.0.9
+latex2sympy2_extended==1.11.0
+lm-eval==0.4.13
+math-verify==0.9.0
+nltk==3.10.4
+numpy==2.5.4
+pytest==9.2.0
+regex==2026.9.29
+requests==2.34.2
+sacrebleu==2.6.0
+# NOTE: install lm-eval and bfcl-eval with --no-deps (only their checker files are used, loaded by path):
+#   pip install --no-deps lm-eval==0.4.13 bfcl-eval==2026.3.23
+# ifeval also needs nltk punkt_tab data (auto-downloads once to ~/nltk_data on first use).

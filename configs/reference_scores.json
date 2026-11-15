@@ -1,0 +1,5 @@
+{"source":"Qwen3 technical report arXiv 2505.09388v1, Tables 17-20 (post-trained), 6-8 (base). Non-thinking sampling: T=0.7, top_p=0.8, top_k=20, presence_penalty=1.5; thinking: T=0.6, top_p=0.95, top_k=20; max 32768 tokens.",
+ "nonthinking":{"math500":{"0.6B":55.2,"1.7B":73.0,"4B":84.8,"8B":87.4},"ifeval_strict_prompt":{"0.6B":54.5,"1.7B":68.2,"4B":81.2,"8B":83.0},"bfcl_v3":{"0.6B":44.1,"1.7B":52.2,"4B":57.6,"8B":60.2},"livecodebench_v5":{"0.6B":3.6,"1.7B":11.6,"4B":21.3,"8B":22.8}},
+ "thinking":{"math500":{"0.6B":77.6,"1.7B":93.4,"4B":97.0,"8B":97.4},"ifeval_strict_prompt":{"0.6B":59.2,"1.7B":72.5,"4B":81.9,"8B":85.0},"bfcl_v3":{"0.6B":46.4,"1.7B":56.6,"4B":65.9,"8B":68.1}},
+ "base":{"gsm8k_4shot_cot":{"0.6B":59.59,"1.7B":75.44,"4B":87.79,"8B":89.84},"math_4shot_cot":{"0.6B":32.44,"1.7B":43.5,"4B":54.1,"8B":60.8}},
+ "notes":"Direct reproduction targets: math500 and ifeval (same benchmarks). bfcl_v3 and livecodebench_v5 use different subsets/windows than ours, so only rough. Our primary protocol (greedy non-thinking) is a different condition; reproduction runs use the report's sampling settings."}

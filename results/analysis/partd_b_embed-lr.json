@@ -1,0 +1,186 @@
+{
+ "router": "embed-lr",
+ "router_acc": {
+  "sql": 1.0,
+  "tools": 1.0
+ },
+ "n": {
+  "sql": 2000,
+  "tools": 1292
+ },
+ "scores": {
+  "sql": {
+   "base-qwen3-1.7b": 56.35,
+   "base-qwen3-4b": 63.5,
+   "base-qwen3-8b": 67.45,
+   "base-qwen3-8b-awq": 66.8,
+   "base-qwen3-8b-fp8": 67.55,
+   "base-qwen3-4b-fp8": 62.0,
+   "4B lib": 74.1,
+   "FP8-4B lib": 73.56666666666668,
+   "1.7B lib (LoRA)": 68.53333333333335,
+   "1.7B replay specialist": 68.96666666666667,
+   "4B distill": 74.45,
+   "4B pooled": 75.06666666666668,
+   "4B lib lora64": null,
+   "4B lib lora128": null,
+   "4B lib lora16-sdreplay": null
+  },
+  "tools": {
+   "base-qwen3-1.7b": 68.11145510835914,
+   "base-qwen3-4b": 74.61300309597523,
+   "base-qwen3-8b": 76.78018575851394,
+   "base-qwen3-8b-awq": 76.08359133126935,
+   "base-qwen3-8b-fp8": 77.0123839009288,
+   "base-qwen3-4b-fp8": 74.84520123839009,
+   "4B lib": 78.86996904024768,
+   "FP8-4B lib": 78.61197110423117,
+   "1.7B lib (LoRA)": 70.74303405572755,
+   "4B distill": 79.17956656346749,
+   "4B pooled": 79.36016511867905,
+   "4B lib lora64": null,
+   "4B lib lora128": null,
+   "4B lib lora16-sdreplay": null
+  }
+ },
+ "tests": [
+  {
+   "hyp": "B1",
+   "set": "sql",
+   "x": "4B lib",
+   "y": "base-qwen3-8b",
+   "kind": "beats",
+   "diff": 6.6499999999999915,
+   "lo": 4.75,
+   "hi": 8.516666666666652,
+   "verdict": "PASS"
+  },
+  {
+   "hyp": "B2",
+   "set": "tools",
+   "x": "4B lib",
+   "y": "base-qwen3-8b",
+   "kind": "ni",
+   "diff": 2.0897832817337445,
+   "lo": 0.18059855521157395,
+   "hi": 3.9731682146542795,
+   "verdict": "PASS"
+  },
+  {
+   "hyp": "B3",
+   "set": "sql",
+   "x": "4B lib",
+   "y": "base-qwen3-8b-awq",
+   "kind": "beats",
+   "diff": 7.299999999999997,
+   "lo": 5.433333333333351,
+   "hi": 9.166666666666657,
+   "verdict": "PASS"
+  },
+  {
+   "hyp": "B4",
+   "set": "sql",
+   "x": "1.7B replay specialist",
+   "y": "base-qwen3-4b",
+   "kind": "ni",
+   "diff": 5.466666666666669,
+   "lo": 3.3829166666666595,
+   "hi": 7.68333333333333,
+   "verdict": "PASS"
+  },
+  {
+   "hyp": "B5",
+   "set": "sql",
+   "x": "4B lib",
+   "y": "base-qwen3-4b",
+   "kind": "beats",
+   "diff": 10.599999999999994,
+   "lo": 8.63333333333334,
+   "hi": 12.650000000000006,
+   "verdict": "PASS"
+  },
+  {
+   "hyp": "B5",
+   "set": "tools",
+   "x": "4B lib",
+   "y": "base-qwen3-4b",
+   "kind": "beats",
+   "diff": 4.2569659442724515,
+   "lo": 2.398735810113511,
+   "hi": 6.088751289989673,
+   "verdict": "PASS"
+  },
+  {
+   "hyp": "B6",
+   "set": "sql",
+   "x": "4B distill",
+   "y": "base-qwen3-8b",
+   "kind": "beats",
+   "diff": 7.0,
+   "lo": 5.083333333333343,
+   "hi": 8.900416666666656,
+   "verdict": "PASS"
+  },
+  {
+   "hyp": "B7",
+   "set": "sql",
+   "x": "FP8-4B lib",
+   "y": "base-qwen3-8b-awq",
+   "kind": "beats",
+   "diff": 6.76666666666668,
+   "lo": 4.932916666666671,
+   "hi": 8.566666666666677,
+   "verdict": "PASS"
+  },
+  {
+   "hyp": "sec",
+   "set": "sql",
+   "x": "4B lib lora64",
+   "y": "4B lib",
+   "verdict": "MISSING"
+  },
+  {
+   "hyp": "sec",
+   "set": "sql",
+   "x": "4B lib lora128",
+   "y": "4B lib",
+   "verdict": "MISSING"
+  },
+  {
+   "hyp": "sec",
+   "set": "sql",
+   "x": "4B lib lora16-sdreplay",
+   "y": "4B lib",
+   "verdict": "MISSING"
+  },
+  {
+   "hyp": "sec",
+   "set": "tools",
+   "x": "4B lib lora16-sdreplay",
+   "y": "4B lib",
+   "verdict": "MISSING"
+  },
+  {
+   "hyp": "sec",
+   "set": "tools",
+   "x": "FP8-4B lib",
+   "y": "base-qwen3-8b-awq",
+   "kind": "ni",
+   "diff": 2.528379772961827,
+   "lo": 0.6191950464396285,
+   "hi": 4.514963880288946,
+   "verdict": "PASS"
+  },
+  {
+   "hyp": "sec",
+   "set": "sql",
+   "x": "1.7B lib (LoRA)",
+   "y": "base-qwen3-4b",
+   "kind": "ni",
+   "diff": 5.033333333333346,
+   "lo": 2.9329166666666704,
+   "hi": 7.15041666666667,
+   "verdict": "PASS"
+  }
+ ]
+}

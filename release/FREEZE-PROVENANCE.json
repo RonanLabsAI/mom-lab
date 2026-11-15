@@ -1,0 +1,3989 @@
+{
+  "baseline_commit": "cbf58ab012f6af41acde8f1200e045aa55664c9d",
+  "entries": [
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 3,
+      "original_expected_sha256": "2c82450f62880dca7826e04c7d4bd02a59738e6cffbc51f3a20b27a44ef3a907",
+      "release_path": "configs/partbtest_extras.txt",
+      "original_actual_sha256": "2c82450f62880dca7826e04c7d4bd02a59738e6cffbc51f3a20b27a44ef3a907",
+      "release_sha256": "2b1a5e0a23bd7e5a69b9b13c73761a7f1c388c9ca834646219e35b774aeea60c",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 4,
+      "original_expected_sha256": "5e8f2496016f2a7015f6fd118f1b50e37dd63ff2300c027ed4af69705f08f8ed",
+      "release_path": "configs/queues/partb.jsonl",
+      "original_actual_sha256": "5e8f2496016f2a7015f6fd118f1b50e37dd63ff2300c027ed4af69705f08f8ed",
+      "release_sha256": "4c41c3e80b95a6e7ffc1218cb0c8c4c29ea745a3c4dc090eff8046fd36e38cc5",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 5,
+      "original_expected_sha256": "bf073e9ff29b1498e977346a6ff218852ecb7a404bdac4579205765e02f71e82",
+      "release_path": "configs/queues/step6a.jsonl",
+      "original_actual_sha256": "bf073e9ff29b1498e977346a6ff218852ecb7a404bdac4579205765e02f71e82",
+      "release_sha256": "eb19d37056a02467ad739083edcce7aac495114df1619729afd7d3e7bc082b7b",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 6,
+      "original_expected_sha256": "9b8bfdad309a1b72fa3b52e0c5fc073a7882d9fb4f74c224fffe83ebd2e561e5",
+      "release_path": "configs/queues/sweep17.jsonl",
+      "original_actual_sha256": "9b8bfdad309a1b72fa3b52e0c5fc073a7882d9fb4f74c224fffe83ebd2e561e5",
+      "release_sha256": "9af39521d4ce263fcb3e752ed54a44cb03403dd30e74116ae721382f47277973",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 7,
+      "original_expected_sha256": "711b7210cc7b52e247abf23edd4a39ace3e3572150a0f059f32a0125e73a9840",
+      "release_path": "configs/reference_scores.json",
+      "original_actual_sha256": "711b7210cc7b52e247abf23edd4a39ace3e3572150a0f059f32a0125e73a9840",
+      "release_sha256": "711b7210cc7b52e247abf23edd4a39ace3e3572150a0f059f32a0125e73a9840",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 8,
+      "original_expected_sha256": "10d76b4f409a3caff3c424991740949dd1d5145fc33979af208fae58a9033b4d",
+      "release_path": "docker/Dockerfile",
+      "original_actual_sha256": "10d76b4f409a3caff3c424991740949dd1d5145fc33979af208fae58a9033b4d",
+      "release_sha256": "10d76b4f409a3caff3c424991740949dd1d5145fc33979af208fae58a9033b4d",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 9,
+      "original_expected_sha256": "6b682f8f28384e2ea01c1cf2e41d8b50b2813152ee79d7f5b99f63f460287533",
+      "release_path": "docker/sandbox/Dockerfile",
+      "original_actual_sha256": "6b682f8f28384e2ea01c1cf2e41d8b50b2813152ee79d7f5b99f63f460287533",
+      "release_sha256": "6b682f8f28384e2ea01c1cf2e41d8b50b2813152ee79d7f5b99f63f460287533",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 10,
+      "original_expected_sha256": "22605dec07d4799ea596d91ca6734b84d3d3975bc15edd59427423634c02fab5",
+      "release_path": "harness/aggregate.py",
+      "original_actual_sha256": "22605dec07d4799ea596d91ca6734b84d3d3975bc15edd59427423634c02fab5",
+      "release_sha256": "22605dec07d4799ea596d91ca6734b84d3d3975bc15edd59427423634c02fab5",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 11,
+      "original_expected_sha256": "bd37511e1afad0dd5c32fc50b71fbf8b5b3f1b51fec7692ca83074433c60ad3d",
+      "release_path": "harness/common.py",
+      "original_actual_sha256": "bd37511e1afad0dd5c32fc50b71fbf8b5b3f1b51fec7692ca83074433c60ad3d",
+      "release_sha256": "bd37511e1afad0dd5c32fc50b71fbf8b5b3f1b51fec7692ca83074433c60ad3d",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 12,
+      "original_expected_sha256": "8fa1c226716efa9ac82fa108383bc6b72eb0470fb89cacb2b01950335116dda1",
+      "release_path": "harness/generate.py",
+      "original_actual_sha256": "8fa1c226716efa9ac82fa108383bc6b72eb0470fb89cacb2b01950335116dda1",
+      "release_sha256": "8fa1c226716efa9ac82fa108383bc6b72eb0470fb89cacb2b01950335116dda1",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 13,
+      "original_expected_sha256": "3fe8f92bceba1a7b6a048691a4359e0a3e4c70fd45b64281a14d5b3a3c237b7b",
+      "release_path": "harness/__init__.py",
+      "original_actual_sha256": "3fe8f92bceba1a7b6a048691a4359e0a3e4c70fd45b64281a14d5b3a3c237b7b",
+      "release_sha256": "3fe8f92bceba1a7b6a048691a4359e0a3e4c70fd45b64281a14d5b3a3c237b7b",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 14,
+      "original_expected_sha256": "2c7f7f90d49db1bb90ce5f962566a24506967c35cb44c29ce2477423337e6938",
+      "release_path": "harness/requirements.txt",
+      "original_actual_sha256": "2c7f7f90d49db1bb90ce5f962566a24506967c35cb44c29ce2477423337e6938",
+      "release_sha256": "2c7f7f90d49db1bb90ce5f962566a24506967c35cb44c29ce2477423337e6938",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 15,
+      "original_expected_sha256": "ac2ca79cb30f2b24ddc494482ba0726a02374e70c82c53f35bcb9d2404607913",
+      "release_path": "harness/score/code.py",
+      "original_actual_sha256": "ac2ca79cb30f2b24ddc494482ba0726a02374e70c82c53f35bcb9d2404607913",
+      "release_sha256": "ac2ca79cb30f2b24ddc494482ba0726a02374e70c82c53f35bcb9d2404607913",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 16,
+      "original_expected_sha256": "b567b0253c94d9e926dc71edd154f3af459a191f1391e63111df5dad890b3871",
+      "release_path": "harness/score/general.py",
+      "original_actual_sha256": "b567b0253c94d9e926dc71edd154f3af459a191f1391e63111df5dad890b3871",
+      "release_sha256": "b567b0253c94d9e926dc71edd154f3af459a191f1391e63111df5dad890b3871",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 17,
+      "original_expected_sha256": "851a6dc09eb7922134b83eb63fecf129eaa213712766760b36c0636bbe78efed",
+      "release_path": "harness/score/__init__.py",
+      "original_actual_sha256": "851a6dc09eb7922134b83eb63fecf129eaa213712766760b36c0636bbe78efed",
+      "release_sha256": "851a6dc09eb7922134b83eb63fecf129eaa213712766760b36c0636bbe78efed",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 18,
+      "original_expected_sha256": "b1884de54257d35ba032c57f2ed396566a23d8ce1480cb1487ebf04d67109a2a",
+      "release_path": "harness/score/math_.py",
+      "original_actual_sha256": "b1884de54257d35ba032c57f2ed396566a23d8ce1480cb1487ebf04d67109a2a",
+      "release_sha256": "b1884de54257d35ba032c57f2ed396566a23d8ce1480cb1487ebf04d67109a2a",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 19,
+      "original_expected_sha256": "542f738b782ca3adcf25e744c7b8f1f12477af22b04ee611ca5c12a310462ec2",
+      "release_path": "harness/score/sql.py",
+      "original_actual_sha256": "542f738b782ca3adcf25e744c7b8f1f12477af22b04ee611ca5c12a310462ec2",
+      "release_sha256": "542f738b782ca3adcf25e744c7b8f1f12477af22b04ee611ca5c12a310462ec2",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 20,
+      "original_expected_sha256": "49499df566207c5621d4ef2ca0e0e7566cb9ad405d3def69c952b952f55555ed",
+      "release_path": "harness/score/tools.py",
+      "original_actual_sha256": "49499df566207c5621d4ef2ca0e0e7566cb9ad405d3def69c952b952f55555ed",
+      "release_sha256": "49499df566207c5621d4ef2ca0e0e7566cb9ad405d3def69c952b952f55555ed",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 21,
+      "original_expected_sha256": "103341b34f774ab7b4e443e84c14d4805a921c0b740c80173f00a4175392032b",
+      "release_path": "harness/score/translate.py",
+      "original_actual_sha256": "103341b34f774ab7b4e443e84c14d4805a921c0b740c80173f00a4175392032b",
+      "release_sha256": "103341b34f774ab7b4e443e84c14d4805a921c0b740c80173f00a4175392032b",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 22,
+      "original_expected_sha256": "7f1481d00ce4c9a8f721fad787cca05756a22af116c808728e42f9d3acb5ba75",
+      "release_path": "harness/stats.py",
+      "original_actual_sha256": "7f1481d00ce4c9a8f721fad787cca05756a22af116c808728e42f9d3acb5ba75",
+      "release_sha256": "7f1481d00ce4c9a8f721fad787cca05756a22af116c808728e42f9d3acb5ba75",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 23,
+      "original_expected_sha256": "6d1db8b0d376d7591b16866904f311b5a39b78a15508f431fecbbb1295b8c069",
+      "release_path": "harness/tests/conftest.py",
+      "original_actual_sha256": "6d1db8b0d376d7591b16866904f311b5a39b78a15508f431fecbbb1295b8c069",
+      "release_sha256": "6d1db8b0d376d7591b16866904f311b5a39b78a15508f431fecbbb1295b8c069",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 24,
+      "original_expected_sha256": "64a89ba490036a7871a2eb210ae448ea84a012373fafb889cb373f644326d583",
+      "release_path": "harness/tests/fixtures/tiny.sqlite",
+      "original_actual_sha256": "64a89ba490036a7871a2eb210ae448ea84a012373fafb889cb373f644326d583",
+      "release_sha256": "64a89ba490036a7871a2eb210ae448ea84a012373fafb889cb373f644326d583",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 25,
+      "original_expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_path": "harness/tests/__init__.py",
+      "original_actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 26,
+      "original_expected_sha256": "e73938d23cf78330b9f9ba819037d38e693563f3a3e11660efd21a8152bbe75f",
+      "release_path": "harness/tests/test_pipeline.py",
+      "original_actual_sha256": "e73938d23cf78330b9f9ba819037d38e693563f3a3e11660efd21a8152bbe75f",
+      "release_sha256": "e73938d23cf78330b9f9ba819037d38e693563f3a3e11660efd21a8152bbe75f",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 27,
+      "original_expected_sha256": "52b111a122d5c3229ad3235e0f14d3bfdd30567ce4a55fb3f509ea81df1a1caf",
+      "release_path": "harness/tests/test_scorers.py",
+      "original_actual_sha256": "52b111a122d5c3229ad3235e0f14d3bfdd30567ce4a55fb3f509ea81df1a1caf",
+      "release_sha256": "52b111a122d5c3229ad3235e0f14d3bfdd30567ce4a55fb3f509ea81df1a1caf",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 28,
+      "original_expected_sha256": "64ec5d0710b1a6ee0e9bceed9d513ddd7b137c980df6ce290dd31513d828ad86",
+      "release_path": "scripts/analyze_step3.py",
+      "original_actual_sha256": "64ec5d0710b1a6ee0e9bceed9d513ddd7b137c980df6ce290dd31513d828ad86",
+      "release_sha256": "64ec5d0710b1a6ee0e9bceed9d513ddd7b137c980df6ce290dd31513d828ad86",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 29,
+      "original_expected_sha256": "77904858247b4851a4f8e1d11d5b6971935fae4fda669d02d09607b0da730f23",
+      "release_path": "scripts/archive_runs.sh",
+      "original_actual_sha256": "77904858247b4851a4f8e1d11d5b6971935fae4fda669d02d09607b0da730f23",
+      "release_sha256": "b8baedf6b30be12b3a5e98da28caee34f9ce8470f203151a448e49aa019230b4",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 30,
+      "original_expected_sha256": "f26b0ae5d86a47013697b2a4feb57498f5bb5e1acce398333f5a65f8823b57a9",
+      "release_path": "scripts/backtranslate_check.py",
+      "original_actual_sha256": "f26b0ae5d86a47013697b2a4feb57498f5bb5e1acce398333f5a65f8823b57a9",
+      "release_sha256": "f26b0ae5d86a47013697b2a4feb57498f5bb5e1acce398333f5a65f8823b57a9",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 31,
+      "original_expected_sha256": "2fb1c3cf2b4c2cd30b0dd251f5eecb21190a487da05f274c54f03c80d08b1e53",
+      "release_path": "scripts/big_models.sh",
+      "original_actual_sha256": "2fb1c3cf2b4c2cd30b0dd251f5eecb21190a487da05f274c54f03c80d08b1e53",
+      "release_sha256": "40c8f23159b5d487e019b965847b6e5152ce9933ceacfef439de13ba86b62f21",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 32,
+      "original_expected_sha256": "1dbe85c47bda9aa1e72390fd8a7b3b294780a47ee3f7d26a647f1cb8ceb2218b",
+      "release_path": "scripts/build_and_download.sh",
+      "original_actual_sha256": "1dbe85c47bda9aa1e72390fd8a7b3b294780a47ee3f7d26a647f1cb8ceb2218b",
+      "release_sha256": "1dbe85c47bda9aa1e72390fd8a7b3b294780a47ee3f7d26a647f1cb8ceb2218b",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 33,
+      "original_expected_sha256": "5f7a3008ad150a95143032328e458ffd88b28880058d309959693e66a45a0093",
+      "release_path": "scripts/build_mixed.py",
+      "original_actual_sha256": "5f7a3008ad150a95143032328e458ffd88b28880058d309959693e66a45a0093",
+      "release_sha256": "07d81c0ec841e38e75ea2d7f0993cfb3a788359da78bd503f71f2c943837ce82",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 34,
+      "original_expected_sha256": "5eecfdff0ede7d07977b5afc502ea7f178119e2fc9cecce99d77ed94d18f6988",
+      "release_path": "scripts/build_para.py",
+      "original_actual_sha256": "5eecfdff0ede7d07977b5afc502ea7f178119e2fc9cecce99d77ed94d18f6988",
+      "release_sha256": "318f1a45347a1ff5d3ec9b1c98eebb5da85f116118b661709c29a7c3caf802d4",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 35,
+      "original_expected_sha256": "2e29b4f8dd0b6b3b238b21458e74a0b5476eb970e9a5d96de1eaadeaea25b63d",
+      "release_path": "scripts/chain_step6_eval.sh",
+      "original_actual_sha256": "2e29b4f8dd0b6b3b238b21458e74a0b5476eb970e9a5d96de1eaadeaea25b63d",
+      "release_sha256": "f9de8e763eb71196eb024d6e4440b72702452fc7ed2882f0d5985d0f2c2ea36b",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 36,
+      "original_expected_sha256": "1e5f7aeeb73564b9ce7e769c1a5a54aa3c56b8977c480bcb87909c0778b59a0e",
+      "release_path": "scripts/cv_routes.py",
+      "original_actual_sha256": "1e5f7aeeb73564b9ce7e769c1a5a54aa3c56b8977c480bcb87909c0778b59a0e",
+      "release_sha256": "1e5f7aeeb73564b9ce7e769c1a5a54aa3c56b8977c480bcb87909c0778b59a0e",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 37,
+      "original_expected_sha256": "5da503b79328e44d638b7924e5fad5c74ef4017eab1a98ead0da1fc8fc50dc20",
+      "release_path": "scripts/data/common.py",
+      "original_actual_sha256": "5da503b79328e44d638b7924e5fad5c74ef4017eab1a98ead0da1fc8fc50dc20",
+      "release_sha256": "5da503b79328e44d638b7924e5fad5c74ef4017eab1a98ead0da1fc8fc50dc20",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 38,
+      "original_expected_sha256": "01071767018df046457f6cd62c9780a4cd6a130ffda46fdd4375762f1287885c",
+      "release_path": "scripts/data/decontam.py",
+      "original_actual_sha256": "01071767018df046457f6cd62c9780a4cd6a130ffda46fdd4375762f1287885c",
+      "release_sha256": "01071767018df046457f6cd62c9780a4cd6a130ffda46fdd4375762f1287885c",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 39,
+      "original_expected_sha256": "0605be9b3279b09d86925ee46596e919db9df55361f1120c156f31e8ac6ffaf1",
+      "release_path": "scripts/data/eval_code.py",
+      "original_actual_sha256": "0605be9b3279b09d86925ee46596e919db9df55361f1120c156f31e8ac6ffaf1",
+      "release_sha256": "0605be9b3279b09d86925ee46596e919db9df55361f1120c156f31e8ac6ffaf1",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 40,
+      "original_expected_sha256": "dbdce6250697e17d9a70134418bda8d53a915ba704a072ea1198b7a6191e5240",
+      "release_path": "scripts/data/eval_general.py",
+      "original_actual_sha256": "dbdce6250697e17d9a70134418bda8d53a915ba704a072ea1198b7a6191e5240",
+      "release_sha256": "dbdce6250697e17d9a70134418bda8d53a915ba704a072ea1198b7a6191e5240",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 41,
+      "original_expected_sha256": "e276c35dd1ff5781f5e3ad0a635d7b2b01297872d7fc4328865a0e0ff8c47547",
+      "release_path": "scripts/data/eval_math.py",
+      "original_actual_sha256": "e276c35dd1ff5781f5e3ad0a635d7b2b01297872d7fc4328865a0e0ff8c47547",
+      "release_sha256": "e276c35dd1ff5781f5e3ad0a635d7b2b01297872d7fc4328865a0e0ff8c47547",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 42,
+      "original_expected_sha256": "6e61601c53262d4b26b6f90b7274c79e20222def917712430b8dc615a8f3bb1c",
+      "release_path": "scripts/data/eval_sql.py",
+      "original_actual_sha256": "6e61601c53262d4b26b6f90b7274c79e20222def917712430b8dc615a8f3bb1c",
+      "release_sha256": "6e61601c53262d4b26b6f90b7274c79e20222def917712430b8dc615a8f3bb1c",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 43,
+      "original_expected_sha256": "a1a8eead43025ee30351e415a5350b156f45fce79d0df5fb962aa35bcc872f2e",
+      "release_path": "scripts/data/eval_tools.py",
+      "original_actual_sha256": "a1a8eead43025ee30351e415a5350b156f45fce79d0df5fb962aa35bcc872f2e",
+      "release_sha256": "a1a8eead43025ee30351e415a5350b156f45fce79d0df5fb962aa35bcc872f2e",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 44,
+      "original_expected_sha256": "0fc25fe3a839eba36ccf234e49cb7fff80d167bb5b27797795c8843bc6d84208",
+      "release_path": "scripts/data/eval_translate.py",
+      "original_actual_sha256": "0fc25fe3a839eba36ccf234e49cb7fff80d167bb5b27797795c8843bc6d84208",
+      "release_sha256": "0fc25fe3a839eba36ccf234e49cb7fff80d167bb5b27797795c8843bc6d84208",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 45,
+      "original_expected_sha256": "89a075961f138f3b4c1df768b383742da2ac6e93b881e2f4dcc34dcf9218aa5a",
+      "release_path": "scripts/data/fetch_raw.sh",
+      "original_actual_sha256": "89a075961f138f3b4c1df768b383742da2ac6e93b881e2f4dcc34dcf9218aa5a",
+      "release_sha256": "89a075961f138f3b4c1df768b383742da2ac6e93b881e2f4dcc34dcf9218aa5a",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 46,
+      "original_expected_sha256": "35bb22c12f7108ea83b977135ac69f0191485c4252672b9de85a00d9e7bc871b",
+      "release_path": "scripts/data/make_samples.py",
+      "original_actual_sha256": "35bb22c12f7108ea83b977135ac69f0191485c4252672b9de85a00d9e7bc871b",
+      "release_sha256": "35bb22c12f7108ea83b977135ac69f0191485c4252672b9de85a00d9e7bc871b",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 47,
+      "original_expected_sha256": "ecd6d7252bcda1e99eb4fa199077a3bd18d679c404d62eb34f70266a9b4966e0",
+      "release_path": "scripts/data/sqlfmt.py",
+      "original_actual_sha256": "ecd6d7252bcda1e99eb4fa199077a3bd18d679c404d62eb34f70266a9b4966e0",
+      "release_sha256": "ecd6d7252bcda1e99eb4fa199077a3bd18d679c404d62eb34f70266a9b4966e0",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 48,
+      "original_expected_sha256": "6f8247dc819dbf56fc53b3f9aca27e9094e4e30e916048b1591750ff799b30fb",
+      "release_path": "scripts/data/toolfmt.py",
+      "original_actual_sha256": "6f8247dc819dbf56fc53b3f9aca27e9094e4e30e916048b1591750ff799b30fb",
+      "release_sha256": "6f8247dc819dbf56fc53b3f9aca27e9094e4e30e916048b1591750ff799b30fb",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 49,
+      "original_expected_sha256": "7ba2d8d9a149e3d3c07ccd52217ccda1de3ed53b43b13ad9c348355a53b965d0",
+      "release_path": "scripts/data/train_code.py",
+      "original_actual_sha256": "7ba2d8d9a149e3d3c07ccd52217ccda1de3ed53b43b13ad9c348355a53b965d0",
+      "release_sha256": "7ba2d8d9a149e3d3c07ccd52217ccda1de3ed53b43b13ad9c348355a53b965d0",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 50,
+      "original_expected_sha256": "1457529788629c3687c2b68a7fb3b5a1c20c00fb71386a17579bd73c47db6d72",
+      "release_path": "scripts/data/train_general.py",
+      "original_actual_sha256": "1457529788629c3687c2b68a7fb3b5a1c20c00fb71386a17579bd73c47db6d72",
+      "release_sha256": "1457529788629c3687c2b68a7fb3b5a1c20c00fb71386a17579bd73c47db6d72",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 51,
+      "original_expected_sha256": "b66a290178fe4f47ef65277f5de771998dbe2add00fca75d34f2a2225de629be",
+      "release_path": "scripts/data/train_math.py",
+      "original_actual_sha256": "b66a290178fe4f47ef65277f5de771998dbe2add00fca75d34f2a2225de629be",
+      "release_sha256": "b66a290178fe4f47ef65277f5de771998dbe2add00fca75d34f2a2225de629be",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 52,
+      "original_expected_sha256": "6f87ed49e8d30660b74859e89f36e4cd20f33a7b0ec9ab971062f8bd03fbef9f",
+      "release_path": "scripts/data/train_sql.py",
+      "original_actual_sha256": "6f87ed49e8d30660b74859e89f36e4cd20f33a7b0ec9ab971062f8bd03fbef9f",
+      "release_sha256": "6f87ed49e8d30660b74859e89f36e4cd20f33a7b0ec9ab971062f8bd03fbef9f",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 53,
+      "original_expected_sha256": "6c066774257a94e4aee568ad29c9258b1439059b71f26c568c562da3e7c83667",
+      "release_path": "scripts/data/train_tools.py",
+      "original_actual_sha256": "6c066774257a94e4aee568ad29c9258b1439059b71f26c568c562da3e7c83667",
+      "release_sha256": "6c066774257a94e4aee568ad29c9258b1439059b71f26c568c562da3e7c83667",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 54,
+      "original_expected_sha256": "24c4604853104c6563eeb9769ce99d2327f7a88bcddf3c53df66dafaa71ce060",
+      "release_path": "scripts/data/train_translate.py",
+      "original_actual_sha256": "24c4604853104c6563eeb9769ce99d2327f7a88bcddf3c53df66dafaa71ce060",
+      "release_sha256": "24c4604853104c6563eeb9769ce99d2327f7a88bcddf3c53df66dafaa71ce060",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 55,
+      "original_expected_sha256": "9f98eafbf1747902bf3a23fb8a78ae9366e74df131f1d9948c1547c460ec8d39",
+      "release_path": "scripts/evalq.py",
+      "original_actual_sha256": "9f98eafbf1747902bf3a23fb8a78ae9366e74df131f1d9948c1547c460ec8d39",
+      "release_sha256": "db6de24699606841021b5fe99611e176c31b4790fcdd2475e135bf1694c45103",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 56,
+      "original_expected_sha256": "9ed925a796b37696f0884ee2e84bc27f6936fd1a9c341819da299df5f5b0c056",
+      "release_path": "scripts/freeze_manifest.sh",
+      "original_actual_sha256": "9ed925a796b37696f0884ee2e84bc27f6936fd1a9c341819da299df5f5b0c056",
+      "release_sha256": "064950c546a476c8693b3d37f13f16475f129b7ce47cddaa10bcf687e3d1b49a",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 57,
+      "original_expected_sha256": "58dbc3cb65ae203011b1f0a366edd79a5084a5313e139db26760db72d3e92057",
+      "release_path": "scripts/freeze_router.py",
+      "original_actual_sha256": "58dbc3cb65ae203011b1f0a366edd79a5084a5313e139db26760db72d3e92057",
+      "release_sha256": "58dbc3cb65ae203011b1f0a366edd79a5084a5313e139db26760db72d3e92057",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 58,
+      "original_expected_sha256": "8844216eeee64564da0b0cd236176c68cc4cead55da04b624e462d754f8f309f",
+      "release_path": "scripts/gold_check_mixed.py",
+      "original_actual_sha256": "8844216eeee64564da0b0cd236176c68cc4cead55da04b624e462d754f8f309f",
+      "release_sha256": "8844216eeee64564da0b0cd236176c68cc4cead55da04b624e462d754f8f309f",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 59,
+      "original_expected_sha256": "1bb0e9ac80b70f935f058d442f0303950da4e21d85a4233ae507cb8b4f674020",
+      "release_path": "scripts/gold_check.py",
+      "original_actual_sha256": "1bb0e9ac80b70f935f058d442f0303950da4e21d85a4233ae507cb8b4f674020",
+      "release_sha256": "1bb0e9ac80b70f935f058d442f0303950da4e21d85a4233ae507cb8b4f674020",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 60,
+      "original_expected_sha256": "954d418f99de39ca5f86351339af5bc45a26be4b259a042eef2025cdc8ce129f",
+      "release_path": "scripts/make_distill.py",
+      "original_actual_sha256": "954d418f99de39ca5f86351339af5bc45a26be4b259a042eef2025cdc8ce129f",
+      "release_sha256": "954d418f99de39ca5f86351339af5bc45a26be4b259a042eef2025cdc8ce129f",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 61,
+      "original_expected_sha256": "f37f7770021beec716dda52c7a94f75c4385474334cb57d8956ac9f23aae232a",
+      "release_path": "scripts/make_mixtures.py",
+      "original_actual_sha256": "f37f7770021beec716dda52c7a94f75c4385474334cb57d8956ac9f23aae232a",
+      "release_sha256": "f37f7770021beec716dda52c7a94f75c4385474334cb57d8956ac9f23aae232a",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 62,
+      "original_expected_sha256": "72bc5a6e6c5f85b9a0e3182a678af06e6abc059c2da35ebf602206c57fcca4cc",
+      "release_path": "scripts/make_replay.py",
+      "original_actual_sha256": "72bc5a6e6c5f85b9a0e3182a678af06e6abc059c2da35ebf602206c57fcca4cc",
+      "release_sha256": "72bc5a6e6c5f85b9a0e3182a678af06e6abc059c2da35ebf602206c57fcca4cc",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 63,
+      "original_expected_sha256": "bf43f7d751f4bd950c38817967f2f46f25612fc0e16941e2cc9c395482243202",
+      "release_path": "scripts/make_sdft.py",
+      "original_actual_sha256": "bf43f7d751f4bd950c38817967f2f46f25612fc0e16941e2cc9c395482243202",
+      "release_sha256": "bf43f7d751f4bd950c38817967f2f46f25612fc0e16941e2cc9c395482243202",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 64,
+      "original_expected_sha256": "948b7d4443348aac42aedba32a885e7ca85dee4214b2b2c8af313445aee846cc",
+      "release_path": "scripts/memory_report.py",
+      "original_actual_sha256": "948b7d4443348aac42aedba32a885e7ca85dee4214b2b2c8af313445aee846cc",
+      "release_sha256": "1bb4fff3f44c33b8c6928d1690e37ccd58771884af741a9bcd05cee8c73eb194",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 65,
+      "original_expected_sha256": "c2eb6ad398962d1fae01f368f004f0bc5d717d40c5ada9c143b12023d11f6ad0",
+      "release_path": "scripts/merge_specialists.py",
+      "original_actual_sha256": "c2eb6ad398962d1fae01f368f004f0bc5d717d40c5ada9c143b12023d11f6ad0",
+      "release_sha256": "c2eb6ad398962d1fae01f368f004f0bc5d717d40c5ada9c143b12023d11f6ad0",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 66,
+      "original_expected_sha256": "74bba6d553b3a72be610b83814c70ee7a5330c224bdf7e075308cb1d18347376",
+      "release_path": "scripts/partb_analysis.py",
+      "original_actual_sha256": "74bba6d553b3a72be610b83814c70ee7a5330c224bdf7e075308cb1d18347376",
+      "release_sha256": "74bba6d553b3a72be610b83814c70ee7a5330c224bdf7e075308cb1d18347376",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 67,
+      "original_expected_sha256": "a115641e5497ba581b21780f2dd4376471ef1ea1163c7c5e125cd23d75b688a7",
+      "release_path": "scripts/quant_models.sh",
+      "original_actual_sha256": "a115641e5497ba581b21780f2dd4376471ef1ea1163c7c5e125cd23d75b688a7",
+      "release_sha256": "a115641e5497ba581b21780f2dd4376471ef1ea1163c7c5e125cd23d75b688a7",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 68,
+      "original_expected_sha256": "03958a1776dcb5876f0aa8272451e50331c87ecca5572a3295eff8e9ef4eac49",
+      "release_path": "scripts/reagg.sh",
+      "original_actual_sha256": "03958a1776dcb5876f0aa8272451e50331c87ecca5572a3295eff8e9ef4eac49",
+      "release_sha256": "03958a1776dcb5876f0aa8272451e50331c87ecca5572a3295eff8e9ef4eac49",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 69,
+      "original_expected_sha256": "4ea672585584b0c53d43b4bea034394e8b2cf4ec2b560fd200e215ce96c7b07b",
+      "release_path": "scripts/restore_services.sh",
+      "original_actual_sha256": "4ea672585584b0c53d43b4bea034394e8b2cf4ec2b560fd200e215ce96c7b07b",
+      "release_sha256": "c7a4731087675082058546f4f3bf39ae82ff200c0bad1d94f5196cbd7bdb988d",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 70,
+      "original_expected_sha256": "81daac1e4237f6d474696e525a72b6f991b112040c3d2597ca12e5fe66791bee",
+      "release_path": "scripts/route_step4.py",
+      "original_actual_sha256": "81daac1e4237f6d474696e525a72b6f991b112040c3d2597ca12e5fe66791bee",
+      "release_sha256": "81daac1e4237f6d474696e525a72b6f991b112040c3d2597ca12e5fe66791bee",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 71,
+      "original_expected_sha256": "4b487e44bf842e90e8892218a8d01549fa6308e76be192e6ce09e375c84e0a58",
+      "release_path": "scripts/run_5080.sh",
+      "original_actual_sha256": "4b487e44bf842e90e8892218a8d01549fa6308e76be192e6ce09e375c84e0a58",
+      "release_sha256": "4b487e44bf842e90e8892218a8d01549fa6308e76be192e6ce09e375c84e0a58",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 72,
+      "original_expected_sha256": "07baa34142a947d4214da07a91dd060819907d347cce46413bdaace39e7df13d",
+      "release_path": "scripts/run_bi.sh",
+      "original_actual_sha256": "07baa34142a947d4214da07a91dd060819907d347cce46413bdaace39e7df13d",
+      "release_sha256": "06163f5f718fda63f17aa4f5df789ea93554fede386e8f1fb625a2ad872ebf4f",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 73,
+      "original_expected_sha256": "f17d1bd7e890a31fc4b506e5ada598d815e627da65dc8ed36fdba3af84977d6b",
+      "release_path": "scripts/run_merges.sh",
+      "original_actual_sha256": "f17d1bd7e890a31fc4b506e5ada598d815e627da65dc8ed36fdba3af84977d6b",
+      "release_sha256": "fd07661bc4dc456562a6b76a485c1ce9bb30855c464e1fb285ce5efdecee8890",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 74,
+      "original_expected_sha256": "ee78620daa5427be4cfd9ebeea496a19f4cdaab27d613e74ec234e5ad60707b1",
+      "release_path": "scripts/run_protocol.sh",
+      "original_actual_sha256": "ee78620daa5427be4cfd9ebeea496a19f4cdaab27d613e74ec234e5ad60707b1",
+      "release_sha256": "bd8fee597e84ea259dc663f13d6a70400e0a47948e8c9fc9868b971dfe6ad798",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 75,
+      "original_expected_sha256": "d8483a7eef34127fb476e9eba96839bf5a12f150b7ba0e8fac1e1641140de4ce",
+      "release_path": "scripts/run_spark_bi.sh",
+      "original_actual_sha256": "d8483a7eef34127fb476e9eba96839bf5a12f150b7ba0e8fac1e1641140de4ce",
+      "release_sha256": "fe6971881a843b84304e74f74f2ee339fe7d1ff420a2dec53a50bd1af64a9e3c",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 76,
+      "original_expected_sha256": "d3d5bff563d50c36c94b46f3f854509975aa7420e29ed1b5d41052131b83b1d9",
+      "release_path": "scripts/run_step1.sh",
+      "original_actual_sha256": "d3d5bff563d50c36c94b46f3f854509975aa7420e29ed1b5d41052131b83b1d9",
+      "release_sha256": "cecd41204855a75ed4ffc4c71fe38a4453a09bf7d182ddb5388cb3fe61937fef",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 77,
+      "original_expected_sha256": "2b472b1237b29f36ea7daca5cb729bc3126335ea36bbe751976e47e05e5c272e",
+      "release_path": "scripts/serve.sh",
+      "original_actual_sha256": "2b472b1237b29f36ea7daca5cb729bc3126335ea36bbe751976e47e05e5c272e",
+      "release_sha256": "2b472b1237b29f36ea7daca5cb729bc3126335ea36bbe751976e47e05e5c272e",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 78,
+      "original_expected_sha256": "a9036c65d6e89d00aa17af71b70ffc971f75c71f5f9422cb6c873f0cd9f050d6",
+      "release_path": "scripts/serve_spark.sh",
+      "original_actual_sha256": "a9036c65d6e89d00aa17af71b70ffc971f75c71f5f9422cb6c873f0cd9f050d6",
+      "release_sha256": "a9036c65d6e89d00aa17af71b70ffc971f75c71f5f9422cb6c873f0cd9f050d6",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 79,
+      "original_expected_sha256": "578093f76d38fa7dec371f187d0a5e12b4cfdfd48f62a485b23fbd7b2e62876c",
+      "release_path": "scripts/spark_models.sh",
+      "original_actual_sha256": "578093f76d38fa7dec371f187d0a5e12b4cfdfd48f62a485b23fbd7b2e62876c",
+      "release_sha256": "578093f76d38fa7dec371f187d0a5e12b4cfdfd48f62a485b23fbd7b2e62876c",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 80,
+      "original_expected_sha256": "bcd63e161f7e18d909b3152afd9ccdd1c3bc3ea058b2ce7627b64b58fdb8cb4d",
+      "release_path": "scripts/station_models.sh",
+      "original_actual_sha256": "bcd63e161f7e18d909b3152afd9ccdd1c3bc3ea058b2ce7627b64b58fdb8cb4d",
+      "release_sha256": "bcd63e161f7e18d909b3152afd9ccdd1c3bc3ea058b2ce7627b64b58fdb8cb4d",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 81,
+      "original_expected_sha256": "2b81be1d06999924d4f4bdea0cf7dc0ae899dc9fa28822f6a542a47ae721ee2d",
+      "release_path": "scripts/stop_queue.sh",
+      "original_actual_sha256": "2b81be1d06999924d4f4bdea0cf7dc0ae899dc9fa28822f6a542a47ae721ee2d",
+      "release_sha256": "07ef7fef20775e47550afd495021afe338a5842451921d8f4c8b2e7882a91432",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 82,
+      "original_expected_sha256": "545bc4aaf84924fc137aec13eb3fa38a374cf70af38ab4925ae7fa2a20652767",
+      "release_path": "scripts/summarize.py",
+      "original_actual_sha256": "545bc4aaf84924fc137aec13eb3fa38a374cf70af38ab4925ae7fa2a20652767",
+      "release_sha256": "545bc4aaf84924fc137aec13eb3fa38a374cf70af38ab4925ae7fa2a20652767",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 83,
+      "original_expected_sha256": "32a2388fa92b9c898090ff7aed040c65e5993a218248cc8d642a0daf3231cd9d",
+      "release_path": "scripts/sync_to_alien.sh",
+      "original_actual_sha256": "32a2388fa92b9c898090ff7aed040c65e5993a218248cc8d642a0daf3231cd9d",
+      "release_sha256": "810d951a2384ef7ed35786ce421a7349ccb39abdb2183c47d5979e96ef1d004a",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 84,
+      "original_expected_sha256": "b243d8260dad48fb76c3f60ec63cf6b8d5a412457f6c4192b7f77d872f0514da",
+      "release_path": "scripts/system_compare.py",
+      "original_actual_sha256": "b243d8260dad48fb76c3f60ec63cf6b8d5a412457f6c4192b7f77d872f0514da",
+      "release_sha256": "b243d8260dad48fb76c3f60ec63cf6b8d5a412457f6c4192b7f77d872f0514da",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 85,
+      "original_expected_sha256": "6e1a052ece6b588fcecc38e426e4bf931f57e87936d68f55d51323eb99744d0c",
+      "release_path": "scripts/trainq.py",
+      "original_actual_sha256": "6e1a052ece6b588fcecc38e426e4bf931f57e87936d68f55d51323eb99744d0c",
+      "release_sha256": "36c3cb7309d0ed7be2d3591b827dc7a2fd51fe98e7bfa025d0897586139a6ae6",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 86,
+      "original_expected_sha256": "3c6755d1b857d368b6dd1d3f02278dd65a5f61642a1203d7798df50edec0066c",
+      "release_path": "scripts/train_run.sh",
+      "original_actual_sha256": "3c6755d1b857d368b6dd1d3f02278dd65a5f61642a1203d7798df50edec0066c",
+      "release_sha256": "3c6755d1b857d368b6dd1d3f02278dd65a5f61642a1203d7798df50edec0066c",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 87,
+      "original_expected_sha256": "34d7f52d703ebf6561d2857a279b9ef05497bffe24052369c72fd130064355d7",
+      "release_path": "scripts/validate_mixed.py",
+      "original_actual_sha256": "34d7f52d703ebf6561d2857a279b9ef05497bffe24052369c72fd130064355d7",
+      "release_sha256": "34d7f52d703ebf6561d2857a279b9ef05497bffe24052369c72fd130064355d7",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 88,
+      "original_expected_sha256": "4d1034ec9ee0fef0ca2031a5feef985bc44de865699335ff8cec1169a0ead379",
+      "release_path": "scripts/validate_para.py",
+      "original_actual_sha256": "4d1034ec9ee0fef0ca2031a5feef985bc44de865699335ff8cec1169a0ead379",
+      "release_sha256": "4d1034ec9ee0fef0ca2031a5feef985bc44de865699335ff8cec1169a0ead379",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 89,
+      "original_expected_sha256": "467cb5baef9d1a1a3a7b60aa2be9da411f5e3fd455e1dc4b2a1dd8cb2e4a448a",
+      "release_path": "train/train_fullft_v1.py",
+      "original_actual_sha256": "467cb5baef9d1a1a3a7b60aa2be9da411f5e3fd455e1dc4b2a1dd8cb2e4a448a",
+      "release_sha256": "467cb5baef9d1a1a3a7b60aa2be9da411f5e3fd455e1dc4b2a1dd8cb2e4a448a",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 90,
+      "original_expected_sha256": "7951c60c1aaefe61739ffa01c51eab4d733c359b7b143602e7be3a31674d83d8",
+      "release_path": "train/train.py",
+      "original_actual_sha256": "7951c60c1aaefe61739ffa01c51eab4d733c359b7b143602e7be3a31674d83d8",
+      "release_sha256": "7951c60c1aaefe61739ffa01c51eab4d733c359b7b143602e7be3a31674d83d8",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 91,
+      "original_expected_sha256": "c3a1949e19df7f55d3b14f7cb0f88081dbb602df6e0f0578599c58b33ccb012c",
+      "release_path": "artifacts/router_e5lr.pkl",
+      "original_actual_sha256": "c3a1949e19df7f55d3b14f7cb0f88081dbb602df6e0f0578599c58b33ccb012c",
+      "release_sha256": "c3a1949e19df7f55d3b14f7cb0f88081dbb602df6e0f0578599c58b33ccb012c",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 92,
+      "original_expected_sha256": "b7db8db539bc727fcab2d9e13ddcd9de2c88968ec6d18d2dd6fe833d13e97d9c",
+      "release_path": "content/PART_B_PREREG.md",
+      "original_actual_sha256": "b7db8db539bc727fcab2d9e13ddcd9de2c88968ec6d18d2dd6fe833d13e97d9c",
+      "release_sha256": "b7db8db539bc727fcab2d9e13ddcd9de2c88968ec6d18d2dd6fe833d13e97d9c",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 93,
+      "original_expected_sha256": "0fecdd99fa17ee84ecce5f3c4211205ebd6c319b8b6d3916289b96853daceec3",
+      "release_path": "GOAL.md",
+      "original_actual_sha256": "0fecdd99fa17ee84ecce5f3c4211205ebd6c319b8b6d3916289b96853daceec3",
+      "release_sha256": "264db8434016bad94d459273dfec3d3c5cdc00384f1a525247cb4a7b37ee8f48",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 94,
+      "original_expected_sha256": "1a072642f17161106d3e1a06048c37b56dbfe7048afe254e582f445f13474b6a",
+      "release_path": "data/eval/code/humaneval_plus/test.jsonl",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 95,
+      "original_expected_sha256": "f122820a0aa31df32a8709e126020241fce9d95a56ef168ce259a380a28fdd0b",
+      "release_path": "data/eval/code/livecodebench/test.jsonl",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 96,
+      "original_expected_sha256": "42a8c649e32b60d20173a9992416adc15f12daeb36bc2d2b98e72ab9de87d6db",
+      "release_path": "data/eval/code/mbpp_plus/test.jsonl",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 97,
+      "original_expected_sha256": "f68a6941feda5f9ff22b21e5039e981f10ea871d669d52901d5c5d74dc689778",
+      "release_path": "data/eval/general/ifeval/test.jsonl",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 98,
+      "original_expected_sha256": "86664b7ad754d93d306059b1c09348bdc18485bb5e15f0cb8a9df130403513fd",
+      "release_path": "data/eval/general/mmlu_pro/test.jsonl",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 99,
+      "original_expected_sha256": "f0468b058e84b049924dd56210353706bfc0dc2a332df88340f0a91b7000ee1f",
+      "release_path": "data/eval/math/gsm8k/test.jsonl",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 100,
+      "original_expected_sha256": "7b1b04c434f5a673a44e4060264bbefa0406ee809f7212842c318db4b9443859",
+      "release_path": "data/eval/math/math500/test.jsonl",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 101,
+      "original_expected_sha256": "eb29f61b5a3f1293f33aa62d5c28ac6897bbd5eca3a4d8081dfd0eb0769c8e44",
+      "release_path": "data/eval/mixed/bfcl_ml/test.jsonl",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 102,
+      "original_expected_sha256": "5e05d2366c5a97d6a255b3ac1f3db7f81439188bc8c5db2d5d111f7b58ed8fb6",
+      "release_path": "data/eval/mixed/bird_ml/test.jsonl",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 103,
+      "original_expected_sha256": "e7d1991e896bfae7cb4063272dd41a9030cb9a147f41b9f27ee7a8ca3782f58d",
+      "release_path": "data/eval/mixed/gsm8k_ml/test.jsonl",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 104,
+      "original_expected_sha256": "bfdce01648eab26bf3d8b0402d5516d30a89c3a1095dfa454694d3abc756670a",
+      "release_path": "data/eval/mixed/mbpp_ml/test.jsonl",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 105,
+      "original_expected_sha256": "d6ad817e0f59ee51ad14b8642d8577bc353862b32e3c296309ebbb3640fe3413",
+      "release_path": "data/eval/para/bfcl_pp/test.jsonl",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 106,
+      "original_expected_sha256": "cf5b3e701d7811e1d8a2968d3d29b9f8af75f93506c725c2cf7245b7e52c8c16",
+      "release_path": "data/eval/para/bird_pp/test.jsonl",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 107,
+      "original_expected_sha256": "a2980a591b35fc6cc60304aca91dfe35bfa5ba5cca93b48b163e2db579b3b2fc",
+      "release_path": "data/eval/para/flores_pp/test.jsonl",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 108,
+      "original_expected_sha256": "57fbdd5ef23336c169192bb59d9ec6ee444ab2e4081ef8febfc72b9ba165a4ae",
+      "release_path": "data/eval/para/gsm8k_pp/test.jsonl",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 109,
+      "original_expected_sha256": "e609688027f33608946e05d3a9588b27433cc3ef2049d0f97856ddab7844c4b8",
+      "release_path": "data/eval/para/mbpp_pp/test.jsonl",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 110,
+      "original_expected_sha256": "4c68e4ff740c36f052d32de683b2a0489020f6b77fdb3661227366d33eb9d1d2",
+      "release_path": "data/eval/para/mmlupro_pp/test.jsonl",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 111,
+      "original_expected_sha256": "51833eac351e5092981aca38377ca0632c91aa95e20d75bd668366489e3af819",
+      "release_path": "data/eval/sql/bird_dev/test.jsonl",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 112,
+      "original_expected_sha256": "aee44c08ef84d4cf0db478a760e2f5df5540ef050964f558d8a15ebb0969c76d",
+      "release_path": "data/eval/tools/bfcl/test.jsonl",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 113,
+      "original_expected_sha256": "8662e5fbf31d56a24e4eef390b15c82ce798b179300c7b4310027b9c26aca101",
+      "release_path": "data/eval/translate/flores200/test.jsonl",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 115,
+      "original_expected_sha256": "d4f8556ab785218d0391b3f25d699571b3b037e62abbd2dfc6d2adebb91f7021",
+      "release_path": "station-b:mom-lab/runs/pt17-distill-lr2e-5/model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 116,
+      "original_expected_sha256": "d09c072b2fef3fedd3ebfa411e12151b68c93caf45cb5a3dd902de2207d1ef41",
+      "release_path": "station-a:mom-lab/runs/pt17-distill-lr2e-5-s1/model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 117,
+      "original_expected_sha256": "0f794f3bf4846308f8645bd2952b6493042500ef6ba51b2c1b4d531eb4a9ce90",
+      "release_path": "station-b:mom-lab/runs/pt17-distill-lr2e-5-s2/model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 118,
+      "original_expected_sha256": "83b9b7436231283531d84bb3b79a8fb8a82724944286af2cc9bbbfa17f7066f8",
+      "release_path": "station-b:mom-lab/runs/pt17-lora16-code-lr2e-4-s1/model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 119,
+      "original_expected_sha256": "522ff45f133f91694c41dbbef3fb4f00e8b8f12b46404d6730948fd90a9f8ad1",
+      "release_path": "station-a:mom-lab/runs/pt17-lora16-code-lr2e-4-s2/model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 120,
+      "original_expected_sha256": "8de5a2652ec7f833b8d81e80780bc4d0fe352805047db21dddcc48c9ce21624d",
+      "release_path": "station-a:mom-lab/runs/pt17-lora16-sql-lr2e-4-s1/model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 121,
+      "original_expected_sha256": "3acd6122fe778e3e05c16709eee564df774356596185fb3c797f4083c5cd3663",
+      "release_path": "station-b:mom-lab/runs/pt17-lora16-sql-lr2e-4-s2/model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 122,
+      "original_expected_sha256": "48583df3f13068fc55a7cf674017d2c53ce686b2ce49c78b942474693bacdd5a",
+      "release_path": "station-b:mom-lab/runs/pt17-lora16-tools-lr2e-4-s1/model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 123,
+      "original_expected_sha256": "c254b6e8bf5f8d68ab91c8acb7fb97789968b517e1fc55c991bfe0de410796d1",
+      "release_path": "station-a:mom-lab/runs/pt17-lora16-tools-lr2e-4-s2/model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 124,
+      "original_expected_sha256": "cb276db4372f97840bf79ac79341a021b15ea180ebe705e1c1816ddfee84770e",
+      "release_path": "station-a:mom-lab/runs/pt17-replay-code-r20-lr2e-5-s2/model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 125,
+      "original_expected_sha256": "fd196f31600052fa9d077349ba580a81205665d906e30fc4f9688e9bb042038d",
+      "release_path": "station-b:mom-lab/runs/pt17-replay-sql-r20-lr2e-5-s2/model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 126,
+      "original_expected_sha256": "5498587718155e49e0fa2b81f665ed044010be297c49df955a97c5c39101b331",
+      "release_path": "station-a:mom-lab/runs/pt17-replay-tools-r20-lr2e-5-s2/model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 127,
+      "original_expected_sha256": "6f6585cf2c59324856e82a496de33e1328b272eae7ea18022e87b6c96fc47017",
+      "release_path": "station-b:mom-lab/runs/pt4-distill-lr2e-5/model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 128,
+      "original_expected_sha256": "88bf03929d9c80f11411339aa597e4429817011e85df563b9f805eda44502c53",
+      "release_path": "station-a:mom-lab/runs/pt4-distill-lr2e-5-s1/model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 129,
+      "original_expected_sha256": "48c57b3e8fa4d65a66270be59b7db0fc641779be4d889c84b777978e80bab9f8",
+      "release_path": "station-b:mom-lab/runs/pt4-distill-lr2e-5-s2/model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 130,
+      "original_expected_sha256": "593d89ade8ef05a2e338ed5aa92fa2bd4d69902ae17f98974195aafbd8135479",
+      "release_path": "station-a:mom-lab/runs/pt4-lora16-sql-lr2e-4-s1/model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 131,
+      "original_expected_sha256": "18c941533eff93caa296bc18979476b94db8d5cdc2ddff5f30dae3ccd22c6204",
+      "release_path": "station-b:mom-lab/runs/pt4-lora16-sql-lr2e-4-s2/model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 132,
+      "original_expected_sha256": "9a532b369c0482f98bafa724d62aa5527830eef5e315d2775a42b7c7f722de78",
+      "release_path": "station-b:mom-lab/runs/pt4-lora16-tools-lr2e-4-s1/model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 133,
+      "original_expected_sha256": "56749cfc0def2761f756d9d8c3cac1a958726a591aab7e53f02a16b233aaba94",
+      "release_path": "station-a:mom-lab/runs/pt4-lora16-tools-lr2e-4-s2/model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 134,
+      "original_expected_sha256": "bfe66f5ad93fb1d9e7b268e2f3f20335027c208fd5a8bccca54fa19a12305ab2",
+      "release_path": "station-a:mom-lab/runs/pt4-pooled-lr2e-5/model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 135,
+      "original_expected_sha256": "019756985dc31b44471648aa0117c23cabb96915c3624f53d5cc5d3376e8d239",
+      "release_path": "station-b:mom-lab/runs/pt4-pooled-lr2e-5-s1/model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 136,
+      "original_expected_sha256": "0332ffa3500cfe0905af703a40b6d057ef2ff140a8e0efb77b985af4e0c8a9ae",
+      "release_path": "station-a:mom-lab/runs/pt4-pooled-lr2e-5-s2/model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 137,
+      "original_expected_sha256": "a7043493ebd993f5fea18794ad7b5b3e064a52023f392a7fcce7ce0984c341f0",
+      "release_path": "station-a:/models/hf/Qwen__Qwen3-4B-AWQ/model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 138,
+      "original_expected_sha256": "931dd76419a4098e8c542e30ca0b5598714ed3b30fd7d4c8de3f5d515c01dbb5",
+      "release_path": "station-a:mom-lab/adapters/pt4-lora16-sql-lr2e-4/adapter_model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 139,
+      "original_expected_sha256": "931dd76419a4098e8c542e30ca0b5598714ed3b30fd7d4c8de3f5d515c01dbb5",
+      "release_path": "station-b:mom-lab/adapters/pt4-lora16-sql-lr2e-4/adapter_model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 140,
+      "original_expected_sha256": "a7043493ebd993f5fea18794ad7b5b3e064a52023f392a7fcce7ce0984c341f0",
+      "release_path": "station-a:/models/hf/Qwen__Qwen3-4B-AWQ/model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 141,
+      "original_expected_sha256": "0f4f851d4bbfcfc2947e67e20cf53690b2f18c33f80746efdd0c98bc74c77b76",
+      "release_path": "station-a:mom-lab/adapters/pt4-lora16-sql-lr2e-4-s1/adapter_model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 142,
+      "original_expected_sha256": "0f4f851d4bbfcfc2947e67e20cf53690b2f18c33f80746efdd0c98bc74c77b76",
+      "release_path": "station-b:mom-lab/adapters/pt4-lora16-sql-lr2e-4-s1/adapter_model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 143,
+      "original_expected_sha256": "a7043493ebd993f5fea18794ad7b5b3e064a52023f392a7fcce7ce0984c341f0",
+      "release_path": "station-a:/models/hf/Qwen__Qwen3-4B-AWQ/model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 144,
+      "original_expected_sha256": "f9924ce8f5a69b532c5f02acc9776757214051a6188a8d5b8ebe7a6636e2e6b7",
+      "release_path": "station-a:mom-lab/adapters/pt4-lora16-sql-lr2e-4-s2/adapter_model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 145,
+      "original_expected_sha256": "f9924ce8f5a69b532c5f02acc9776757214051a6188a8d5b8ebe7a6636e2e6b7",
+      "release_path": "station-b:mom-lab/adapters/pt4-lora16-sql-lr2e-4-s2/adapter_model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 146,
+      "original_expected_sha256": "a7043493ebd993f5fea18794ad7b5b3e064a52023f392a7fcce7ce0984c341f0",
+      "release_path": "station-a:/models/hf/Qwen__Qwen3-4B-AWQ/model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 147,
+      "original_expected_sha256": "6da1bd8465cc4c277a5c2afc9b76341436e1f8a33fdea1d886674bcff73181ed",
+      "release_path": "station-a:mom-lab/adapters/pt4-lora16-tools-lr2e-4/adapter_model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 148,
+      "original_expected_sha256": "6da1bd8465cc4c277a5c2afc9b76341436e1f8a33fdea1d886674bcff73181ed",
+      "release_path": "station-b:mom-lab/adapters/pt4-lora16-tools-lr2e-4/adapter_model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 149,
+      "original_expected_sha256": "a7043493ebd993f5fea18794ad7b5b3e064a52023f392a7fcce7ce0984c341f0",
+      "release_path": "station-a:/models/hf/Qwen__Qwen3-4B-AWQ/model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 150,
+      "original_expected_sha256": "bb0680eae9a983104f25cc0fa43a1c22145b82f5e5a92492b792bb4dedd62ab1",
+      "release_path": "station-a:mom-lab/adapters/pt4-lora16-tools-lr2e-4-s1/adapter_model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 151,
+      "original_expected_sha256": "bb0680eae9a983104f25cc0fa43a1c22145b82f5e5a92492b792bb4dedd62ab1",
+      "release_path": "station-b:mom-lab/adapters/pt4-lora16-tools-lr2e-4-s1/adapter_model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 152,
+      "original_expected_sha256": "a7043493ebd993f5fea18794ad7b5b3e064a52023f392a7fcce7ce0984c341f0",
+      "release_path": "station-a:/models/hf/Qwen__Qwen3-4B-AWQ/model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 153,
+      "original_expected_sha256": "4d86565dc0b4992c5080ccb532ec907b664c5857a28a0663cc6a8a523944bb97",
+      "release_path": "station-a:mom-lab/adapters/pt4-lora16-tools-lr2e-4-s2/adapter_model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 154,
+      "original_expected_sha256": "4d86565dc0b4992c5080ccb532ec907b664c5857a28a0663cc6a8a523944bb97",
+      "release_path": "station-b:mom-lab/adapters/pt4-lora16-tools-lr2e-4-s2/adapter_model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 155,
+      "original_expected_sha256": "65748056a3bf8c11a343b65256859437dbda25757a5ae396e472981765ba93dd",
+      "release_path": "station-a:mom-lab/runs/b4-pooled-lr2e-5/model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 156,
+      "original_expected_sha256": "169ad53ec313c3a34b06c0809216e4fc072cce444a5d4ff2b59690d064130ed5",
+      "release_path": "station-a:/models/hf/Qwen__Qwen3-1.7B/model-00001-of-00002.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 157,
+      "original_expected_sha256": "912becff8d60672aa8628ef08c05898d9adf17c2ad4ae3caf99b065622fdeff9",
+      "release_path": "station-a:/models/hf/Qwen__Qwen3-1.7B/model-00002-of-00002.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 158,
+      "original_expected_sha256": "328a91d3122359d5547f9d79521205bc0a46e1f79a792dfe650e99fc2d651223",
+      "release_path": "station-a:/models/hf/Qwen__Qwen3-4B/model-00001-of-00003.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 159,
+      "original_expected_sha256": "6cd087b316306a68c562436b5492edbcf6e16c6dba3a1308279caa5a58e21ca5",
+      "release_path": "station-a:/models/hf/Qwen__Qwen3-4B/model-00002-of-00003.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 160,
+      "original_expected_sha256": "e4bf436957184f4eeb86a80e9db394503f1f56446b2e6b7edeac5b81470f4ca1",
+      "release_path": "station-a:/models/hf/Qwen__Qwen3-4B/model-00003-of-00003.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 161,
+      "original_expected_sha256": "a7043493ebd993f5fea18794ad7b5b3e064a52023f392a7fcce7ce0984c341f0",
+      "release_path": "station-a:/models/hf/Qwen__Qwen3-4B-AWQ/model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 162,
+      "original_expected_sha256": "30b1bebf7b81f39f280b09c74f90feed00835a73145955a8d2fb69543b8371fb",
+      "release_path": "station-a:/models/hf/Qwen__Qwen3-4B-FP8/model-00001-of-00002.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 163,
+      "original_expected_sha256": "79f82dbc594a0237e24982800665eb0ddbe8c7bbdf3ac49c2a0005682aca15dc",
+      "release_path": "station-a:/models/hf/Qwen__Qwen3-4B-FP8/model-00002-of-00002.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 164,
+      "original_expected_sha256": "31d6a825ae35f11fb85b195b4c42c146c051e446433125a215336abdf95cbf5f",
+      "release_path": "station-a:/models/hf/Qwen__Qwen3-8B/model-00001-of-00005.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 165,
+      "original_expected_sha256": "5991236cea6fe21f3d43cab0f0e84448734fbbe0789816202989f2ddc9d18282",
+      "release_path": "station-a:/models/hf/Qwen__Qwen3-8B/model-00002-of-00005.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 166,
+      "original_expected_sha256": "c5185c4794be2d8a9784d5753c9922db38df478ce11f9ed0b415b7304d896836",
+      "release_path": "station-a:/models/hf/Qwen__Qwen3-8B/model-00003-of-00005.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 167,
+      "original_expected_sha256": "b5ee7de71fbf17db3d5704e0c8f2bc7d005ca9e1d7ca2aeb19827b0cfcaa917a",
+      "release_path": "station-a:/models/hf/Qwen__Qwen3-8B/model-00004-of-00005.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 168,
+      "original_expected_sha256": "20c2d6366ab85c90786ccdd829cd2b9e7d30ef3b2ebbb998280e7e4014b542ff",
+      "release_path": "station-a:/models/hf/Qwen__Qwen3-8B/model-00005-of-00005.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 169,
+      "original_expected_sha256": "6e112429856bc65e3837a9f38d6f6b71ffdda832cb46299a12f4fa8f6352516e",
+      "release_path": "station-a:/models/hf/Qwen__Qwen3-8B-AWQ/model-00001-of-00002.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 170,
+      "original_expected_sha256": "20c2d6366ab85c90786ccdd829cd2b9e7d30ef3b2ebbb998280e7e4014b542ff",
+      "release_path": "station-a:/models/hf/Qwen__Qwen3-8B-AWQ/model-00002-of-00002.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 171,
+      "original_expected_sha256": "83bb444edc7d4a1ed91ab67ad19620e2ed74724cdd62ede330fcaa7748c64404",
+      "release_path": "station-a:/models/hf/Qwen__Qwen3-8B-FP8/model-00001-of-00002.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 172,
+      "original_expected_sha256": "c59d27856ca358b24770802ea52f1785258830f61ff3ac72a4b3896fad648f9b",
+      "release_path": "station-a:/models/hf/Qwen__Qwen3-8B-FP8/model-00002-of-00002.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 173,
+      "original_expected_sha256": "3904c0c0a05739de88d2a0a04051cd688a104d1da2f3fda0d86c321d0c0f04e5",
+      "release_path": "station-b:mom-lab/runs/pt17-lora16-code-lr2e-4/model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 174,
+      "original_expected_sha256": "8f7d611d4db8e203e885002c969f911cb2b57b3d52cbc320dcd4964caf17923b",
+      "release_path": "station-b:mom-lab/runs/pt17-lora16-sql-lr2e-4/model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 175,
+      "original_expected_sha256": "b7c837aca798a0bfa551f6552182ef60a8b7734f3ceaaae4dc8b7a0562eb4a64",
+      "release_path": "station-a:mom-lab/runs/pt17-lora16-tools-lr2e-4/model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 176,
+      "original_expected_sha256": "6183567fbd18e189701ac24ef01588d5245c5ac50dddd4bc7ba64d8a420a4a5a",
+      "release_path": "station-a:mom-lab/runs/pt17-pooled-lr2e-5/model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 177,
+      "original_expected_sha256": "d0c24ef50b84df2beb508b97ff39c2fb42002210579303e05908bf459f435868",
+      "release_path": "station-a:mom-lab/runs/pt17-pooled-lr2e-5-s1/model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 178,
+      "original_expected_sha256": "0f1ceba23e20046bed3474e966bfc5afc5273117a654cf6cf2a5b1b6a30d7c39",
+      "release_path": "station-a:mom-lab/runs/pt17-pooled-lr2e-5-s2/model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 179,
+      "original_expected_sha256": "d3df9e5f9859055a9c3aede6da911a6fd6003982f1ea408f39de1ff41b2b6d8e",
+      "release_path": "station-a:mom-lab/runs/pt17-replay-code-r20-lr2e-5/model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 180,
+      "original_expected_sha256": "05fa0bc2140bebac3dd1b9f1ec69e5a14af79c89c4a202b44d1007e041a4266b",
+      "release_path": "station-b:mom-lab/runs/pt17-replay-code-r20-lr2e-5-s1/model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 181,
+      "original_expected_sha256": "6f854a939a0096e8a128ec66e7563c3bf4ce6b7dd250498f09f1f75d6f696757",
+      "release_path": "station-b:mom-lab/runs/pt17-replay-sql-r20-lr2e-5/model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 182,
+      "original_expected_sha256": "eed104d66f52fd9cd53abb5fdc29a8e9fdf879ac5d9b095d483d553a89fc70a4",
+      "release_path": "station-b:mom-lab/runs/pt17-replay-sql-r20-lr2e-5-s1/model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 183,
+      "original_expected_sha256": "49fd95354d4996cd1d572d714d16cf24d7aa7d01f49e04cc348410239df2826e",
+      "release_path": "station-a:mom-lab/runs/pt17-replay-tools-r20-lr2e-5/model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 184,
+      "original_expected_sha256": "9b73ecf052d7c4cf74cabc5e6735130a921c221087457ff62843c95463b96230",
+      "release_path": "station-a:mom-lab/runs/pt17-replay-tools-r20-lr2e-5-s1/model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 185,
+      "original_expected_sha256": "d37dc64ab92894acde089e1c55aac14b4f4d951439da4754b23685281e68f687",
+      "release_path": "station-b:mom-lab/runs/pt4-lora16-sql-lr2e-4/model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 186,
+      "original_expected_sha256": "fc4bcd280903e9df77805c95fe359944786d0ddc66e654ddf304eee62bafb154",
+      "release_path": "station-b:mom-lab/runs/pt4-lora16-tools-lr2e-4/model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 188,
+      "original_expected_sha256": "3c6755d1b857d368b6dd1d3f02278dd65a5f61642a1203d7798df50edec0066c",
+      "release_path": "station-a:train_run.sh",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 189,
+      "original_expected_sha256": "7951c60c1aaefe61739ffa01c51eab4d733c359b7b143602e7be3a31674d83d8",
+      "release_path": "station-a:train/train.py",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 190,
+      "original_expected_sha256": "10d76b4f409a3caff3c424991740949dd1d5145fc33979af208fae58a9033b4d",
+      "release_path": "station-a:docker/Dockerfile",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 191,
+      "status": "environment_receipt",
+      "release_description": "station:station-a image mom-lab:v1 sha256:938056484b6e245f8e0eacf855ed00afe06059db9fd1f9b8f8c01b3848d04471",
+      "annotation": "Image digest, pipfreeze digest or driver version; requires original host/environment to verify"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 192,
+      "status": "environment_receipt",
+      "release_description": "station:station-a pipfreeze 2555ce0f59adecf20148c8812cf834a8edda88846ecde76c520e231c4b8e99d4",
+      "annotation": "Image digest, pipfreeze digest or driver version; requires original host/environment to verify"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 193,
+      "status": "environment_receipt",
+      "release_description": "station:station-a driver NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition, 595.99.02, 300.00 W",
+      "annotation": "Image digest, pipfreeze digest or driver version; requires original host/environment to verify"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 194,
+      "original_expected_sha256": "3c6755d1b857d368b6dd1d3f02278dd65a5f61642a1203d7798df50edec0066c",
+      "release_path": "station-b:train_run.sh",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 195,
+      "original_expected_sha256": "7951c60c1aaefe61739ffa01c51eab4d733c359b7b143602e7be3a31674d83d8",
+      "release_path": "station-b:train/train.py",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 196,
+      "original_expected_sha256": "10d76b4f409a3caff3c424991740949dd1d5145fc33979af208fae58a9033b4d",
+      "release_path": "station-b:docker/Dockerfile",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 197,
+      "status": "environment_receipt",
+      "release_description": "station:station-b image mom-lab:v1 sha256:39e69a5f9c648e082c0eaec0e1e4e98ec92ee5f37cfa38e34cf601d1b1c99783",
+      "annotation": "Image digest, pipfreeze digest or driver version; requires original host/environment to verify"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 198,
+      "status": "environment_receipt",
+      "release_description": "station:station-b pipfreeze 2555ce0f59adecf20148c8812cf834a8edda88846ecde76c520e231c4b8e99d4",
+      "annotation": "Image digest, pipfreeze digest or driver version; requires original host/environment to verify"
+    },
+    {
+      "manifest": "artifacts/FREEZE_MANIFEST.sha256",
+      "line": 199,
+      "status": "environment_receipt",
+      "release_description": "station:station-b driver NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition, 595.99.02, 300.00 W",
+      "annotation": "Image digest, pipfreeze digest or driver version; requires original host/environment to verify"
+    },
+    {
+      "manifest": "artifacts/GATE_FREEZE.sha256",
+      "line": 1,
+      "original_expected_sha256": "c06fc21d7fe0a7bf86d523aa969353cbff7d300f66b034cdd2deea3ac0185074",
+      "release_path": "preregs/2026-11-14-metar-schema-gate.md",
+      "original_actual_sha256": "c06fc21d7fe0a7bf86d523aa969353cbff7d300f66b034cdd2deea3ac0185074",
+      "release_sha256": "c06fc21d7fe0a7bf86d523aa969353cbff7d300f66b034cdd2deea3ac0185074",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/GATE_FREEZE.sha256",
+      "line": 2,
+      "original_expected_sha256": "a941a7bfb488274a208742907e729d5cc4c8c23ae81763213b644d4045c81033",
+      "release_path": "configs/gate/metar_schema.json",
+      "original_actual_sha256": "a941a7bfb488274a208742907e729d5cc4c8c23ae81763213b644d4045c81033",
+      "release_sha256": "a941a7bfb488274a208742907e729d5cc4c8c23ae81763213b644d4045c81033",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/GATE_FREEZE.sha256",
+      "line": 3,
+      "original_expected_sha256": "aa100eb1b8f0f9bd92d9d914b4e49c77ae2f0817996e4e1b9976a707e4923ffa",
+      "release_path": "configs/gate/gate_jobs.txt",
+      "original_actual_sha256": "aa100eb1b8f0f9bd92d9d914b4e49c77ae2f0817996e4e1b9976a707e4923ffa",
+      "release_sha256": "a6e8083977577be6496b93081c01b69094a8fbaec001c6105e7e68e8b7f06af7",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/GATE_FREEZE.sha256",
+      "line": 4,
+      "original_expected_sha256": "5e414f1e4ff6941e562afc293cf56410ddb155c1f4da5ee2e223680b00fa9055",
+      "release_path": "configs/gate/schema_prompts.sha256",
+      "original_actual_sha256": "5e414f1e4ff6941e562afc293cf56410ddb155c1f4da5ee2e223680b00fa9055",
+      "release_sha256": "5e414f1e4ff6941e562afc293cf56410ddb155c1f4da5ee2e223680b00fa9055",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/GATE_FREEZE.sha256",
+      "line": 5,
+      "original_expected_sha256": "b19c5c930839792e532ff9e2d101770fee5c4afc73edd112e643b388d44c9e78",
+      "release_path": "docs/gate/litellm-routes.yaml",
+      "original_actual_sha256": "b19c5c930839792e532ff9e2d101770fee5c4afc73edd112e643b388d44c9e78",
+      "release_sha256": "24d85edb1a6533639cea72616b0ed99f6b9e3698d30545a5055093be02f7cfeb",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/GATE_FREEZE.sha256",
+      "line": 6,
+      "original_expected_sha256": "d9a4375493a42d019e8cbc817e4da24ee466e4240eb793d8f7e95c524924528a",
+      "release_path": "scripts/gate/schema_generate.py",
+      "original_actual_sha256": "d9a4375493a42d019e8cbc817e4da24ee466e4240eb793d8f7e95c524924528a",
+      "release_sha256": "d9a4375493a42d019e8cbc817e4da24ee466e4240eb793d8f7e95c524924528a",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/GATE_FREEZE.sha256",
+      "line": 7,
+      "original_expected_sha256": "45844635faead0b7dc45a2230288c47a99dbcd8de09c9479119beab3d26e133f",
+      "release_path": "scripts/gate/run_gate.py",
+      "original_actual_sha256": "d7b87a93bfad87be88af29721f1a0e95fc9a94ebcc3ae68d663878974f872e06",
+      "release_sha256": "5baa13074f1a89894e35c67c67c847e48b068ad4b4a204541e8ef30a76a1faf9",
+      "status": "preexisting_mismatch",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/GATE_FREEZE.sha256",
+      "line": 8,
+      "original_expected_sha256": "ccbb859e697144224f284c02f230a83bec86c3ef8cbb952db6289b90a664f243",
+      "release_path": "scripts/gate/smoke_check.py",
+      "original_actual_sha256": "bb27a22db5fcd36ee0bb28b35d99bd8d29dd797c5f1b7ab6568f6dda4e4da7c5",
+      "release_sha256": "bb27a22db5fcd36ee0bb28b35d99bd8d29dd797c5f1b7ab6568f6dda4e4da7c5",
+      "status": "preexisting_mismatch",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/GATE_FREEZE.sha256",
+      "line": 9,
+      "original_expected_sha256": "add8028e999399e3881f387366439e0eb3d2f7ab8538fac4d606c86f47f2960a",
+      "release_path": "scripts/gate/gate_analysis.py",
+      "original_actual_sha256": "add8028e999399e3881f387366439e0eb3d2f7ab8538fac4d606c86f47f2960a",
+      "release_sha256": "add8028e999399e3881f387366439e0eb3d2f7ab8538fac4d606c86f47f2960a",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/GATE_FREEZE.sha256",
+      "line": 10,
+      "original_expected_sha256": "6da8b787e4386c1b2c9e75b7ac599e85e1757af6e455163c3c273e18e61c1458",
+      "release_path": "scripts/gate/xgrammar_gold_check.py",
+      "original_actual_sha256": "6da8b787e4386c1b2c9e75b7ac599e85e1757af6e455163c3c273e18e61c1458",
+      "release_sha256": "6da8b787e4386c1b2c9e75b7ac599e85e1757af6e455163c3c273e18e61c1458",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/GATE_FREEZE.sha256",
+      "line": 11,
+      "original_expected_sha256": "0dd64a294c2603f7992944f35175e9ccf3ab553212e181836c2d3cb41a85ba3c",
+      "release_path": "scripts/gate/build_schema_prompts.py",
+      "original_actual_sha256": "0dd64a294c2603f7992944f35175e9ccf3ab553212e181836c2d3cb41a85ba3c",
+      "release_sha256": "3ff3868924b7dd639a8d4c75c115aa0b1402e78009d1ff22ac73b721ac4b7acc",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/GATE_FREEZE.sha256",
+      "line": 12,
+      "original_expected_sha256": "df605dbf54cebc4e2ccdac316db2172ac9f395b92baa5f69fbfac30d0e74c277",
+      "release_path": "tests/test_gate_schema.py",
+      "original_actual_sha256": "df605dbf54cebc4e2ccdac316db2172ac9f395b92baa5f69fbfac30d0e74c277",
+      "release_sha256": "866bb67a8a9d64320bd525cadb5b14639fcdebd436d86aa07375bc304223c961",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/GATE_FREEZE.sha256",
+      "line": 13,
+      "original_expected_sha256": "c687f0a38336b65a8e2ec06a74e288f13d9f4110adaf8e311bbd9ced72d788e5",
+      "release_path": "tests/test_gate_payload.py",
+      "original_actual_sha256": "c687f0a38336b65a8e2ec06a74e288f13d9f4110adaf8e311bbd9ced72d788e5",
+      "release_sha256": "c687f0a38336b65a8e2ec06a74e288f13d9f4110adaf8e311bbd9ced72d788e5",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/GATE_FREEZE.sha256",
+      "line": 14,
+      "original_expected_sha256": "e12a1fef31563695c62371e5c987d596b1a8a7b64a63bad05b740ca08551f6cd",
+      "release_path": "tests/test_gate_analysis.py",
+      "original_actual_sha256": "e12a1fef31563695c62371e5c987d596b1a8a7b64a63bad05b740ca08551f6cd",
+      "release_sha256": "e12a1fef31563695c62371e5c987d596b1a8a7b64a63bad05b740ca08551f6cd",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/GATE_FREEZE.sha256",
+      "line": 15,
+      "original_expected_sha256": "d5b9cefa95c2c7fc48ad94f15caeeba0c0e7de6f74c0e63a95e96b45f56295a5",
+      "release_path": "tests/test_gate_smoke.py",
+      "original_actual_sha256": "41736c245e98b96e92025e3a5821e30494d83ac46277e02a656658ab1a77195e",
+      "release_sha256": "41736c245e98b96e92025e3a5821e30494d83ac46277e02a656658ab1a77195e",
+      "status": "preexisting_mismatch",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/GATE_FREEZE.sha256",
+      "line": 16,
+      "original_expected_sha256": "11c1c25fddbd99289da3d02ef5f95215014c0c2b38da5830407a7d1d85d4df95",
+      "release_path": "tests/test_gate_prompts.py",
+      "original_actual_sha256": "11c1c25fddbd99289da3d02ef5f95215014c0c2b38da5830407a7d1d85d4df95",
+      "release_sha256": "11c1c25fddbd99289da3d02ef5f95215014c0c2b38da5830407a7d1d85d4df95",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/GATE_FREEZE.sha256",
+      "line": 17,
+      "original_expected_sha256": "59dfe7a7b76b1a9350f601b0d77552a01462c9965c4b162b004b1ff39fd3aadc",
+      "release_path": "requirements-gate.txt",
+      "original_actual_sha256": "59dfe7a7b76b1a9350f601b0d77552a01462c9965c4b162b004b1ff39fd3aadc",
+      "release_sha256": "59dfe7a7b76b1a9350f601b0d77552a01462c9965c4b162b004b1ff39fd3aadc",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/GATE_FREEZE.sha256",
+      "line": 18,
+      "original_expected_sha256": "ca0395de479a36e503adf4af715d8c982c33ab5406b6a22c4d242029a1659266",
+      "release_path": "harness_d/score/metar.py",
+      "original_actual_sha256": "ca0395de479a36e503adf4af715d8c982c33ab5406b6a22c4d242029a1659266",
+      "release_sha256": "ca0395de479a36e503adf4af715d8c982c33ab5406b6a22c4d242029a1659266",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/GATE_FREEZE.sha256",
+      "line": 19,
+      "original_expected_sha256": "63f873cd74458ce583e3ad37061cc73bd43f80901364ec0707713b69b3cd55b9",
+      "release_path": "harness_d/score/__init__.py",
+      "original_actual_sha256": "63f873cd74458ce583e3ad37061cc73bd43f80901364ec0707713b69b3cd55b9",
+      "release_sha256": "63f873cd74458ce583e3ad37061cc73bd43f80901364ec0707713b69b3cd55b9",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/GATE_FREEZE.sha256",
+      "line": 20,
+      "original_expected_sha256": "04d7a35a8ef557cef889e63c295c6200178ea93c6bf83a1342f02543f290580b",
+      "release_path": "harness_d/common.py",
+      "original_actual_sha256": "04d7a35a8ef557cef889e63c295c6200178ea93c6bf83a1342f02543f290580b",
+      "release_sha256": "04d7a35a8ef557cef889e63c295c6200178ea93c6bf83a1342f02543f290580b",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/GATE_FREEZE.sha256",
+      "line": 21,
+      "original_expected_sha256": "8fa1c226716efa9ac82fa108383bc6b72eb0470fb89cacb2b01950335116dda1",
+      "release_path": "harness_d/generate.py",
+      "original_actual_sha256": "8fa1c226716efa9ac82fa108383bc6b72eb0470fb89cacb2b01950335116dda1",
+      "release_sha256": "8fa1c226716efa9ac82fa108383bc6b72eb0470fb89cacb2b01950335116dda1",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/GATE_FREEZE.sha256",
+      "line": 22,
+      "original_expected_sha256": "22605dec07d4799ea596d91ca6734b84d3d3975bc15edd59427423634c02fab5",
+      "release_path": "harness_d/aggregate.py",
+      "original_actual_sha256": "22605dec07d4799ea596d91ca6734b84d3d3975bc15edd59427423634c02fab5",
+      "release_sha256": "22605dec07d4799ea596d91ca6734b84d3d3975bc15edd59427423634c02fab5",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/GATE_FREEZE.sha256",
+      "line": 23,
+      "original_expected_sha256": "8ae420ef9b02911221c02777450f884e5ab8fd91b49ca7ce5c7e00982d23dd5a",
+      "release_path": "scripts/partd_f_analysis.py",
+      "original_actual_sha256": "8ae420ef9b02911221c02777450f884e5ab8fd91b49ca7ce5c7e00982d23dd5a",
+      "release_sha256": "8ae420ef9b02911221c02777450f884e5ab8fd91b49ca7ce5c7e00982d23dd5a",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/GATE_FREEZE.sha256",
+      "line": 24,
+      "original_expected_sha256": "aa6bd07ae267964bc4c79094baf5c1ef53b5fb9d48ecc3d519296665bd2ca996",
+      "release_path": "data_partd_c/eval/aviation/metar/test.jsonl",
+      "original_actual_sha256": "aa6bd07ae267964bc4c79094baf5c1ef53b5fb9d48ecc3d519296665bd2ca996",
+      "release_sha256": "aa6bd07ae267964bc4c79094baf5c1ef53b5fb9d48ecc3d519296665bd2ca996",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/GATE_FREEZE.sha256",
+      "line": 25,
+      "original_expected_sha256": "db577881541ec2fb2dadf5383c8d953684314cfc38be3a57fe06e7ff5bcd7ba6",
+      "release_path": "data_partd_c/eval/aviation/metar/dev.jsonl",
+      "original_actual_sha256": "db577881541ec2fb2dadf5383c8d953684314cfc38be3a57fe06e7ff5bcd7ba6",
+      "release_sha256": "db577881541ec2fb2dadf5383c8d953684314cfc38be3a57fe06e7ff5bcd7ba6",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/GATE_FREEZE.sha256",
+      "line": 26,
+      "original_expected_sha256": "38c22667c30d00710113a9a344c9093085a5f9571dcbf04f67faaf9e7e7414e5",
+      "release_path": "data_gate_zs/eval/aviation/metar/test.jsonl",
+      "original_actual_sha256": "38c22667c30d00710113a9a344c9093085a5f9571dcbf04f67faaf9e7e7414e5",
+      "release_sha256": "38c22667c30d00710113a9a344c9093085a5f9571dcbf04f67faaf9e7e7414e5",
+      "status": "untracked_local_match"
+    },
+    {
+      "manifest": "artifacts/GATE_FREEZE.sha256",
+      "line": 27,
+      "original_expected_sha256": "9a74d3b2d7d47f4a08a4b3027e53ff11b91af142b25ebb593381a326f7706716",
+      "release_path": "data_gate_zs/eval/aviation/metar/dev.jsonl",
+      "original_actual_sha256": "9a74d3b2d7d47f4a08a4b3027e53ff11b91af142b25ebb593381a326f7706716",
+      "release_sha256": "9a74d3b2d7d47f4a08a4b3027e53ff11b91af142b25ebb593381a326f7706716",
+      "status": "untracked_local_match"
+    },
+    {
+      "manifest": "artifacts/GATE_FREEZE.sha256",
+      "line": 28,
+      "original_expected_sha256": "3a9f78b6551c59411502500bcd2d59ef772a12e201c403b4fc41282175f85f7e",
+      "release_path": "data_gate_fs/eval/aviation/metar/test.jsonl",
+      "original_actual_sha256": "3a9f78b6551c59411502500bcd2d59ef772a12e201c403b4fc41282175f85f7e",
+      "release_sha256": "3a9f78b6551c59411502500bcd2d59ef772a12e201c403b4fc41282175f85f7e",
+      "status": "untracked_local_match"
+    },
+    {
+      "manifest": "artifacts/GATE_FREEZE.sha256",
+      "line": 29,
+      "original_expected_sha256": "4268497cdf216308930e388516563d1ea83e6e79a6b5d75f9369d843805247f5",
+      "release_path": "data_gate_fs/eval/aviation/metar/dev.jsonl",
+      "original_actual_sha256": "4268497cdf216308930e388516563d1ea83e6e79a6b5d75f9369d843805247f5",
+      "release_sha256": "4268497cdf216308930e388516563d1ea83e6e79a6b5d75f9369d843805247f5",
+      "status": "untracked_local_match"
+    },
+    {
+      "manifest": "artifacts/GATE_FREEZE.sha256",
+      "line": 30,
+      "original_expected_sha256": "51310ff9ddaf46fd43b3b51d6f3a597a86ea5f29ff9cbcc09720a07ec926e106",
+      "release_path": "/opt/release-user/projects/RonanLabs/mom-lab/data_partd_f/eval/aviation/metar/test.jsonl",
+      "original_actual_sha256": "51310ff9ddaf46fd43b3b51d6f3a597a86ea5f29ff9cbcc09720a07ec926e106",
+      "status": "external_local_match"
+    },
+    {
+      "manifest": "artifacts/GATE_FREEZE.sha256",
+      "line": 31,
+      "original_expected_sha256": "154bbd9a840389623dca189db691f779d4ccca94572c80bf8fac7edf0039e5a8",
+      "release_path": "/opt/release-user/projects/RonanLabs/mom-lab/data_partd_f/eval/aviation/metar/dev.jsonl",
+      "original_actual_sha256": "154bbd9a840389623dca189db691f779d4ccca94572c80bf8fac7edf0039e5a8",
+      "status": "external_local_match"
+    },
+    {
+      "manifest": "artifacts/GATE_FREEZE.sha256",
+      "line": 32,
+      "original_expected_sha256": "863cd581101e7731e600a6f211535f7719471df9b5de50d3cc562b8e723e127a",
+      "release_path": "results/partdC/base-qwen3-8b/scores.json",
+      "original_actual_sha256": "863cd581101e7731e600a6f211535f7719471df9b5de50d3cc562b8e723e127a",
+      "release_sha256": "06d49cb2f66522ae78c4e038876f6da28542452fe8fe35b4bdbf2cb0a5789149",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/GATE_FREEZE.sha256",
+      "line": 33,
+      "original_expected_sha256": "342993e53558d342c9dd6af4046b9e89e1abe192301633b20cbf8ad17d792a30",
+      "release_path": "results/partdC/pt4-lora16-metar-lr2e-4-s1/scores.json",
+      "original_actual_sha256": "342993e53558d342c9dd6af4046b9e89e1abe192301633b20cbf8ad17d792a30",
+      "release_sha256": "5816e8b8adddb1a459c98f9eaede0bc53cc57596c2300e2f83ae5aa5e8bd88ef",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/GATE_FREEZE.sha256",
+      "line": 34,
+      "original_expected_sha256": "b582f4f742486deb979c6b991c7957797dd37389da36698f6ee90fbd967ff771",
+      "release_path": "results/partdC/pt4-lora16-metar-lr2e-4-s2/scores.json",
+      "original_actual_sha256": "b582f4f742486deb979c6b991c7957797dd37389da36698f6ee90fbd967ff771",
+      "release_sha256": "24a1042f0f0c91ceb9fcb4a75a0e7d9af004cbd9b91b2ee441b020ea27c69e2f",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/GATE_FREEZE.sha256",
+      "line": 35,
+      "original_expected_sha256": "6da43c008c66dae8cf44fc7d6544b34207027774ffd7f21b761cbaf41f92b03b",
+      "release_path": "results/partdC/pt4-lora16-metar-lr2e-4/scores.json",
+      "original_actual_sha256": "6da43c008c66dae8cf44fc7d6544b34207027774ffd7f21b761cbaf41f92b03b",
+      "release_sha256": "b8c3ff718617689c71cd2334faa452a718932683921a17f496a10e06934fcdda",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/GATE_FREEZE_dev1.sha256",
+      "line": 1,
+      "original_expected_sha256": "d7b87a93bfad87be88af29721f1a0e95fc9a94ebcc3ae68d663878974f872e06",
+      "release_path": "scripts/gate/run_gate.py",
+      "original_actual_sha256": "d7b87a93bfad87be88af29721f1a0e95fc9a94ebcc3ae68d663878974f872e06",
+      "release_sha256": "5baa13074f1a89894e35c67c67c847e48b068ad4b4a204541e8ef30a76a1faf9",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/GATE_FREEZE_dev2.sha256",
+      "line": 1,
+      "original_expected_sha256": "bb27a22db5fcd36ee0bb28b35d99bd8d29dd797c5f1b7ab6568f6dda4e4da7c5",
+      "release_path": "scripts/gate/smoke_check.py",
+      "original_actual_sha256": "bb27a22db5fcd36ee0bb28b35d99bd8d29dd797c5f1b7ab6568f6dda4e4da7c5",
+      "release_sha256": "bb27a22db5fcd36ee0bb28b35d99bd8d29dd797c5f1b7ab6568f6dda4e4da7c5",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/GATE_FREEZE_dev2.sha256",
+      "line": 2,
+      "original_expected_sha256": "41736c245e98b96e92025e3a5821e30494d83ac46277e02a656658ab1a77195e",
+      "release_path": "tests/test_gate_smoke.py",
+      "original_actual_sha256": "41736c245e98b96e92025e3a5821e30494d83ac46277e02a656658ab1a77195e",
+      "release_sha256": "41736c245e98b96e92025e3a5821e30494d83ac46277e02a656658ab1a77195e",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/GATE_FREEZE_dev2.sha256",
+      "line": 3,
+      "original_expected_sha256": "3003c1be1bc722dbbaf758fe87d35400578f977bb43912b57a82ab12d1670cab",
+      "release_path": "content/PART_G_DEVIATIONS.md",
+      "original_actual_sha256": "3003c1be1bc722dbbaf758fe87d35400578f977bb43912b57a82ab12d1670cab",
+      "release_sha256": "48e0613c4811060917690f65019419af18028ba2219cb241b29a71af8b9e0000",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/PARTC_FREEZE.sha256",
+      "line": 3,
+      "original_expected_sha256": "68a51ee343e87f09b40d6202d9d22d562b2812ef7ca6f3627b98032610736440",
+      "release_path": "content/PART_C_PREREG.md",
+      "original_actual_sha256": "68a51ee343e87f09b40d6202d9d22d562b2812ef7ca6f3627b98032610736440",
+      "release_sha256": "68a51ee343e87f09b40d6202d9d22d562b2812ef7ca6f3627b98032610736440",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTC_FREEZE.sha256",
+      "line": 4,
+      "original_expected_sha256": "8eb6a363e923a6e9500909a0100719e223843de36723267f5d35149f87190a10",
+      "release_path": "scripts/build_para2.py",
+      "original_actual_sha256": "8eb6a363e923a6e9500909a0100719e223843de36723267f5d35149f87190a10",
+      "release_sha256": "b30d578a5eb57309dd361792f976b3cf8f0843a446d8bd2eab751305f0b55b1a",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/PARTC_FREEZE.sha256",
+      "line": 5,
+      "original_expected_sha256": "2a5a6f15d2403b5a0549c2232607db82d7fe82803dc7f64d6266917f52e9e4bb",
+      "release_path": "scripts/validate_para2.py",
+      "original_actual_sha256": "2a5a6f15d2403b5a0549c2232607db82d7fe82803dc7f64d6266917f52e9e4bb",
+      "release_sha256": "2a5a6f15d2403b5a0549c2232607db82d7fe82803dc7f64d6266917f52e9e4bb",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTC_FREEZE.sha256",
+      "line": 6,
+      "original_expected_sha256": "a5619819cbc274dcf89b056bed4eddefa7f4b6e20294c526be8ee93172b30e7a",
+      "release_path": "scripts/partc_analysis.py",
+      "original_actual_sha256": "a5619819cbc274dcf89b056bed4eddefa7f4b6e20294c526be8ee93172b30e7a",
+      "release_sha256": "a5619819cbc274dcf89b056bed4eddefa7f4b6e20294c526be8ee93172b30e7a",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTC_FREEZE.sha256",
+      "line": 7,
+      "original_expected_sha256": "74bba6d553b3a72be610b83814c70ee7a5330c224bdf7e075308cb1d18347376",
+      "release_path": "scripts/partb_analysis.py",
+      "original_actual_sha256": "74bba6d553b3a72be610b83814c70ee7a5330c224bdf7e075308cb1d18347376",
+      "release_sha256": "74bba6d553b3a72be610b83814c70ee7a5330c224bdf7e075308cb1d18347376",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTC_FREEZE.sha256",
+      "line": 8,
+      "original_expected_sha256": "5eecfdff0ede7d07977b5afc502ea7f178119e2fc9cecce99d77ed94d18f6988",
+      "release_path": "scripts/build_para.py",
+      "original_actual_sha256": "5eecfdff0ede7d07977b5afc502ea7f178119e2fc9cecce99d77ed94d18f6988",
+      "release_sha256": "318f1a45347a1ff5d3ec9b1c98eebb5da85f116118b661709c29a7c3caf802d4",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/PARTC_FREEZE.sha256",
+      "line": 9,
+      "original_expected_sha256": "9f98eafbf1747902bf3a23fb8a78ae9366e74df131f1d9948c1547c460ec8d39",
+      "release_path": "scripts/evalq.py",
+      "original_actual_sha256": "9f98eafbf1747902bf3a23fb8a78ae9366e74df131f1d9948c1547c460ec8d39",
+      "release_sha256": "db6de24699606841021b5fe99611e176c31b4790fcdd2475e135bf1694c45103",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/PARTC_FREEZE.sha256",
+      "line": 10,
+      "original_expected_sha256": "12c6b9c4d00211730c900be26267ffff79761edd3997d40533682a798a7f6b6c",
+      "release_path": "configs/partc_extras.txt",
+      "original_actual_sha256": "12c6b9c4d00211730c900be26267ffff79761edd3997d40533682a798a7f6b6c",
+      "release_sha256": "337c1628e4523920cf614588f33fd046d026e85a2a54d763f95e9c4e1d15fad0",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/PARTC_FREEZE.sha256",
+      "line": 11,
+      "original_expected_sha256": "c3a1949e19df7f55d3b14f7cb0f88081dbb602df6e0f0578599c58b33ccb012c",
+      "release_path": "artifacts/router_e5lr.pkl",
+      "original_actual_sha256": "c3a1949e19df7f55d3b14f7cb0f88081dbb602df6e0f0578599c58b33ccb012c",
+      "release_sha256": "c3a1949e19df7f55d3b14f7cb0f88081dbb602df6e0f0578599c58b33ccb012c",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTC_FREEZE.sha256",
+      "line": 12,
+      "original_expected_sha256": "0e8962e01ba2a7877a32e88dccebbd0fd7d4d78763983ae18daaf19bc1cf1238",
+      "release_path": "results/analysis/partb_test_embed-lr.json",
+      "original_actual_sha256": "0e8962e01ba2a7877a32e88dccebbd0fd7d4d78763983ae18daaf19bc1cf1238",
+      "release_sha256": "0e8962e01ba2a7877a32e88dccebbd0fd7d4d78763983ae18daaf19bc1cf1238",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTC_FREEZE.sha256",
+      "line": 13,
+      "original_expected_sha256": "ed135d42737c116f2d1bab2fcb09d4cc5c0dc788075a9569640ab3537e308aa5",
+      "release_path": "results/analysis/partb_test_oracle.json",
+      "original_actual_sha256": "ed135d42737c116f2d1bab2fcb09d4cc5c0dc788075a9569640ab3537e308aa5",
+      "release_sha256": "ed135d42737c116f2d1bab2fcb09d4cc5c0dc788075a9569640ab3537e308aa5",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTC_FREEZE.sha256",
+      "line": 14,
+      "original_expected_sha256": "22605dec07d4799ea596d91ca6734b84d3d3975bc15edd59427423634c02fab5",
+      "release_path": "harness/aggregate.py",
+      "original_actual_sha256": "22605dec07d4799ea596d91ca6734b84d3d3975bc15edd59427423634c02fab5",
+      "release_sha256": "22605dec07d4799ea596d91ca6734b84d3d3975bc15edd59427423634c02fab5",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTC_FREEZE.sha256",
+      "line": 15,
+      "original_expected_sha256": "bd37511e1afad0dd5c32fc50b71fbf8b5b3f1b51fec7692ca83074433c60ad3d",
+      "release_path": "harness/common.py",
+      "original_actual_sha256": "bd37511e1afad0dd5c32fc50b71fbf8b5b3f1b51fec7692ca83074433c60ad3d",
+      "release_sha256": "bd37511e1afad0dd5c32fc50b71fbf8b5b3f1b51fec7692ca83074433c60ad3d",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTC_FREEZE.sha256",
+      "line": 16,
+      "original_expected_sha256": "8fa1c226716efa9ac82fa108383bc6b72eb0470fb89cacb2b01950335116dda1",
+      "release_path": "harness/generate.py",
+      "original_actual_sha256": "8fa1c226716efa9ac82fa108383bc6b72eb0470fb89cacb2b01950335116dda1",
+      "release_sha256": "8fa1c226716efa9ac82fa108383bc6b72eb0470fb89cacb2b01950335116dda1",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTC_FREEZE.sha256",
+      "line": 17,
+      "original_expected_sha256": "3fe8f92bceba1a7b6a048691a4359e0a3e4c70fd45b64281a14d5b3a3c237b7b",
+      "release_path": "harness/__init__.py",
+      "original_actual_sha256": "3fe8f92bceba1a7b6a048691a4359e0a3e4c70fd45b64281a14d5b3a3c237b7b",
+      "release_sha256": "3fe8f92bceba1a7b6a048691a4359e0a3e4c70fd45b64281a14d5b3a3c237b7b",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTC_FREEZE.sha256",
+      "line": 18,
+      "original_expected_sha256": "7f1481d00ce4c9a8f721fad787cca05756a22af116c808728e42f9d3acb5ba75",
+      "release_path": "harness/stats.py",
+      "original_actual_sha256": "7f1481d00ce4c9a8f721fad787cca05756a22af116c808728e42f9d3acb5ba75",
+      "release_sha256": "7f1481d00ce4c9a8f721fad787cca05756a22af116c808728e42f9d3acb5ba75",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTC_FREEZE.sha256",
+      "line": 19,
+      "original_expected_sha256": "ac2ca79cb30f2b24ddc494482ba0726a02374e70c82c53f35bcb9d2404607913",
+      "release_path": "harness/score/code.py",
+      "original_actual_sha256": "ac2ca79cb30f2b24ddc494482ba0726a02374e70c82c53f35bcb9d2404607913",
+      "release_sha256": "ac2ca79cb30f2b24ddc494482ba0726a02374e70c82c53f35bcb9d2404607913",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTC_FREEZE.sha256",
+      "line": 20,
+      "original_expected_sha256": "b567b0253c94d9e926dc71edd154f3af459a191f1391e63111df5dad890b3871",
+      "release_path": "harness/score/general.py",
+      "original_actual_sha256": "b567b0253c94d9e926dc71edd154f3af459a191f1391e63111df5dad890b3871",
+      "release_sha256": "b567b0253c94d9e926dc71edd154f3af459a191f1391e63111df5dad890b3871",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTC_FREEZE.sha256",
+      "line": 21,
+      "original_expected_sha256": "851a6dc09eb7922134b83eb63fecf129eaa213712766760b36c0636bbe78efed",
+      "release_path": "harness/score/__init__.py",
+      "original_actual_sha256": "851a6dc09eb7922134b83eb63fecf129eaa213712766760b36c0636bbe78efed",
+      "release_sha256": "851a6dc09eb7922134b83eb63fecf129eaa213712766760b36c0636bbe78efed",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTC_FREEZE.sha256",
+      "line": 22,
+      "original_expected_sha256": "b1884de54257d35ba032c57f2ed396566a23d8ce1480cb1487ebf04d67109a2a",
+      "release_path": "harness/score/math_.py",
+      "original_actual_sha256": "b1884de54257d35ba032c57f2ed396566a23d8ce1480cb1487ebf04d67109a2a",
+      "release_sha256": "b1884de54257d35ba032c57f2ed396566a23d8ce1480cb1487ebf04d67109a2a",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTC_FREEZE.sha256",
+      "line": 23,
+      "original_expected_sha256": "542f738b782ca3adcf25e744c7b8f1f12477af22b04ee611ca5c12a310462ec2",
+      "release_path": "harness/score/sql.py",
+      "original_actual_sha256": "542f738b782ca3adcf25e744c7b8f1f12477af22b04ee611ca5c12a310462ec2",
+      "release_sha256": "542f738b782ca3adcf25e744c7b8f1f12477af22b04ee611ca5c12a310462ec2",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTC_FREEZE.sha256",
+      "line": 24,
+      "original_expected_sha256": "49499df566207c5621d4ef2ca0e0e7566cb9ad405d3def69c952b952f55555ed",
+      "release_path": "harness/score/tools.py",
+      "original_actual_sha256": "49499df566207c5621d4ef2ca0e0e7566cb9ad405d3def69c952b952f55555ed",
+      "release_sha256": "49499df566207c5621d4ef2ca0e0e7566cb9ad405d3def69c952b952f55555ed",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTC_FREEZE.sha256",
+      "line": 25,
+      "original_expected_sha256": "103341b34f774ab7b4e443e84c14d4805a921c0b740c80173f00a4175392032b",
+      "release_path": "harness/score/translate.py",
+      "original_actual_sha256": "103341b34f774ab7b4e443e84c14d4805a921c0b740c80173f00a4175392032b",
+      "release_sha256": "103341b34f774ab7b4e443e84c14d4805a921c0b740c80173f00a4175392032b",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTC_FREEZE.sha256",
+      "line": 26,
+      "original_expected_sha256": "ca0ad1d7efc0f2a6582633969f92e185556d06aa7dc53d579dee09ac25a8ceac",
+      "release_path": "data_partc/eval/para/bfcl_pp/test.jsonl",
+      "original_actual_sha256": "ca0ad1d7efc0f2a6582633969f92e185556d06aa7dc53d579dee09ac25a8ceac",
+      "release_sha256": "ca0ad1d7efc0f2a6582633969f92e185556d06aa7dc53d579dee09ac25a8ceac",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTC_FREEZE.sha256",
+      "line": 27,
+      "original_expected_sha256": "e30e6183960da2e033542675702f4c9db29731ecd2aa2fa46460214dec051c37",
+      "release_path": "data_partc/eval/para/bird_pp/test.jsonl",
+      "original_actual_sha256": "e30e6183960da2e033542675702f4c9db29731ecd2aa2fa46460214dec051c37",
+      "release_sha256": "e30e6183960da2e033542675702f4c9db29731ecd2aa2fa46460214dec051c37",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTC_FREEZE.sha256",
+      "line": 28,
+      "original_expected_sha256": "ee2b7e5405bed58bb205ae2443d6f35d25fc101495ad30605d8c612faa3edb91",
+      "release_path": "data_partc/eval/para/flores_pp/test.jsonl",
+      "original_actual_sha256": "ee2b7e5405bed58bb205ae2443d6f35d25fc101495ad30605d8c612faa3edb91",
+      "release_sha256": "ee2b7e5405bed58bb205ae2443d6f35d25fc101495ad30605d8c612faa3edb91",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTC_FREEZE.sha256",
+      "line": 29,
+      "original_expected_sha256": "e41b2395e751068c955516f96b13543d09a9cba91e62eba8ac17de033622b835",
+      "release_path": "data_partc/eval/para/gsm8k_pp/test.jsonl",
+      "original_actual_sha256": "e41b2395e751068c955516f96b13543d09a9cba91e62eba8ac17de033622b835",
+      "release_sha256": "e41b2395e751068c955516f96b13543d09a9cba91e62eba8ac17de033622b835",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTC_FREEZE.sha256",
+      "line": 30,
+      "original_expected_sha256": "a93f3ef1d85b93139160da52b82fd07769c50cf6253b4ac42e410105e71f168f",
+      "release_path": "data_partc/eval/para/mbpp_pp/test.jsonl",
+      "original_actual_sha256": "a93f3ef1d85b93139160da52b82fd07769c50cf6253b4ac42e410105e71f168f",
+      "release_sha256": "a93f3ef1d85b93139160da52b82fd07769c50cf6253b4ac42e410105e71f168f",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTC_FREEZE.sha256",
+      "line": 31,
+      "original_expected_sha256": "dea4f1c445a27a19f7f4900966cc1718c99cb990bd01d42386885e4712e37d60",
+      "release_path": "data_partc/eval/para/mmlupro_pp/test.jsonl",
+      "original_actual_sha256": "dea4f1c445a27a19f7f4900966cc1718c99cb990bd01d42386885e4712e37d60",
+      "release_sha256": "dea4f1c445a27a19f7f4900966cc1718c99cb990bd01d42386885e4712e37d60",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTC_FREEZE.sha256",
+      "line": 33,
+      "original_expected_sha256": "69b9b75028934da3e6ced29739d84e48d0a8ad3ac667bbbdae996fa989a0086a",
+      "release_path": "station-a:mom-lab/runs/pt4-lora16-replay-sql-r20-lr2e-4/model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTC_FREEZE.sha256",
+      "line": 34,
+      "original_expected_sha256": "0885be22a7d3378e50dff42d261f5d7b6b124137076608e474d40120292868a3",
+      "release_path": "station-b:mom-lab/runs/pt4-lora16-replay-tools-r20-lr2e-4/model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_ACDE_ANALYSIS.sha256",
+      "line": 1,
+      "original_expected_sha256": "db6c524e3671d80ed6a374951626f93a75de17ebc8056db5bb0501976b99944c",
+      "release_path": "scripts/partd_analysis.py",
+      "original_actual_sha256": "db6c524e3671d80ed6a374951626f93a75de17ebc8056db5bb0501976b99944c",
+      "release_sha256": "db6c524e3671d80ed6a374951626f93a75de17ebc8056db5bb0501976b99944c",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_ACDE_ANALYSIS.sha256",
+      "line": 2,
+      "original_expected_sha256": "49bca04c385a55535d371d935986a1fa3ba6a2ebf7b562917ed136134c1d7d5d",
+      "release_path": "scripts/partd_c_analysis.py",
+      "original_actual_sha256": "49bca04c385a55535d371d935986a1fa3ba6a2ebf7b562917ed136134c1d7d5d",
+      "release_sha256": "49bca04c385a55535d371d935986a1fa3ba6a2ebf7b562917ed136134c1d7d5d",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_ACDE_ANALYSIS.sha256",
+      "line": 3,
+      "original_expected_sha256": "74bba6d553b3a72be610b83814c70ee7a5330c224bdf7e075308cb1d18347376",
+      "release_path": "scripts/partb_analysis.py",
+      "original_actual_sha256": "74bba6d553b3a72be610b83814c70ee7a5330c224bdf7e075308cb1d18347376",
+      "release_sha256": "74bba6d553b3a72be610b83814c70ee7a5330c224bdf7e075308cb1d18347376",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_ACDE_ANALYSIS.sha256",
+      "line": 4,
+      "original_expected_sha256": "c3a1949e19df7f55d3b14f7cb0f88081dbb602df6e0f0578599c58b33ccb012c",
+      "release_path": "artifacts/router_e5lr.pkl",
+      "original_actual_sha256": "c3a1949e19df7f55d3b14f7cb0f88081dbb602df6e0f0578599c58b33ccb012c",
+      "release_sha256": "c3a1949e19df7f55d3b14f7cb0f88081dbb602df6e0f0578599c58b33ccb012c",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_B_ANALYSIS.sha256",
+      "line": 1,
+      "original_expected_sha256": "1c9c86980a7aa61b0e73d84ba860d9e0a67fd917c46be2a4c6ba018b305ded4e",
+      "release_path": "scripts/partd_b_analysis.py",
+      "original_actual_sha256": "1c9c86980a7aa61b0e73d84ba860d9e0a67fd917c46be2a4c6ba018b305ded4e",
+      "release_sha256": "1c9c86980a7aa61b0e73d84ba860d9e0a67fd917c46be2a4c6ba018b305ded4e",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 1,
+      "original_expected_sha256": "db010226eeb5bc8fd60194cfddb518d9355b0e4e90329197738eb9e10b47b678",
+      "release_path": "content/PART_D_B_ADDENDUM.md",
+      "original_actual_sha256": "db010226eeb5bc8fd60194cfddb518d9355b0e4e90329197738eb9e10b47b678",
+      "release_sha256": "db010226eeb5bc8fd60194cfddb518d9355b0e4e90329197738eb9e10b47b678",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 2,
+      "original_expected_sha256": "2fdd7f91515f984937a8fc50996e05bdc7be74b04719c73a3ca1bfda2ceee6a3",
+      "release_path": "data_partd/eval/sql/bird_dev/test.jsonl",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 3,
+      "original_expected_sha256": "a63d07d721e8f23aa8a309890d984eb7c5a5368a4107f29e2fcede7d3f998ef9",
+      "release_path": "data_partd/eval/tools/bfcl/test.jsonl",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 4,
+      "original_expected_sha256": "aebff4d0c34563bb8d7d15ec5a20e496dfd6c5089ccb42b475f8eda800414204",
+      "release_path": "data_partd/README_B.md",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 5,
+      "original_expected_sha256": "0fbea3995d277928cf57f768b09a7aa9ebb1163ae035558cb78322972dcec290",
+      "release_path": "data_partd/build_b_log.json",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 6,
+      "original_expected_sha256": "6ea9b0574e7b5394e1aff02f56f0809cd0fa86545cf4c28dba40d6f532f2a3c6",
+      "release_path": "scripts/build_partd_b.py",
+      "original_actual_sha256": "6ea9b0574e7b5394e1aff02f56f0809cd0fa86545cf4c28dba40d6f532f2a3c6",
+      "release_sha256": "6ea9b0574e7b5394e1aff02f56f0809cd0fa86545cf4c28dba40d6f532f2a3c6",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 7,
+      "original_expected_sha256": "4afdec2a1b7fb6fde3183313ead1148c2e4912a4e373e6d44ec340e91d805451",
+      "release_path": "scripts/gold_check_partd.py",
+      "original_actual_sha256": "4afdec2a1b7fb6fde3183313ead1148c2e4912a4e373e6d44ec340e91d805451",
+      "release_sha256": "4afdec2a1b7fb6fde3183313ead1148c2e4912a4e373e6d44ec340e91d805451",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 8,
+      "original_expected_sha256": "16eef120545f45d727a43e62d2b6ff9930f608e3cc0bf3e07038bb18747a5b28",
+      "release_path": "scripts/evalq_p.py",
+      "original_actual_sha256": "16eef120545f45d727a43e62d2b6ff9930f608e3cc0bf3e07038bb18747a5b28",
+      "release_sha256": "c9f2375c99615344553f90a61d3ef4a0f7c3979cadc3ee95dc510f71098db9e0",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 9,
+      "original_expected_sha256": "cd42ac32bd1d9f4232a0f339e791ce9b1dad44fa928a60e731639b5b34d125d0",
+      "release_path": "configs/partd_evaljobs.txt",
+      "original_actual_sha256": "73879f1156ee14c4434a5367c80f5283f0ca97d02e5273e7bd90b45bc1a64e34",
+      "release_sha256": "d08dc836e4f5853d95e5ebbf9ba6e51a550081076cca5253dea91bc1c06487a4",
+      "status": "preexisting_mismatch",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 10,
+      "original_expected_sha256": "f19980c81b25c86441515ef49c023ff7befa3da0ee1fd5147fff67839b00f99a",
+      "release_path": "configs/partd_autojobs.txt",
+      "original_actual_sha256": "b55937b9d8359b06f12106f3c0579a4c09ad77fa4a014b83a5be9c2281e3f7b6",
+      "release_sha256": "b55937b9d8359b06f12106f3c0579a4c09ad77fa4a014b83a5be9c2281e3f7b6",
+      "status": "preexisting_mismatch",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 11,
+      "original_expected_sha256": "54c45e431f0f654bfac741cf69e66ca34dacf42a0d0abbde6fd426a7a1e60c4b",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/aan_1/aan_1.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 12,
+      "original_expected_sha256": "5445559b7dfd1779cefb0198047cfb1de380a394e90ea33d1bc6c4d3a94e12f7",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/address_1/address_1.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 13,
+      "original_expected_sha256": "4f7fd1fd606b3bb1f4a988f8557e9dc393e3fc1f9bf097bb79cff07df5d680b7",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/advertising_agencies/advertising_agencies.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 14,
+      "original_expected_sha256": "ccfd00de54bbe9a7ce57f226e9634e8c4693520299795fb8da834017fc55d735",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/art_1/art_1.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 15,
+      "original_expected_sha256": "8ab55eb34c0ea8cbe29f9651ec3deae620ba8558e03b0e7740daa871e4eba025",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/bakery_1/bakery_1.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 16,
+      "original_expected_sha256": "1b9a7e6de6706734736e869180334b35420de138b1ee47b0b0f7822758cbf01a",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/bbc_channels/bbc_channels.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 17,
+      "original_expected_sha256": "5d485e48c937b87f80c4e2bcc588d88042b1f52b8596b1f47afa33da674c8a5d",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/bike_racing/bike_racing.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 18,
+      "original_expected_sha256": "b9305054e2a29c18cdbfbe2306a27c15ba01c67085e1b72745e7e01e5336a98c",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/boat_1/boat_1.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 19,
+      "original_expected_sha256": "ab0fcc505f150d8904d62f639cfcbd01497ef755bb5926ed2acff3152eb662a2",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/book_1/book_1.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 20,
+      "original_expected_sha256": "c8748351b418fb213f3e4871471f8b923011323df6d341fb96796bb36f466acb",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/book_press/book_press.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 21,
+      "original_expected_sha256": "ed22389124512c73025037cf2e5546e1225e78a6f5a9db052a3aa635b93fba31",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/book_review/book_review.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 22,
+      "original_expected_sha256": "9d851e396e02997a1de073ae982fe1e4b1769fdffce2fac6e325857a3a938709",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/car_1/car_1.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 23,
+      "original_expected_sha256": "b10a7888db067f3c1a397616447e9e5bcc7a2506940f8b63d7e3cbf66ee7a404",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/car_racing/car_racing.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 24,
+      "original_expected_sha256": "0047c3f95b20793e6e6669aa9396424366c3f98e37bd5f844333d66ea2f22543",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/car_road_race/car_road_race.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 25,
+      "original_expected_sha256": "a863548152196d5ab4291c7393bc2fa814f020b0bbd7057a25e9ddaa7ab5e9cb",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/club_leader/club_leader.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 26,
+      "original_expected_sha256": "4fa1ba5ab4577e895271088b1dc44aa94be88e25a54293317a67584112ef059d",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/concert_singer/concert_singer.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 27,
+      "original_expected_sha256": "8dbb6c370365ed4ad459b35223a75d8c5d721bd56482027d33d7f44049ec1b98",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/conference/conference.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 28,
+      "original_expected_sha256": "c805b8c455299dc5c9ea8ae62a14cc575d0039c7806081d522e3fd20976480d6",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/country_language/country_language.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 29,
+      "original_expected_sha256": "da45fcdde64ac2b9330146506b7653ad4417489d8e496e509045e1b02245d793",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/course_teach/course_teach.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 30,
+      "original_expected_sha256": "36de22b49bded0edb54ca8d9ee02fef38e522c8cca4f6487d89009ef57991cd6",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/cre_Doc_and_collections/cre_Doc_and_collections.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 31,
+      "original_expected_sha256": "9c3fdd03d8795ecde60aae782ce50c4fb1d6c03de1401fcdd6dc177342a53df5",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/cre_Doc_Template_Mgt/cre_Doc_Template_Mgt.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 32,
+      "original_expected_sha256": "c9ac6c214f1b149929f50d5b7357e776e09ee3091c5072db838fd337b26d2d35",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/cre_Doc_Workflow/cre_Doc_Workflow.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 33,
+      "original_expected_sha256": "16a779c92da4c0e1542a8dd2baf1511940501c3c3b89c085bc45f8d1d05a6504",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/cre_Students_Information_Systems/cre_Students_Information_Systems.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 34,
+      "original_expected_sha256": "061d322d229fc3d0057da9f75096285a817e3f464e7023263297161256e4b5b0",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/customers_and_orders/customers_and_orders.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 35,
+      "original_expected_sha256": "c2be10f9693220a9d6e06ccaf941135842fd1973192d698103b58597a9520394",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/district_spokesman/district_spokesman.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 36,
+      "original_expected_sha256": "ea5fbc6cf6aaf500371c5c121c339d9802ba6f5fbecd948a5274c0b487a9f486",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/dog_kennels/dog_kennels.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 37,
+      "original_expected_sha256": "5fc39a43d1eb5da15b3a18701579cbdd2420e4fd266a1286416941ea7a70b856",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/e_commerce/e_commerce.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 38,
+      "original_expected_sha256": "760fec5cc872ef0cdf99242614f05c93dbd00d422ac9da87ea64fcf555be7373",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/employee_hire_evaluation/employee_hire_evaluation.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 39,
+      "original_expected_sha256": "db777ba6488ae2b515cb138d71ff23c4533e5fd0355854648a1102faff3fb7af",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/flight_2/flight_2.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 40,
+      "original_expected_sha256": "36c5fe0697df772c72bcd7dc48c2cac0d098dc0ea148f1f017a7a153d978b0b9",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/government_shift/government_shift.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 41,
+      "original_expected_sha256": "1c4205dfc12b9bdb8971a6ebdb8617413694b0b217f4d5991ddbfdc3cc7e0dce",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/headphone_store/headphone_store.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 42,
+      "original_expected_sha256": "66acbb7925409f9a9ea567828f22215a3b4dbc6ec63dc3a10fc9dc4596447f7e",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/institution_sports/institution_sports.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 43,
+      "original_expected_sha256": "cd406c1f421f4ad76369620ed31e0d708786930a1b1622929a77dc09a7ebad48",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/movie_2/movie_2.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 44,
+      "original_expected_sha256": "bec92cd9a68d6f23469a0df246429299f44caaf75eab12275784e0bb7d0aa9ca",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/network_1/network_1.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 45,
+      "original_expected_sha256": "b0d96a122899e69bd546640a3e644afd340823eeab07fafa9a80eeb331fa3927",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/online_exams/online_exams.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 46,
+      "original_expected_sha256": "13b64af1cf6fcbd34953a44f951b2bf79bedc000b344549212dac1a9345e2f86",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/orchestra/orchestra.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 47,
+      "original_expected_sha256": "8ffe0ea9b3b034ca8860a2f18300a98c7583ce2522ea195726a04803f675e5bb",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/pets_1/pets_1.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 48,
+      "original_expected_sha256": "4d85b0e80c4d0602167a44592404f3c11fccd7609d1530e8e32162144b767443",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/pilot_1/pilot_1.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 49,
+      "original_expected_sha256": "620b0235ccf2b12b0ae6f112e0cd0362706cae963ff165ddeea69fa25a4e9f89",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/planet_1/planet_1.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 50,
+      "original_expected_sha256": "63fffd7b68524f07a742a74b74b95a4ba178e6419f3574b9ee78b8dda1df46ba",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/poker_player/poker_player.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 51,
+      "original_expected_sha256": "9c8bf5b0de09d48b6f73e82e404b221741e9f8ec40020b83f666e9f5f470a45f",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/real_estate_rentals/real_estate_rentals.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 52,
+      "original_expected_sha256": "7015a54bcc7ad6e3dcda629a195166c4634d8ac09e7b8644a1fecb8975688875",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/region_building/region_building.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 53,
+      "original_expected_sha256": "184e038302f9a1e424dff7aea92f1a26ce61d6e424094dadcc50102805c8dbfb",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/restaurant_bills/restaurant_bills.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 54,
+      "original_expected_sha256": "40bd51331a9056664cb86d3be37678037700ac1b284b01aa5a268adb0cdf1478",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/sing_contest/sing_contest.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 55,
+      "original_expected_sha256": "5c1b72755d148c294b26d7b479307e8799b93485ac918720f953e2ab84d59a0a",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/singer/singer.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 56,
+      "original_expected_sha256": "ecdb8ede7aa481b51a1453fa16df746cc4532a90267796b75ad4c514d2a4fe56",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/soccer_3/soccer_3.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 57,
+      "original_expected_sha256": "5a1f4928a1fd36f6edb31c4f054203b2e2fab6b18e5951c4f5633628f82a8e56",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/student_transcripts_tracking/student_transcripts_tracking.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 58,
+      "original_expected_sha256": "b424fc295c5d2dbc7582fd8f0a744d82bfa14141008387c568f51d375db3231a",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/tv_shows/tv_shows.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 59,
+      "original_expected_sha256": "1212c2e75cf1dcf3aeb4055331a85298b073d8a613ead77975b13bd3346b9fc4",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/tvshow/tvshow.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 60,
+      "original_expected_sha256": "1f6a890b0c55582f0e836d173116e7bbcb190a29fc9653f10e9838924f011e9f",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/university_rank/university_rank.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 61,
+      "original_expected_sha256": "98aafdbdde3905b9061d49803d095d04a913c772af1fcdc6c2592818decb6982",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/vehicle_driver/vehicle_driver.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 62,
+      "original_expected_sha256": "d5d33cb6e5bf6b013fc568505586ebd1b74eed21963ed58c83d28f21d277611f",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/vehicle_rent/vehicle_rent.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 63,
+      "original_expected_sha256": "9439739974c550719f9d5a003c61b48c9e79df1fe5499eb3bd93907a9363a76f",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/video_game/video_game.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 64,
+      "original_expected_sha256": "c246f802423368bf0428e9e588fe0041b9ac0edd48593974f9ec2638266208fd",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/warehouse_1/warehouse_1.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE.sha256",
+      "line": 65,
+      "original_expected_sha256": "17b986695f16786d58d66f85e49dba87bdfe72953207ab9b1b49da9d2301ef65",
+      "release_path": "data_partd/eval/sql/bird_dev/databases/world_1/world_1.sqlite",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE_fix1.sha256",
+      "line": 1,
+      "original_expected_sha256": "c2c1e8ffdd0c81df243dc28bafc1c8449ef08abafb1a3f40398b572164d7f87c",
+      "release_path": "data_partd/eval/tools/bfcl/test.jsonl",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_B_FREEZE_fix1.sha256",
+      "line": 2,
+      "original_expected_sha256": "aad6dcba265aa2c9583c991e2e6e91f7b541f3aa3f3c1d85e536b82762af24bb",
+      "release_path": "content/PART_D_DEVIATIONS.md",
+      "original_actual_sha256": "3650e352ef50231da9ccea4fb75a970024d44069776672520e395244de72a117",
+      "release_sha256": "a5a81600e4ef26d836e9e3d16c9d9a8478a9d2adec5ae0918aca66ba66650669",
+      "status": "preexisting_mismatch",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/PARTD_C_FREEZE.sha256",
+      "line": 1,
+      "original_expected_sha256": "0567861acd3bb96b2c9dd981dcb5421399c7e0d9c6f825b1452bf7f73e9f3fc4",
+      "release_path": "content/PART_D_C_ADDENDUM.md",
+      "original_actual_sha256": "0567861acd3bb96b2c9dd981dcb5421399c7e0d9c6f825b1452bf7f73e9f3fc4",
+      "release_sha256": "0567861acd3bb96b2c9dd981dcb5421399c7e0d9c6f825b1452bf7f73e9f3fc4",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_C_FREEZE.sha256",
+      "line": 2,
+      "original_expected_sha256": "aa6bd07ae267964bc4c79094baf5c1ef53b5fb9d48ecc3d519296665bd2ca996",
+      "release_path": "data_partd_c/eval/aviation/metar/test.jsonl",
+      "original_actual_sha256": "aa6bd07ae267964bc4c79094baf5c1ef53b5fb9d48ecc3d519296665bd2ca996",
+      "release_sha256": "aa6bd07ae267964bc4c79094baf5c1ef53b5fb9d48ecc3d519296665bd2ca996",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_C_FREEZE.sha256",
+      "line": 3,
+      "original_expected_sha256": "14183ef2d4b538c833e33060d4f289fb06b2f9e44a4cb12358541865bed858ce",
+      "release_path": "data_partd_c/eval/avknow/preflight/test.jsonl",
+      "original_actual_sha256": "14183ef2d4b538c833e33060d4f289fb06b2f9e44a4cb12358541865bed858ce",
+      "release_sha256": "14183ef2d4b538c833e33060d4f289fb06b2f9e44a4cb12358541865bed858ce",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_C_FREEZE.sha256",
+      "line": 4,
+      "original_expected_sha256": "4c3ec86ba3c0e3268b4f7f219281d7e51ad4897f491ed36e2974d99df8c788ae",
+      "release_path": "data_partd_c/eval/medcalc/medcalc/test.jsonl",
+      "original_actual_sha256": "4c3ec86ba3c0e3268b4f7f219281d7e51ad4897f491ed36e2974d99df8c788ae",
+      "release_sha256": "4c3ec86ba3c0e3268b4f7f219281d7e51ad4897f491ed36e2974d99df8c788ae",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_C_FREEZE.sha256",
+      "line": 5,
+      "original_expected_sha256": "62014f4052a5a2e14f48d8a8463828686f6f6310f7dfda6fdd7b44b9844554a0",
+      "release_path": "data/mixtures/partd_c/medcalc.jsonl",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_C_FREEZE.sha256",
+      "line": 6,
+      "original_expected_sha256": "4cfe78d91260b1df4127c63ec905cb71353689411172ae51c54ed6a7f2b88446",
+      "release_path": "data/mixtures/partd_c/metar.jsonl",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_C_FREEZE.sha256",
+      "line": 7,
+      "original_expected_sha256": "26b16aff2b8fb4994f60a49cada522ded744793d30053b97f197292eab2408dc",
+      "release_path": "data/mixtures/partd_c/replay/medcalc-r20.jsonl",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_C_FREEZE.sha256",
+      "line": 8,
+      "original_expected_sha256": "5304e27da4d42e1abd61194f8c0a150ba1e0753f86a42c03f608399c45f8a8e0",
+      "release_path": "data/mixtures/partd_c/replay/metar-r20.jsonl",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_C_FREEZE.sha256",
+      "line": 9,
+      "original_expected_sha256": "215f9b1629c9c2d8a3a141c26b6a2117cdf11db32834a72a4cbf7c46963d4457",
+      "release_path": "data_partd_c/README.md",
+      "original_actual_sha256": "215f9b1629c9c2d8a3a141c26b6a2117cdf11db32834a72a4cbf7c46963d4457",
+      "release_sha256": "215f9b1629c9c2d8a3a141c26b6a2117cdf11db32834a72a4cbf7c46963d4457",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_C_FREEZE.sha256",
+      "line": 10,
+      "original_expected_sha256": "90601c1cd3141da203258a6c3f46d6a6f3ec6f32a68ab744ebe5ce886df78870",
+      "release_path": "data_partd_c/SHA256SUMS",
+      "original_actual_sha256": "90601c1cd3141da203258a6c3f46d6a6f3ec6f32a68ab744ebe5ce886df78870",
+      "release_sha256": "90601c1cd3141da203258a6c3f46d6a6f3ec6f32a68ab744ebe5ce886df78870",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_C_FREEZE.sha256",
+      "line": 11,
+      "original_expected_sha256": "22605dec07d4799ea596d91ca6734b84d3d3975bc15edd59427423634c02fab5",
+      "release_path": "harness_d/aggregate.py",
+      "original_actual_sha256": "22605dec07d4799ea596d91ca6734b84d3d3975bc15edd59427423634c02fab5",
+      "release_sha256": "22605dec07d4799ea596d91ca6734b84d3d3975bc15edd59427423634c02fab5",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_C_FREEZE.sha256",
+      "line": 12,
+      "original_expected_sha256": "04d7a35a8ef557cef889e63c295c6200178ea93c6bf83a1342f02543f290580b",
+      "release_path": "harness_d/common.py",
+      "original_actual_sha256": "04d7a35a8ef557cef889e63c295c6200178ea93c6bf83a1342f02543f290580b",
+      "release_sha256": "04d7a35a8ef557cef889e63c295c6200178ea93c6bf83a1342f02543f290580b",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_C_FREEZE.sha256",
+      "line": 13,
+      "original_expected_sha256": "8fa1c226716efa9ac82fa108383bc6b72eb0470fb89cacb2b01950335116dda1",
+      "release_path": "harness_d/generate.py",
+      "original_actual_sha256": "8fa1c226716efa9ac82fa108383bc6b72eb0470fb89cacb2b01950335116dda1",
+      "release_sha256": "8fa1c226716efa9ac82fa108383bc6b72eb0470fb89cacb2b01950335116dda1",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_C_FREEZE.sha256",
+      "line": 14,
+      "original_expected_sha256": "3fe8f92bceba1a7b6a048691a4359e0a3e4c70fd45b64281a14d5b3a3c237b7b",
+      "release_path": "harness_d/__init__.py",
+      "original_actual_sha256": "3fe8f92bceba1a7b6a048691a4359e0a3e4c70fd45b64281a14d5b3a3c237b7b",
+      "release_sha256": "3fe8f92bceba1a7b6a048691a4359e0a3e4c70fd45b64281a14d5b3a3c237b7b",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_C_FREEZE.sha256",
+      "line": 15,
+      "original_expected_sha256": "ac2ca79cb30f2b24ddc494482ba0726a02374e70c82c53f35bcb9d2404607913",
+      "release_path": "harness_d/score/code.py",
+      "original_actual_sha256": "ac2ca79cb30f2b24ddc494482ba0726a02374e70c82c53f35bcb9d2404607913",
+      "release_sha256": "ac2ca79cb30f2b24ddc494482ba0726a02374e70c82c53f35bcb9d2404607913",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_C_FREEZE.sha256",
+      "line": 16,
+      "original_expected_sha256": "b567b0253c94d9e926dc71edd154f3af459a191f1391e63111df5dad890b3871",
+      "release_path": "harness_d/score/general.py",
+      "original_actual_sha256": "b567b0253c94d9e926dc71edd154f3af459a191f1391e63111df5dad890b3871",
+      "release_sha256": "b567b0253c94d9e926dc71edd154f3af459a191f1391e63111df5dad890b3871",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_C_FREEZE.sha256",
+      "line": 17,
+      "original_expected_sha256": "63f873cd74458ce583e3ad37061cc73bd43f80901364ec0707713b69b3cd55b9",
+      "release_path": "harness_d/score/__init__.py",
+      "original_actual_sha256": "63f873cd74458ce583e3ad37061cc73bd43f80901364ec0707713b69b3cd55b9",
+      "release_sha256": "63f873cd74458ce583e3ad37061cc73bd43f80901364ec0707713b69b3cd55b9",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_C_FREEZE.sha256",
+      "line": 18,
+      "original_expected_sha256": "b1884de54257d35ba032c57f2ed396566a23d8ce1480cb1487ebf04d67109a2a",
+      "release_path": "harness_d/score/math_.py",
+      "original_actual_sha256": "b1884de54257d35ba032c57f2ed396566a23d8ce1480cb1487ebf04d67109a2a",
+      "release_sha256": "b1884de54257d35ba032c57f2ed396566a23d8ce1480cb1487ebf04d67109a2a",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_C_FREEZE.sha256",
+      "line": 19,
+      "original_expected_sha256": "546cf9eca712103090c21e3feaea38c784624244c6de0393e2b9aa36600f03dc",
+      "release_path": "harness_d/score/medcalc.py",
+      "original_actual_sha256": "546cf9eca712103090c21e3feaea38c784624244c6de0393e2b9aa36600f03dc",
+      "release_sha256": "546cf9eca712103090c21e3feaea38c784624244c6de0393e2b9aa36600f03dc",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_C_FREEZE.sha256",
+      "line": 20,
+      "original_expected_sha256": "ca0395de479a36e503adf4af715d8c982c33ab5406b6a22c4d242029a1659266",
+      "release_path": "harness_d/score/metar.py",
+      "original_actual_sha256": "ca0395de479a36e503adf4af715d8c982c33ab5406b6a22c4d242029a1659266",
+      "release_sha256": "ca0395de479a36e503adf4af715d8c982c33ab5406b6a22c4d242029a1659266",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_C_FREEZE.sha256",
+      "line": 21,
+      "original_expected_sha256": "542f738b782ca3adcf25e744c7b8f1f12477af22b04ee611ca5c12a310462ec2",
+      "release_path": "harness_d/score/sql.py",
+      "original_actual_sha256": "542f738b782ca3adcf25e744c7b8f1f12477af22b04ee611ca5c12a310462ec2",
+      "release_sha256": "542f738b782ca3adcf25e744c7b8f1f12477af22b04ee611ca5c12a310462ec2",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_C_FREEZE.sha256",
+      "line": 22,
+      "original_expected_sha256": "49499df566207c5621d4ef2ca0e0e7566cb9ad405d3def69c952b952f55555ed",
+      "release_path": "harness_d/score/tools.py",
+      "original_actual_sha256": "49499df566207c5621d4ef2ca0e0e7566cb9ad405d3def69c952b952f55555ed",
+      "release_sha256": "49499df566207c5621d4ef2ca0e0e7566cb9ad405d3def69c952b952f55555ed",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_C_FREEZE.sha256",
+      "line": 23,
+      "original_expected_sha256": "103341b34f774ab7b4e443e84c14d4805a921c0b740c80173f00a4175392032b",
+      "release_path": "harness_d/score/translate.py",
+      "original_actual_sha256": "103341b34f774ab7b4e443e84c14d4805a921c0b740c80173f00a4175392032b",
+      "release_sha256": "103341b34f774ab7b4e443e84c14d4805a921c0b740c80173f00a4175392032b",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_C_FREEZE.sha256",
+      "line": 24,
+      "original_expected_sha256": "7f1481d00ce4c9a8f721fad787cca05756a22af116c808728e42f9d3acb5ba75",
+      "release_path": "harness_d/stats.py",
+      "original_actual_sha256": "7f1481d00ce4c9a8f721fad787cca05756a22af116c808728e42f9d3acb5ba75",
+      "release_sha256": "7f1481d00ce4c9a8f721fad787cca05756a22af116c808728e42f9d3acb5ba75",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_C_FREEZE.sha256",
+      "line": 25,
+      "original_expected_sha256": "6d1db8b0d376d7591b16866904f311b5a39b78a15508f431fecbbb1295b8c069",
+      "release_path": "harness_d/tests/conftest.py",
+      "original_actual_sha256": "6d1db8b0d376d7591b16866904f311b5a39b78a15508f431fecbbb1295b8c069",
+      "release_sha256": "6d1db8b0d376d7591b16866904f311b5a39b78a15508f431fecbbb1295b8c069",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_C_FREEZE.sha256",
+      "line": 26,
+      "original_expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_path": "harness_d/tests/__init__.py",
+      "original_actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_C_FREEZE.sha256",
+      "line": 27,
+      "original_expected_sha256": "9d19cba4c2b6f18ef43e2d9597d22a66e18386b760685eeb4658be843b6cd832",
+      "release_path": "harness_d/tests/test_partd_c.py",
+      "original_actual_sha256": "9d19cba4c2b6f18ef43e2d9597d22a66e18386b760685eeb4658be843b6cd832",
+      "release_sha256": "9d19cba4c2b6f18ef43e2d9597d22a66e18386b760685eeb4658be843b6cd832",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_C_FREEZE.sha256",
+      "line": 28,
+      "original_expected_sha256": "e73938d23cf78330b9f9ba819037d38e693563f3a3e11660efd21a8152bbe75f",
+      "release_path": "harness_d/tests/test_pipeline.py",
+      "original_actual_sha256": "e73938d23cf78330b9f9ba819037d38e693563f3a3e11660efd21a8152bbe75f",
+      "release_sha256": "e73938d23cf78330b9f9ba819037d38e693563f3a3e11660efd21a8152bbe75f",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_C_FREEZE.sha256",
+      "line": 29,
+      "original_expected_sha256": "52b111a122d5c3229ad3235e0f14d3bfdd30567ce4a55fb3f509ea81df1a1caf",
+      "release_path": "harness_d/tests/test_scorers.py",
+      "original_actual_sha256": "52b111a122d5c3229ad3235e0f14d3bfdd30567ce4a55fb3f509ea81df1a1caf",
+      "release_sha256": "52b111a122d5c3229ad3235e0f14d3bfdd30567ce4a55fb3f509ea81df1a1caf",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_C_FREEZE.sha256",
+      "line": 30,
+      "original_expected_sha256": "c14377c9e2323ba1aa5791e284fc8a2680558e50d9ab0fd3b3f6d1dae345cdd5",
+      "release_path": "scripts/partd_c/build_medcalc.py",
+      "original_actual_sha256": "c14377c9e2323ba1aa5791e284fc8a2680558e50d9ab0fd3b3f6d1dae345cdd5",
+      "release_sha256": "c14377c9e2323ba1aa5791e284fc8a2680558e50d9ab0fd3b3f6d1dae345cdd5",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_C_FREEZE.sha256",
+      "line": 31,
+      "original_expected_sha256": "8b4150d4604ce94e4f67d5a105f076399646a9998cba8f0fb504d0e6572335f4",
+      "release_path": "scripts/partd_c/build_metar.py",
+      "original_actual_sha256": "8b4150d4604ce94e4f67d5a105f076399646a9998cba8f0fb504d0e6572335f4",
+      "release_sha256": "8b4150d4604ce94e4f67d5a105f076399646a9998cba8f0fb504d0e6572335f4",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_C_FREEZE.sha256",
+      "line": 32,
+      "original_expected_sha256": "e8d8c93289972439760a84a071680dd6d687f24e5ab1c746743c3095fdc9ebe2",
+      "release_path": "scripts/partd_c/build_preflight.py",
+      "original_actual_sha256": "e8d8c93289972439760a84a071680dd6d687f24e5ab1c746743c3095fdc9ebe2",
+      "release_sha256": "e8d8c93289972439760a84a071680dd6d687f24e5ab1c746743c3095fdc9ebe2",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_C_FREEZE.sha256",
+      "line": 33,
+      "original_expected_sha256": "68d4583cbd0eed0acb48776eea5fc1a13bca3701ad0e3da443db1acdb131d449",
+      "release_path": "scripts/partd_c/check.py",
+      "original_actual_sha256": "68d4583cbd0eed0acb48776eea5fc1a13bca3701ad0e3da443db1acdb131d449",
+      "release_sha256": "68d4583cbd0eed0acb48776eea5fc1a13bca3701ad0e3da443db1acdb131d449",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_C_FREEZE.sha256",
+      "line": 34,
+      "original_expected_sha256": "75500e9a6e3380318c38aec000b7e6ef8805d8bce4638681379d3f2aa25ed859",
+      "release_path": "scripts/partd_c/common.py",
+      "original_actual_sha256": "75500e9a6e3380318c38aec000b7e6ef8805d8bce4638681379d3f2aa25ed859",
+      "release_sha256": "75500e9a6e3380318c38aec000b7e6ef8805d8bce4638681379d3f2aa25ed859",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_C_FREEZE.sha256",
+      "line": 35,
+      "original_expected_sha256": "d46d008893f04c6518765209ab52acf5fe3146ecd2e3e66ea76e32c81314a096",
+      "release_path": "scripts/partd_c/fetch_metar.py",
+      "original_actual_sha256": "d46d008893f04c6518765209ab52acf5fe3146ecd2e3e66ea76e32c81314a096",
+      "release_sha256": "d46d008893f04c6518765209ab52acf5fe3146ecd2e3e66ea76e32c81314a096",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_C_FREEZE.sha256",
+      "line": 36,
+      "original_expected_sha256": "b7fa83670ee678b4690f798017ff1098023bdefdb31a1109ee19183ed6df0092",
+      "release_path": "scripts/partd_c/make_replay.py",
+      "original_actual_sha256": "b7fa83670ee678b4690f798017ff1098023bdefdb31a1109ee19183ed6df0092",
+      "release_sha256": "b7fa83670ee678b4690f798017ff1098023bdefdb31a1109ee19183ed6df0092",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_C_FREEZE.sha256",
+      "line": 37,
+      "original_expected_sha256": "b3fffdfe5949821a5bdc3b10f027584a214ff650e59b04cf9b8393a15055ab21",
+      "release_path": "scripts/partd_c/metar_decode.py",
+      "original_actual_sha256": "b3fffdfe5949821a5bdc3b10f027584a214ff650e59b04cf9b8393a15055ab21",
+      "release_sha256": "b3fffdfe5949821a5bdc3b10f027584a214ff650e59b04cf9b8393a15055ab21",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_C_FREEZE.sha256",
+      "line": 38,
+      "original_expected_sha256": "e9c2be0b1687d0e1c2743be108710b94f0b75ad9b9779e20db078e147c126e75",
+      "release_path": "scripts/partd_c/validate_metar_decoder.py",
+      "original_actual_sha256": "e9c2be0b1687d0e1c2743be108710b94f0b75ad9b9779e20db078e147c126e75",
+      "release_sha256": "e9c2be0b1687d0e1c2743be108710b94f0b75ad9b9779e20db078e147c126e75",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_FREEZE.sha256",
+      "line": 1,
+      "original_expected_sha256": "b4606a98f7c08e633d1648642bc0798072717bfde0d3a518740d3237ba08c792",
+      "release_path": "content/PART_D_PREREG.md",
+      "original_actual_sha256": "b4606a98f7c08e633d1648642bc0798072717bfde0d3a518740d3237ba08c792",
+      "release_sha256": "b4606a98f7c08e633d1648642bc0798072717bfde0d3a518740d3237ba08c792",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_FREEZE.sha256",
+      "line": 2,
+      "original_expected_sha256": "a205257884d6795026856418ca01a04bce0c5d553d0f1eccf228143fb2e51048",
+      "release_path": "configs/queues/partd.jsonl",
+      "original_actual_sha256": "c1fcc74662bb00255c34fd07e84c4a04bfc08ab6d5c5db2cc1941e2c01ca6008",
+      "release_sha256": "c1fcc74662bb00255c34fd07e84c4a04bfc08ab6d5c5db2cc1941e2c01ca6008",
+      "status": "preexisting_mismatch",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_FREEZE.sha256",
+      "line": 3,
+      "original_expected_sha256": "d1ebed705f71cc93d4d28e107b122121224da093c5de0ac276d9cd1d0027540c",
+      "release_path": "configs/partd_extras.txt",
+      "original_actual_sha256": "d1ebed705f71cc93d4d28e107b122121224da093c5de0ac276d9cd1d0027540c",
+      "release_sha256": "34889f402461f57f172322587ad1ad69eb5f671fddb40a16432317841f6855df",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/PARTD_FREEZE.sha256",
+      "line": 4,
+      "original_expected_sha256": "c3a1949e19df7f55d3b14f7cb0f88081dbb602df6e0f0578599c58b33ccb012c",
+      "release_path": "artifacts/router_e5lr.pkl",
+      "original_actual_sha256": "c3a1949e19df7f55d3b14f7cb0f88081dbb602df6e0f0578599c58b33ccb012c",
+      "release_sha256": "c3a1949e19df7f55d3b14f7cb0f88081dbb602df6e0f0578599c58b33ccb012c",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_FREEZE.sha256",
+      "line": 5,
+      "original_expected_sha256": "74bba6d553b3a72be610b83814c70ee7a5330c224bdf7e075308cb1d18347376",
+      "release_path": "scripts/partb_analysis.py",
+      "original_actual_sha256": "74bba6d553b3a72be610b83814c70ee7a5330c224bdf7e075308cb1d18347376",
+      "release_sha256": "74bba6d553b3a72be610b83814c70ee7a5330c224bdf7e075308cb1d18347376",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_FREEZE.sha256",
+      "line": 6,
+      "original_expected_sha256": "03471f5b7586d393a9d559149b27a8fbefd5b27ac6a07e2f94e2ddbf54ab48e0",
+      "release_path": "data/mixtures/N14M/spec/sql.jsonl",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_FREEZE.sha256",
+      "line": 7,
+      "original_expected_sha256": "86947367ed9174bab903af616625ae9689bbe02568468e19375ad68f2955fa93",
+      "release_path": "data/mixtures/N14M/spec/tools.jsonl",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_FREEZE.sha256",
+      "line": 8,
+      "original_expected_sha256": "3d4ae60e3abda969245be6cd1f15420ce0918454ddd5d03d1ab51a6f172602bd",
+      "release_path": "data/mixtures/N14M/replay/sql-r20.jsonl",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_FREEZE.sha256",
+      "line": 9,
+      "original_expected_sha256": "9f6179fd52533bdce1245600edd7c600ccc467cab3737fafd970b904df956725",
+      "release_path": "data/mixtures/N14M/replay/tools-r20.jsonl",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_FREEZE.sha256",
+      "line": 10,
+      "original_expected_sha256": "7951c60c1aaefe61739ffa01c51eab4d733c359b7b143602e7be3a31674d83d8",
+      "release_path": "station-a:train/train.py",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_FREEZE.sha256",
+      "line": 11,
+      "original_expected_sha256": "3c6755d1b857d368b6dd1d3f02278dd65a5f61642a1203d7798df50edec0066c",
+      "release_path": "station-a:train_run.sh",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_FREEZE.sha256",
+      "line": 12,
+      "original_expected_sha256": "931dd76419a4098e8c542e30ca0b5598714ed3b30fd7d4c8de3f5d515c01dbb5",
+      "release_path": "station-a:adapters/pt4-lora16-sql-lr2e-4/adapter_model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_FREEZE.sha256",
+      "line": 13,
+      "original_expected_sha256": "0f4f851d4bbfcfc2947e67e20cf53690b2f18c33f80746efdd0c98bc74c77b76",
+      "release_path": "station-a:adapters/pt4-lora16-sql-lr2e-4-s1/adapter_model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_FREEZE.sha256",
+      "line": 14,
+      "original_expected_sha256": "f9924ce8f5a69b532c5f02acc9776757214051a6188a8d5b8ebe7a6636e2e6b7",
+      "release_path": "station-a:adapters/pt4-lora16-sql-lr2e-4-s2/adapter_model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_FREEZE.sha256",
+      "line": 15,
+      "original_expected_sha256": "6da1bd8465cc4c277a5c2afc9b76341436e1f8a33fdea1d886674bcff73181ed",
+      "release_path": "station-a:adapters/pt4-lora16-tools-lr2e-4/adapter_model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_FREEZE.sha256",
+      "line": 16,
+      "original_expected_sha256": "bb0680eae9a983104f25cc0fa43a1c22145b82f5e5a92492b792bb4dedd62ab1",
+      "release_path": "station-a:adapters/pt4-lora16-tools-lr2e-4-s1/adapter_model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_FREEZE.sha256",
+      "line": 17,
+      "original_expected_sha256": "4d86565dc0b4992c5080ccb532ec907b664c5857a28a0663cc6a8a523944bb97",
+      "release_path": "station-a:adapters/pt4-lora16-tools-lr2e-4-s2/adapter_model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_FREEZE.sha256",
+      "line": 18,
+      "original_expected_sha256": "7951c60c1aaefe61739ffa01c51eab4d733c359b7b143602e7be3a31674d83d8",
+      "release_path": "station-b:train/train.py",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_FREEZE.sha256",
+      "line": 19,
+      "original_expected_sha256": "3c6755d1b857d368b6dd1d3f02278dd65a5f61642a1203d7798df50edec0066c",
+      "release_path": "station-b:train_run.sh",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_FREEZE.sha256",
+      "line": 20,
+      "original_expected_sha256": "931dd76419a4098e8c542e30ca0b5598714ed3b30fd7d4c8de3f5d515c01dbb5",
+      "release_path": "station-b:adapters/pt4-lora16-sql-lr2e-4/adapter_model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_FREEZE.sha256",
+      "line": 21,
+      "original_expected_sha256": "0f4f851d4bbfcfc2947e67e20cf53690b2f18c33f80746efdd0c98bc74c77b76",
+      "release_path": "station-b:adapters/pt4-lora16-sql-lr2e-4-s1/adapter_model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_FREEZE.sha256",
+      "line": 22,
+      "original_expected_sha256": "f9924ce8f5a69b532c5f02acc9776757214051a6188a8d5b8ebe7a6636e2e6b7",
+      "release_path": "station-b:adapters/pt4-lora16-sql-lr2e-4-s2/adapter_model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_FREEZE.sha256",
+      "line": 23,
+      "original_expected_sha256": "6da1bd8465cc4c277a5c2afc9b76341436e1f8a33fdea1d886674bcff73181ed",
+      "release_path": "station-b:adapters/pt4-lora16-tools-lr2e-4/adapter_model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_FREEZE.sha256",
+      "line": 24,
+      "original_expected_sha256": "bb0680eae9a983104f25cc0fa43a1c22145b82f5e5a92492b792bb4dedd62ab1",
+      "release_path": "station-b:adapters/pt4-lora16-tools-lr2e-4-s1/adapter_model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_FREEZE.sha256",
+      "line": 25,
+      "original_expected_sha256": "4d86565dc0b4992c5080ccb532ec907b664c5857a28a0663cc6a8a523944bb97",
+      "release_path": "station-b:adapters/pt4-lora16-tools-lr2e-4-s2/adapter_model.safetensors",
+      "status": "external_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 1,
+      "original_expected_sha256": "4639a2e869c0be183535c5117917eedb0d969c1b00faacb01a90ec2257d9959d",
+      "release_path": "content/PART_D_F_ADDENDUM.md",
+      "original_actual_sha256": "4639a2e869c0be183535c5117917eedb0d969c1b00faacb01a90ec2257d9959d",
+      "release_sha256": "4a35af85eb969a2045820abfd76b955e5e7780a671992696004401d77eedc003",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 2,
+      "original_expected_sha256": "47052e857752e4d16a7caeb06077f7e606d92e6920615a78c5886c244c671084",
+      "release_path": "scripts/partd_f/build_prompts.py",
+      "original_actual_sha256": "47052e857752e4d16a7caeb06077f7e606d92e6920615a78c5886c244c671084",
+      "release_sha256": "47052e857752e4d16a7caeb06077f7e606d92e6920615a78c5886c244c671084",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 3,
+      "original_expected_sha256": "27a4d4fa9ba2c851e789ccf70000bc4ca970fe97fb0abadee5c02b79673bfc18",
+      "release_path": "scripts/partd_f/smoke_check.py",
+      "original_actual_sha256": "27a4d4fa9ba2c851e789ccf70000bc4ca970fe97fb0abadee5c02b79673bfc18",
+      "release_sha256": "27a4d4fa9ba2c851e789ccf70000bc4ca970fe97fb0abadee5c02b79673bfc18",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 4,
+      "original_expected_sha256": "30d1ba5392a411068149df1696ebb6c83aa259f58aaf6bcc0c5ef587e1e1f524",
+      "release_path": "scripts/evalq_f.py",
+      "original_actual_sha256": "30d1ba5392a411068149df1696ebb6c83aa259f58aaf6bcc0c5ef587e1e1f524",
+      "release_sha256": "3254575e5a13b357a6a2947b6e8a3cd88606ece0cef85e0a372063c9cc8116e0",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 5,
+      "original_expected_sha256": "8ae420ef9b02911221c02777450f884e5ab8fd91b49ca7ce5c7e00982d23dd5a",
+      "release_path": "scripts/partd_f_analysis.py",
+      "original_actual_sha256": "8ae420ef9b02911221c02777450f884e5ab8fd91b49ca7ce5c7e00982d23dd5a",
+      "release_sha256": "8ae420ef9b02911221c02777450f884e5ab8fd91b49ca7ce5c7e00982d23dd5a",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 6,
+      "original_expected_sha256": "67a2f4434bc545744f14a85388359045308314d6366e4ef7fdee2936e9e2d717",
+      "release_path": "scripts/partd_f_launch.sh",
+      "original_actual_sha256": "67a2f4434bc545744f14a85388359045308314d6366e4ef7fdee2936e9e2d717",
+      "release_sha256": "4eb9bfc73a6f27ee98e36fe2df78b2513289da8fd9457fd974c3a24f711d5872",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 7,
+      "original_expected_sha256": "e05206af9779e01e215a669720bfd507ff939e93524dd157fb741de834e1ffa3",
+      "release_path": "configs/partd_f_evaljobs.txt",
+      "original_actual_sha256": "e05206af9779e01e215a669720bfd507ff939e93524dd157fb741de834e1ffa3",
+      "release_sha256": "92cdc9f54a4ec8154577ccc58d8bcaa3651a0fac10e107bfdee73f3ba0634e55",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 8,
+      "original_expected_sha256": "96f97917c06c04acd1d64d314d97946a6ac8ae561230ab7c64c838d8d1ae3a87",
+      "release_path": "configs/partd_f_smokejobs.txt",
+      "original_actual_sha256": "96f97917c06c04acd1d64d314d97946a6ac8ae561230ab7c64c838d8d1ae3a87",
+      "release_sha256": "3ec547c1467bfe8c634c6048fb7d96d84d7c357372743c8f7e1f8ef0ecba245a",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 9,
+      "original_expected_sha256": "8f1fa014f597597d14fba2592dc80394c0015cc76a152c4de4f064a340d88890",
+      "release_path": "data_partd_f/build.json",
+      "original_actual_sha256": "8f1fa014f597597d14fba2592dc80394c0015cc76a152c4de4f064a340d88890",
+      "release_sha256": "8f1fa014f597597d14fba2592dc80394c0015cc76a152c4de4f064a340d88890",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 10,
+      "original_expected_sha256": "154bbd9a840389623dca189db691f779d4ccca94572c80bf8fac7edf0039e5a8",
+      "release_path": "data_partd_f/eval/aviation/metar/dev.jsonl",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 11,
+      "original_expected_sha256": "51310ff9ddaf46fd43b3b51d6f3a597a86ea5f29ff9cbcc09720a07ec926e106",
+      "release_path": "data_partd_f/eval/aviation/metar/test.jsonl",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 12,
+      "original_expected_sha256": "6fba94e805b80704a30df40b6d78c826c763ef1b844e9b9fa8b2b84e89e041f7",
+      "release_path": "data_partd_f/eval/medcalc/medcalc/dev.jsonl",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 13,
+      "original_expected_sha256": "c223a853adb344b121273757f997f52fe288fb74aab57cefeee23a8052688918",
+      "release_path": "data_partd_f/eval/medcalc/medcalc/test.jsonl",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 14,
+      "original_expected_sha256": "aa6bd07ae267964bc4c79094baf5c1ef53b5fb9d48ecc3d519296665bd2ca996",
+      "release_path": "data_partd_c/eval/aviation/metar/test.jsonl",
+      "original_actual_sha256": "aa6bd07ae267964bc4c79094baf5c1ef53b5fb9d48ecc3d519296665bd2ca996",
+      "release_sha256": "aa6bd07ae267964bc4c79094baf5c1ef53b5fb9d48ecc3d519296665bd2ca996",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 15,
+      "original_expected_sha256": "14183ef2d4b538c833e33060d4f289fb06b2f9e44a4cb12358541865bed858ce",
+      "release_path": "data_partd_c/eval/avknow/preflight/test.jsonl",
+      "original_actual_sha256": "14183ef2d4b538c833e33060d4f289fb06b2f9e44a4cb12358541865bed858ce",
+      "release_sha256": "14183ef2d4b538c833e33060d4f289fb06b2f9e44a4cb12358541865bed858ce",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 16,
+      "original_expected_sha256": "4c3ec86ba3c0e3268b4f7f219281d7e51ad4897f491ed36e2974d99df8c788ae",
+      "release_path": "data_partd_c/eval/medcalc/medcalc/test.jsonl",
+      "original_actual_sha256": "4c3ec86ba3c0e3268b4f7f219281d7e51ad4897f491ed36e2974d99df8c788ae",
+      "release_sha256": "4c3ec86ba3c0e3268b4f7f219281d7e51ad4897f491ed36e2974d99df8c788ae",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 17,
+      "original_expected_sha256": "db577881541ec2fb2dadf5383c8d953684314cfc38be3a57fe06e7ff5bcd7ba6",
+      "release_path": "data_partd_c/eval/aviation/metar/dev.jsonl",
+      "original_actual_sha256": "db577881541ec2fb2dadf5383c8d953684314cfc38be3a57fe06e7ff5bcd7ba6",
+      "release_sha256": "db577881541ec2fb2dadf5383c8d953684314cfc38be3a57fe06e7ff5bcd7ba6",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 18,
+      "original_expected_sha256": "c93c64ff5d8e3f19bfc66a8e079e65a4df475d30c1393409a6bf0628f979a02f",
+      "release_path": "data_partd_c/eval/avknow/preflight/dev.jsonl",
+      "original_actual_sha256": "c93c64ff5d8e3f19bfc66a8e079e65a4df475d30c1393409a6bf0628f979a02f",
+      "release_sha256": "c93c64ff5d8e3f19bfc66a8e079e65a4df475d30c1393409a6bf0628f979a02f",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 19,
+      "original_expected_sha256": "f829f9ff534018f4d10bdef47ca13eef5c64d727a4242e070c369f04a2cdcd5f",
+      "release_path": "data_partd_c/eval/medcalc/medcalc/dev.jsonl",
+      "original_actual_sha256": "f829f9ff534018f4d10bdef47ca13eef5c64d727a4242e070c369f04a2cdcd5f",
+      "release_sha256": "f829f9ff534018f4d10bdef47ca13eef5c64d727a4242e070c369f04a2cdcd5f",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 20,
+      "original_expected_sha256": "4cfe78d91260b1df4127c63ec905cb71353689411172ae51c54ed6a7f2b88446",
+      "release_path": "data/mixtures/partd_c/metar.jsonl",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 21,
+      "original_expected_sha256": "9ae0909b2b056ad0b846250c078835b036ef17430256374271e22cc2bc20dfbc",
+      "release_path": "data_partd_c/raw/medcalc/repo/evaluation/one_shot_finalized_explanation.json",
+      "status": "untracked_or_unavailable"
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 22,
+      "original_expected_sha256": "c14377c9e2323ba1aa5791e284fc8a2680558e50d9ab0fd3b3f6d1dae345cdd5",
+      "release_path": "scripts/partd_c/build_medcalc.py",
+      "original_actual_sha256": "c14377c9e2323ba1aa5791e284fc8a2680558e50d9ab0fd3b3f6d1dae345cdd5",
+      "release_sha256": "c14377c9e2323ba1aa5791e284fc8a2680558e50d9ab0fd3b3f6d1dae345cdd5",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 23,
+      "original_expected_sha256": "22605dec07d4799ea596d91ca6734b84d3d3975bc15edd59427423634c02fab5",
+      "release_path": "harness_d/aggregate.py",
+      "original_actual_sha256": "22605dec07d4799ea596d91ca6734b84d3d3975bc15edd59427423634c02fab5",
+      "release_sha256": "22605dec07d4799ea596d91ca6734b84d3d3975bc15edd59427423634c02fab5",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 24,
+      "original_expected_sha256": "04d7a35a8ef557cef889e63c295c6200178ea93c6bf83a1342f02543f290580b",
+      "release_path": "harness_d/common.py",
+      "original_actual_sha256": "04d7a35a8ef557cef889e63c295c6200178ea93c6bf83a1342f02543f290580b",
+      "release_sha256": "04d7a35a8ef557cef889e63c295c6200178ea93c6bf83a1342f02543f290580b",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 25,
+      "original_expected_sha256": "8fa1c226716efa9ac82fa108383bc6b72eb0470fb89cacb2b01950335116dda1",
+      "release_path": "harness_d/generate.py",
+      "original_actual_sha256": "8fa1c226716efa9ac82fa108383bc6b72eb0470fb89cacb2b01950335116dda1",
+      "release_sha256": "8fa1c226716efa9ac82fa108383bc6b72eb0470fb89cacb2b01950335116dda1",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 26,
+      "original_expected_sha256": "3fe8f92bceba1a7b6a048691a4359e0a3e4c70fd45b64281a14d5b3a3c237b7b",
+      "release_path": "harness_d/__init__.py",
+      "original_actual_sha256": "3fe8f92bceba1a7b6a048691a4359e0a3e4c70fd45b64281a14d5b3a3c237b7b",
+      "release_sha256": "3fe8f92bceba1a7b6a048691a4359e0a3e4c70fd45b64281a14d5b3a3c237b7b",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 27,
+      "original_expected_sha256": "ac2ca79cb30f2b24ddc494482ba0726a02374e70c82c53f35bcb9d2404607913",
+      "release_path": "harness_d/score/code.py",
+      "original_actual_sha256": "ac2ca79cb30f2b24ddc494482ba0726a02374e70c82c53f35bcb9d2404607913",
+      "release_sha256": "ac2ca79cb30f2b24ddc494482ba0726a02374e70c82c53f35bcb9d2404607913",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 28,
+      "original_expected_sha256": "b567b0253c94d9e926dc71edd154f3af459a191f1391e63111df5dad890b3871",
+      "release_path": "harness_d/score/general.py",
+      "original_actual_sha256": "b567b0253c94d9e926dc71edd154f3af459a191f1391e63111df5dad890b3871",
+      "release_sha256": "b567b0253c94d9e926dc71edd154f3af459a191f1391e63111df5dad890b3871",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 29,
+      "original_expected_sha256": "63f873cd74458ce583e3ad37061cc73bd43f80901364ec0707713b69b3cd55b9",
+      "release_path": "harness_d/score/__init__.py",
+      "original_actual_sha256": "63f873cd74458ce583e3ad37061cc73bd43f80901364ec0707713b69b3cd55b9",
+      "release_sha256": "63f873cd74458ce583e3ad37061cc73bd43f80901364ec0707713b69b3cd55b9",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 30,
+      "original_expected_sha256": "b1884de54257d35ba032c57f2ed396566a23d8ce1480cb1487ebf04d67109a2a",
+      "release_path": "harness_d/score/math_.py",
+      "original_actual_sha256": "b1884de54257d35ba032c57f2ed396566a23d8ce1480cb1487ebf04d67109a2a",
+      "release_sha256": "b1884de54257d35ba032c57f2ed396566a23d8ce1480cb1487ebf04d67109a2a",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 31,
+      "original_expected_sha256": "546cf9eca712103090c21e3feaea38c784624244c6de0393e2b9aa36600f03dc",
+      "release_path": "harness_d/score/medcalc.py",
+      "original_actual_sha256": "546cf9eca712103090c21e3feaea38c784624244c6de0393e2b9aa36600f03dc",
+      "release_sha256": "546cf9eca712103090c21e3feaea38c784624244c6de0393e2b9aa36600f03dc",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 32,
+      "original_expected_sha256": "ca0395de479a36e503adf4af715d8c982c33ab5406b6a22c4d242029a1659266",
+      "release_path": "harness_d/score/metar.py",
+      "original_actual_sha256": "ca0395de479a36e503adf4af715d8c982c33ab5406b6a22c4d242029a1659266",
+      "release_sha256": "ca0395de479a36e503adf4af715d8c982c33ab5406b6a22c4d242029a1659266",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 33,
+      "original_expected_sha256": "542f738b782ca3adcf25e744c7b8f1f12477af22b04ee611ca5c12a310462ec2",
+      "release_path": "harness_d/score/sql.py",
+      "original_actual_sha256": "542f738b782ca3adcf25e744c7b8f1f12477af22b04ee611ca5c12a310462ec2",
+      "release_sha256": "542f738b782ca3adcf25e744c7b8f1f12477af22b04ee611ca5c12a310462ec2",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 34,
+      "original_expected_sha256": "49499df566207c5621d4ef2ca0e0e7566cb9ad405d3def69c952b952f55555ed",
+      "release_path": "harness_d/score/tools.py",
+      "original_actual_sha256": "49499df566207c5621d4ef2ca0e0e7566cb9ad405d3def69c952b952f55555ed",
+      "release_sha256": "49499df566207c5621d4ef2ca0e0e7566cb9ad405d3def69c952b952f55555ed",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 35,
+      "original_expected_sha256": "103341b34f774ab7b4e443e84c14d4805a921c0b740c80173f00a4175392032b",
+      "release_path": "harness_d/score/translate.py",
+      "original_actual_sha256": "103341b34f774ab7b4e443e84c14d4805a921c0b740c80173f00a4175392032b",
+      "release_sha256": "103341b34f774ab7b4e443e84c14d4805a921c0b740c80173f00a4175392032b",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 36,
+      "original_expected_sha256": "7f1481d00ce4c9a8f721fad787cca05756a22af116c808728e42f9d3acb5ba75",
+      "release_path": "harness_d/stats.py",
+      "original_actual_sha256": "7f1481d00ce4c9a8f721fad787cca05756a22af116c808728e42f9d3acb5ba75",
+      "release_sha256": "7f1481d00ce4c9a8f721fad787cca05756a22af116c808728e42f9d3acb5ba75",
+      "status": "original_match",
+      "changed_for_release": false
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 37,
+      "original_expected_sha256": "779225d9dd9a2207f6b67592e858f4b457f4d545daeb725c70d66b3925de4b57",
+      "release_path": "results/partdC/base-qwen3-1.7b/scores.json",
+      "original_actual_sha256": "779225d9dd9a2207f6b67592e858f4b457f4d545daeb725c70d66b3925de4b57",
+      "release_sha256": "0d31c665c390c5f583971ce812f41e0e62beb4b92a1b953fe2857dde4f1f663c",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 38,
+      "original_expected_sha256": "827406b305e165857cd0d63be3759546a8424b4e33bbef0b543338cd70cc4487",
+      "release_path": "results/partdC/base-qwen3-4b/scores.json",
+      "original_actual_sha256": "827406b305e165857cd0d63be3759546a8424b4e33bbef0b543338cd70cc4487",
+      "release_sha256": "cd0983db9fc26acd8273977ea1c409ba1ecc7221ac8e92ef4fd2154fe3e54517",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 39,
+      "original_expected_sha256": "863cd581101e7731e600a6f211535f7719471df9b5de50d3cc562b8e723e127a",
+      "release_path": "results/partdC/base-qwen3-8b/scores.json",
+      "original_actual_sha256": "863cd581101e7731e600a6f211535f7719471df9b5de50d3cc562b8e723e127a",
+      "release_sha256": "06d49cb2f66522ae78c4e038876f6da28542452fe8fe35b4bdbf2cb0a5789149",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 40,
+      "original_expected_sha256": "171d1bc08f58d86b6601284913d1246f0baad618a41f8e1113032f2ce408aa03",
+      "release_path": "results/partdC/base-qwen3-8b-awq/scores.json",
+      "original_actual_sha256": "171d1bc08f58d86b6601284913d1246f0baad618a41f8e1113032f2ce408aa03",
+      "release_sha256": "b1a18cd4821e5377f977f8112b13e0cf9ae564292a47e1246991636fe49ee343",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 41,
+      "original_expected_sha256": "f99980409be1e0b88ff37d9c73cc1668a13be76369b53228fa08dce31d0c15c3",
+      "release_path": "results/partdC/pt17-lora16-medcalc-lr2e-4/scores.json",
+      "original_actual_sha256": "f99980409be1e0b88ff37d9c73cc1668a13be76369b53228fa08dce31d0c15c3",
+      "release_sha256": "2da233b81149420093aa0b1ae17f9a6ffdef1b687d2ed916fb6cd0361095557e",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 42,
+      "original_expected_sha256": "4fe99cbdc7cfe06135b1096b2073df344d493b8143f84a77b592692caac8f572",
+      "release_path": "results/partdC/pt17-lora16-medcalc-lr2e-4-s1/scores.json",
+      "original_actual_sha256": "4fe99cbdc7cfe06135b1096b2073df344d493b8143f84a77b592692caac8f572",
+      "release_sha256": "c1d6238a426b45ca40865b366409373c504bd4b9982e31fac54c43be0abbea81",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 43,
+      "original_expected_sha256": "750edd0d905988c18490027b231c6121315d30a69c2bbf3efa96cf4f8256e79a",
+      "release_path": "results/partdC/pt17-lora16-medcalc-lr2e-4-s2/scores.json",
+      "original_actual_sha256": "750edd0d905988c18490027b231c6121315d30a69c2bbf3efa96cf4f8256e79a",
+      "release_sha256": "36b02603b46e2a2e100e67bd21120e4d8a61876beb336bb7647adc0aaee72904",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 44,
+      "original_expected_sha256": "db8527a9a80212385b75a3f8f0cc12af148a122f2a0f88a91eb1b380a0f16490",
+      "release_path": "results/partdC/pt17-lora16-metar-lr2e-4/scores.json",
+      "original_actual_sha256": "db8527a9a80212385b75a3f8f0cc12af148a122f2a0f88a91eb1b380a0f16490",
+      "release_sha256": "ed0ceb308525a9f1649ef36e0365792b99eb633177eb78b1a69da2db69931c61",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 45,
+      "original_expected_sha256": "8363fd82e1a942a14b8697813ebda5296dc8d79a2694fca1acae787878797e78",
+      "release_path": "results/partdC/pt17-lora16-metar-lr2e-4-s1/scores.json",
+      "original_actual_sha256": "8363fd82e1a942a14b8697813ebda5296dc8d79a2694fca1acae787878797e78",
+      "release_sha256": "aab217bff972d3dcf77b23d6e808e16d8d509f671d44ff77d8a9dc53deabb320",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 46,
+      "original_expected_sha256": "c63adc7981f724287937770fba53dde67e670feb02b73bbae18d720af675e968",
+      "release_path": "results/partdC/pt17-lora16-metar-lr2e-4-s2/scores.json",
+      "original_actual_sha256": "c63adc7981f724287937770fba53dde67e670feb02b73bbae18d720af675e968",
+      "release_sha256": "62bec9a87e84d38f6c126c8fee1cbe72fc89e7606603935fc2583bebea30b6a7",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 47,
+      "original_expected_sha256": "cf94b0d2c0f90b601b9c1d1cebedffa9fb00296e65e971a4236bd25cbce82f8b",
+      "release_path": "results/partdC/pt4-lora16-medcalc-lr2e-4/scores.json",
+      "original_actual_sha256": "cf94b0d2c0f90b601b9c1d1cebedffa9fb00296e65e971a4236bd25cbce82f8b",
+      "release_sha256": "e024f0579509b5de9b766d907f4044aa62242484c376b89ba3136456185550e6",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 48,
+      "original_expected_sha256": "8009e7aac2a0208f07fad06acd23563262f0af3099baec24308bf1517323df2b",
+      "release_path": "results/partdC/pt4-lora16-medcalc-lr2e-4-s1/scores.json",
+      "original_actual_sha256": "8009e7aac2a0208f07fad06acd23563262f0af3099baec24308bf1517323df2b",
+      "release_sha256": "c27236f36e6a59df9022ad964e378daa8da4c7a62b2a53d966bd128ee39fc016",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 49,
+      "original_expected_sha256": "796f71fb669f803da5eaadfc75faa911b8611ef8317669cf09a3597e926a4c69",
+      "release_path": "results/partdC/pt4-lora16-medcalc-lr2e-4-s2/scores.json",
+      "original_actual_sha256": "796f71fb669f803da5eaadfc75faa911b8611ef8317669cf09a3597e926a4c69",
+      "release_sha256": "c4937153c4d969adb9bf283a9970cb5d2ae21ac232f30169358a587e489a9706",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 50,
+      "original_expected_sha256": "6da43c008c66dae8cf44fc7d6544b34207027774ffd7f21b761cbaf41f92b03b",
+      "release_path": "results/partdC/pt4-lora16-metar-lr2e-4/scores.json",
+      "original_actual_sha256": "6da43c008c66dae8cf44fc7d6544b34207027774ffd7f21b761cbaf41f92b03b",
+      "release_sha256": "b8c3ff718617689c71cd2334faa452a718932683921a17f496a10e06934fcdda",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 51,
+      "original_expected_sha256": "342993e53558d342c9dd6af4046b9e89e1abe192301633b20cbf8ad17d792a30",
+      "release_path": "results/partdC/pt4-lora16-metar-lr2e-4-s1/scores.json",
+      "original_actual_sha256": "342993e53558d342c9dd6af4046b9e89e1abe192301633b20cbf8ad17d792a30",
+      "release_sha256": "5816e8b8adddb1a459c98f9eaede0bc53cc57596c2300e2f83ae5aa5e8bd88ef",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 52,
+      "original_expected_sha256": "b582f4f742486deb979c6b991c7957797dd37389da36698f6ee90fbd967ff771",
+      "release_path": "results/partdC/pt4-lora16-metar-lr2e-4-s2/scores.json",
+      "original_actual_sha256": "b582f4f742486deb979c6b991c7957797dd37389da36698f6ee90fbd967ff771",
+      "release_sha256": "24a1042f0f0c91ceb9fcb4a75a0e7d9af004cbd9b91b2ee441b020ea27c69e2f",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 53,
+      "original_expected_sha256": "3aa24c0ebbfe7ace5923e8db4360b286f968fc30e26ec3fe136aa6860002420d",
+      "release_path": "results/partdC/pt4-lora16-replay-medcalc-r20-lr2e-4/scores.json",
+      "original_actual_sha256": "3aa24c0ebbfe7ace5923e8db4360b286f968fc30e26ec3fe136aa6860002420d",
+      "release_sha256": "50ee0cc6d3dce3494e7645ad12422a319eed30760a3f6cc2027400ef7e3c623f",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 54,
+      "original_expected_sha256": "f6ec14e62bb45311df0212e1c715f6986cc7cb9338872a0b4065b01d5d9ed0b2",
+      "release_path": "results/partdC/pt4-lora16-replay-medcalc-r20-lr2e-4-s1/scores.json",
+      "original_actual_sha256": "f6ec14e62bb45311df0212e1c715f6986cc7cb9338872a0b4065b01d5d9ed0b2",
+      "release_sha256": "bebcb7c95ae6299057b928730edc8c51eb72ad69d8f2c7f8b99e5ce8af620520",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 55,
+      "original_expected_sha256": "ef3b3f8c92e5685606b86b693eef0cd680e48c40618ab4994a60108a82493ff3",
+      "release_path": "results/partdC/pt4-lora16-replay-medcalc-r20-lr2e-4-s2/scores.json",
+      "original_actual_sha256": "ef3b3f8c92e5685606b86b693eef0cd680e48c40618ab4994a60108a82493ff3",
+      "release_sha256": "a873e80fe8a50956b57f91c4a74dd8b29fdd2e5f13eab12492f6d25d6b09f24a",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 56,
+      "original_expected_sha256": "9a040f908209ca8a1fe63f6f0868b11add8c71e5c843554011a8f121c9aebd9d",
+      "release_path": "results/partdC/pt4-lora16-replay-metar-r20-lr2e-4/scores.json",
+      "original_actual_sha256": "9a040f908209ca8a1fe63f6f0868b11add8c71e5c843554011a8f121c9aebd9d",
+      "release_sha256": "4b65f0c94b4616e444904bfcb5ce5fdf115972452776fee6b4e078eca9178460",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 57,
+      "original_expected_sha256": "2bf454c45b7b5e1ff395ef477d53a04c94d0757d6e3eecb1043ad44bb58ca936",
+      "release_path": "results/partdC/pt4-lora16-replay-metar-r20-lr2e-4-s1/scores.json",
+      "original_actual_sha256": "2bf454c45b7b5e1ff395ef477d53a04c94d0757d6e3eecb1043ad44bb58ca936",
+      "release_sha256": "18222d783ba387c27647e89357fac362369639bd658ab12cbe8fb2af2f8db0fc",
+      "status": "original_match",
+      "changed_for_release": true
+    },
+    {
+      "manifest": "artifacts/PARTD_F_FREEZE.sha256",
+      "line": 58,
+      "original_expected_sha256": "cfde145632fbe4d3ec0bcf7ec9b1e88baff0274c6106f0a8f3321282f15dab9e",
+      "release_path": "results/partdC/pt4-lora16-replay-metar-r20-lr2e-4-s2/scores.json",
+      "original_actual_sha256": "cfde145632fbe4d3ec0bcf7ec9b1e88baff0274c6106f0a8f3321282f15dab9e",
+      "release_sha256": "bc9133a00fbe6d501e1d0328c485f83213588d0a96e02de63b815cca09490e35",
+      "status": "original_match",
+      "changed_for_release": true
+    }
+  ]
+}

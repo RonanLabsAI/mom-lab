@@ -1,0 +1,38 @@
+== Part D C (METAR / MedCalc / Pre-Flight) n={'metar': 1000, 'medcalc': 1100, 'preflight': 240}
+  1.7B                 metar   0.0  medcalc  12.5  preflight  52.1  metar-fields  49.9
+  4B                   metar   0.4  medcalc  25.8  preflight  67.1  metar-fields  74.0
+  8B                   metar   2.1  medcalc  39.0  preflight  71.7  metar-fields  82.5
+  AWQ-8B               metar   4.4  medcalc  35.6  preflight  69.6  metar-fields  81.9
+  4B+metar             metar  99.8  medcalc  23.5  preflight  64.2  metar-fields 100.0
+  1.7B+metar           metar  99.1  medcalc  12.5  preflight  39.2  metar-fields  99.9
+  4B+metar replay      metar  99.8  medcalc  20.2  preflight  65.8  metar-fields 100.0
+  4B+medcalc           metar   0.3  medcalc  58.7  preflight  59.0  metar-fields  37.5
+  1.7B+medcalc         metar   0.0  medcalc  45.8  preflight  50.8  metar-fields  21.9
+  4B+medcalc replay    metar   1.0  medcalc  58.3  preflight  64.4  metar-fields  72.6
+  C1        metar     4B+metar           vs 4B           +99.43 [+98.97, +99.83] PASS
+  C2        metar     4B+metar           vs 8B           +97.73 [+96.73, +98.57] PASS
+  C3        metar     1.7B+metar         vs 4B           +98.70 [+98.03, +99.27] PASS
+  C3        metar     1.7B+metar         vs 8B           +97.00 [+95.97, +97.93] PASS
+  C4        metar     4B+metar replay    vs 4B+metar      +0.00 [-0.17, +0.20] PASS
+  C4-damage medcalc   4B+metar replay    vs 4B+metar      -3.27 [-5.21, -1.39] FAIL
+  C4-damage preflight 4B+metar replay    vs 4B+metar      +1.67 [-0.83, +4.17] INCONCLUSIVE
+  extra     metar     4B+metar           vs AWQ-8B       +95.43 [+94.17, +96.67] descriptive
+  extra     metar     1.7B+metar         vs AWQ-8B       +94.70 [+93.30, +95.97] descriptive
+  C1        medcalc   4B+medcalc         vs 4B           +32.85 [+29.55, +36.00] PASS
+  C2        medcalc   4B+medcalc         vs 8B           +19.67 [+16.24, +22.91] PASS
+  C3        medcalc   1.7B+medcalc       vs 4B           +19.97 [+16.91, +23.00] PASS
+  C3        medcalc   1.7B+medcalc       vs 8B            +6.79 [+3.67, +9.88] PASS
+  C4        medcalc   4B+medcalc replay  vs 4B+medcalc    -0.33 [-1.61, +0.94] PASS
+  C4-damage metar     4B+medcalc replay  vs 4B+medcalc    +0.77 [+0.33, +1.23] PASS
+  C4-damage preflight 4B+medcalc replay  vs 4B+medcalc    +5.42 [+1.53, +9.31] PASS
+  extra     medcalc   4B+medcalc         vs AWQ-8B       +23.03 [+19.91, +26.18] descriptive
+  extra     medcalc   1.7B+medcalc       vs AWQ-8B       +10.15 [+7.15, +13.21] descriptive
+  C5        preflight 8B                 vs 4B            +4.58 [-0.83, +10.42] descriptive
+  C5        preflight 4B+metar           vs 4B            -2.92 [-6.11, +0.14] descriptive
+  C5        preflight 1.7B+metar         vs 1.7B         -12.92 [-17.08, -8.89] descriptive
+  C5        preflight 4B+metar replay    vs 4B            -1.25 [-4.86, +2.36] descriptive
+  C5        preflight 4B+medcalc         vs 4B            -8.06 [-12.50, -2.92] descriptive
+  C5        preflight 1.7B+medcalc       vs 1.7B          -1.25 [-6.67, +4.17] descriptive
+  C5        preflight 4B+medcalc replay  vs 4B            -2.64 [-6.25, +0.83] descriptive
+  C6: [('1.7B', 'metar', 0.0, 99.1), ('1.7B', 'medcalc', 12.5, 33.2), ('4B', 'metar', 0.4, 99.4), ('4B', 'medcalc', 25.8, 32.8)]
+wrote results/analysis/partd_c.json

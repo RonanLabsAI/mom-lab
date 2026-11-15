@@ -1,0 +1,18 @@
+== Part D B (fresh SQL/tools) router=embed-lr n={'sql': 2000, 'tools': 1292} router_acc={'sql': 1.0, 'tools': 1.0}
+ sql: base-qwen3-1.7b 56.4, base-qwen3-4b 63.5, base-qwen3-8b 67.5, base-qwen3-8b-awq 66.8, base-qwen3-8b-fp8 67.5, base-qwen3-4b-fp8 62.0, 4B lib 74.1, FP8-4B lib 73.6, 1.7B lib (LoRA) 68.5, 1.7B replay specialist 69.0, 4B distill 74.5, 4B pooled 75.1
+ tools: base-qwen3-1.7b 68.1, base-qwen3-4b 74.6, base-qwen3-8b 76.8, base-qwen3-8b-awq 76.1, base-qwen3-8b-fp8 77.0, base-qwen3-4b-fp8 74.8, 4B lib 78.9, FP8-4B lib 78.6, 1.7B lib (LoRA) 70.7, 4B distill 79.2, 4B pooled 79.4
+  B1   sql   4B lib                   vs base-qwen3-8b         +6.65 [+4.75, +8.52] PASS
+  B2   tools 4B lib                   vs base-qwen3-8b         +2.09 [+0.18, +3.97] PASS
+  B3   sql   4B lib                   vs base-qwen3-8b-awq     +7.30 [+5.43, +9.17] PASS
+  B4   sql   1.7B replay specialist   vs base-qwen3-4b         +5.47 [+3.38, +7.68] PASS
+  B5   sql   4B lib                   vs base-qwen3-4b        +10.60 [+8.63, +12.65] PASS
+  B5   tools 4B lib                   vs base-qwen3-4b         +4.26 [+2.40, +6.09] PASS
+  B6   sql   4B distill               vs base-qwen3-8b         +7.00 [+5.08, +8.90] PASS
+  B7   sql   FP8-4B lib               vs base-qwen3-8b-awq     +6.77 [+4.93, +8.57] PASS
+  sec  sql   4B lib lora64            vs 4B lib               MISSING
+  sec  sql   4B lib lora128           vs 4B lib               MISSING
+  sec  sql   4B lib lora16-sdreplay   vs 4B lib               MISSING
+  sec  tools 4B lib lora16-sdreplay   vs 4B lib               MISSING
+  sec  tools FP8-4B lib               vs base-qwen3-8b-awq     +2.53 [+0.62, +4.51] PASS
+  sec  sql   1.7B lib (LoRA)          vs base-qwen3-4b         +5.03 [+2.93, +7.15] PASS
+wrote results/analysis/partd_b_embed-lr.json

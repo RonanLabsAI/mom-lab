@@ -1,0 +1,33 @@
+== Part C analysis (fresh paraphrase set): router=oracle
+  n items: {'gsm8k_pp': 294, 'bird_pp': 300, 'mbpp_pp': 88, 'bfcl_pp': 286, 'mmlupro_pp': 294, 'flores_pp': 300}  router acc: {'gsm8k_pp': 1.0, 'bird_pp': 1.0, 'mbpp_pp': 1.0, 'bfcl_pp': 1.0, 'mmlupro_pp': 1.0, 'flores_pp': 1.0}
+  1.7B base              para2  49.66 (n=1)
+  1.7B pooled            para2  53.12 (n=3)
+  1.7B lora              para2  51.85 (n=3)
+  1.7B replay            para2  53.96 (n=3)
+  1.7B distill           para2  53.83 (n=3)
+  4B base                para2  63.33 (n=1)
+  4B pooled              para2  62.14 (n=3)
+  4B lora                para2  63.53 (n=3)
+  4B distill             para2  62.98 (n=3)
+  4B pooled-Base-init    para2  62.06 (n=1)
+  4B 8B                  para2  66.08 (n=1)
+  4B awq4                para2  60.09 (n=1)
+  4B awq4+lora           para2  61.49 (n=3)
+  4B awq8                para2  64.10 (n=1)
+  4B fp8-4               para2  61.91 (n=1)
+  4B fp8-8               para2  65.38 (n=1)
+  4B lora-replay         para2  63.47 (n=1)
+  H1-1.7B                1.7B lora > base [para2]              +2.19 [+0.48, +3.99] PASS
+  H1-1.7B                1.7B lora >= pooled - 2 [para2]       -1.27 [-2.96, +0.50] INCONCLUSIVE
+  H3-1.7B                1.7B lora >= distill - 2 [para2]      -1.99 [-3.43, -0.48] INCONCLUSIVE
+  H1-replay (secondary)  1.7B replay > base [para2]            +4.30 [+2.70, +5.92] PASS
+  H1-replay (secondary)  1.7B replay >= pooled - 2 [para2]     +0.84 [-0.56, +2.27] PASS
+  H1-4B                  4B lora > base [para2]                +0.20 [-0.88, +1.32] INCONCLUSIVE
+  H1-4B                  4B lora >= pooled - 2 [para2]         +1.38 [-0.31, +3.19] PASS
+  H3-4B                  4B lora >= distill - 2 [para2]        +0.54 [-0.86, +2.03] PASS
+  H2                     4B lora >= 8B - 2 [para2]             -2.56 [-4.47, -0.56] INCONCLUSIVE
+  H2-4bit                AWQ-4B+lora >= AWQ-8B - 2 [para2]     -2.61 [-4.51, -0.68] INCONCLUSIVE
+  C-sec 4B lora-replay   4B lora-replay >= pooled - 2 [para2]  +1.33 [-0.38, +3.17] PASS
+  C-sec 4B lora-replay   4B lora-replay vs lora [para2]        -0.05 [-0.71, +0.57] INCONCLUSIVE
+  COMBINED (Part B non-para components + fresh para): {'H1-1.7B': 'INCONCLUSIVE', 'H3-1.7B': 'INCONCLUSIVE', 'H1-replay (secondary)': 'PASS', 'H1-4B': 'INCONCLUSIVE', 'H3-4B': 'INCONCLUSIVE', 'H2': 'INCONCLUSIVE', 'H2-4bit': 'INCONCLUSIVE'}
+wrote results/analysis/partc_oracle.json

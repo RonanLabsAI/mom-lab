@@ -1,0 +1,28 @@
+{
+  "model": "research-mom-gate-qwen3-8b",
+  "revision": "vllm-0.30.1rc1.dev245+gaf7f9488c xgrammar-0.2.7",
+  "endpoint": "http://127.0.0.1:4001/v1",
+  "hardware": "RTX PRO 6000 batch-invariant (Station LEFT)",
+  "run_id": "gate-qwen3-8b-fs-free",
+  "step": "partdG",
+  "settings": {
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "top_k": 0,
+    "presence_penalty": 0.0,
+    "seed": 0,
+    "max_tokens_override": 4096,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "default_max_tokens": 2048,
+    "limit": null
+  },
+  "git_hash": "f23fbcdf4bc739d1a5815989fa11050e34c174d2",
+  "generated_utc": "2026-11-14T06:10:36+00:00",
+  "gate": {
+    "schema_path": null,
+    "schema": null,
+    "wrapper": "scripts/gate/schema_generate.py"
+  }
+}

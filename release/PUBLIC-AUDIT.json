@@ -1,0 +1,306 @@
+{
+  "generated_pt": "2026-11-14T16:20:22.572424-08:00",
+  "files_checked": 1163,
+  "refused": [],
+  "reviewed_screen_exceptions": [
+    {
+      "path": "data_partc/eval/para/bfcl_pp/test.jsonl",
+      "rule": "owner email (line 93)"
+    },
+    {
+      "path": "data_partc/eval/para/bfcl_pp/test.jsonl",
+      "rule": "owner email (line 93)"
+    },
+    {
+      "path": "data_partc/eval/para/bfcl_pp/test.jsonl",
+      "rule": "owner email (line 93)"
+    },
+    {
+      "path": "data_partc/eval/para/bfcl_pp/test.jsonl",
+      "rule": "owner email (line 93)"
+    },
+    {
+      "path": "data_partc/eval/para/bfcl_pp/test.jsonl",
+      "rule": "owner email (line 93)"
+    },
+    {
+      "path": "data_partc/eval/para/bfcl_pp/test.jsonl",
+      "rule": "owner email (line 93)"
+    },
+    {
+      "path": "data_partc/eval/para/bfcl_pp/test.jsonl",
+      "rule": "owner email (line 93)"
+    },
+    {
+      "path": "data_partc/eval/para/bfcl_pp/test.jsonl",
+      "rule": "owner email (line 93)"
+    },
+    {
+      "path": "data_partc/eval/para/bfcl_pp/test.jsonl",
+      "rule": "owner email (line 93)"
+    },
+    {
+      "path": "data_partc/eval/para/bfcl_pp/test.jsonl",
+      "rule": "owner email (line 93)"
+    },
+    {
+      "path": "data_partc/eval/para/bfcl_pp/test.jsonl",
+      "rule": "owner email (line 93)"
+    },
+    {
+      "path": "data_partc/eval/para/bfcl_pp/test.jsonl",
+      "rule": "owner email (line 93)"
+    },
+    {
+      "path": "data_partc/eval/para/bird_pp/test.jsonl",
+      "rule": "phone (line 86)"
+    },
+    {
+      "path": "data_partc/eval/para/bird_pp/test.jsonl",
+      "rule": "phone (line 86)"
+    },
+    {
+      "path": "data_partc/eval/para/bird_pp/test.jsonl",
+      "rule": "phone (line 86)"
+    },
+    {
+      "path": "data_partc/eval/para/mbpp_pp/test.jsonl",
+      "rule": "ssn (line 35)"
+    },
+    {
+      "path": "data_partc/eval/para/mbpp_pp/test.jsonl",
+      "rule": "ssn (line 35)"
+    },
+    {
+      "path": "data_partc/eval/para/mbpp_pp/test.jsonl",
+      "rule": "ssn (line 35)"
+    },
+    {
+      "path": "data_partc/eval/para/mbpp_pp/test.jsonl",
+      "rule": "ssn (line 35)"
+    },
+    {
+      "path": "data_partc/eval/para/mbpp_pp/test.jsonl",
+      "rule": "ssn (line 35)"
+    },
+    {
+      "path": "data_partc/eval/para/mbpp_pp/test.jsonl",
+      "rule": "ssn (line 35)"
+    },
+    {
+      "path": "data_partc/eval/para/mbpp_pp/test.jsonl",
+      "rule": "ssn (line 35)"
+    },
+    {
+      "path": "data_partc/eval/para/mbpp_pp/test.jsonl",
+      "rule": "ssn (line 35)"
+    },
+    {
+      "path": "data_partc/eval/para/mbpp_pp/test.jsonl",
+      "rule": "ssn (line 35)"
+    },
+    {
+      "path": "data_partc/eval/para/mbpp_pp/test.jsonl",
+      "rule": "ssn (line 35)"
+    },
+    {
+      "path": "data_partc/eval/para/mbpp_pp/test.jsonl",
+      "rule": "ssn (line 35)"
+    },
+    {
+      "path": "data_partc/eval/para/mbpp_pp/test.jsonl",
+      "rule": "ssn (line 35)"
+    },
+    {
+      "path": "data_partc/eval/para/mbpp_pp/test.jsonl",
+      "rule": "ssn (line 35)"
+    },
+    {
+      "path": "data_partc/eval/para/mbpp_pp/test.jsonl",
+      "rule": "ssn (line 35)"
+    },
+    {
+      "path": "data_partc/eval/para/mbpp_pp/test.jsonl",
+      "rule": "ssn (line 35)"
+    },
+    {
+      "path": "data_partc/eval/para/mbpp_pp/test.jsonl",
+      "rule": "ssn (line 35)"
+    },
+    {
+      "path": "data_partc/eval/para/mbpp_pp/test.jsonl",
+      "rule": "ssn (line 35)"
+    },
+    {
+      "path": "data_partc/eval/para/mbpp_pp/test.jsonl",
+      "rule": "ssn (line 35)"
+    },
+    {
+      "path": "data_partc/eval/para/mbpp_pp/test.jsonl",
+      "rule": "ssn (line 35)"
+    },
+    {
+      "path": "data_partc/eval/para/mbpp_pp/test.jsonl",
+      "rule": "ssn (line 35)"
+    },
+    {
+      "path": "data_partc/eval/para/mbpp_pp/test.jsonl",
+      "rule": "ssn (line 35)"
+    },
+    {
+      "path": "data_partc/eval/para/mbpp_pp/test.jsonl",
+      "rule": "ssn (line 35)"
+    },
+    {
+      "path": "data_partc/eval/para/mbpp_pp/test.jsonl",
+      "rule": "ssn (line 35)"
+    },
+    {
+      "path": "data_partc/eval/para/mbpp_pp/test.jsonl",
+      "rule": "ssn (line 35)"
+    },
+    {
+      "path": "data_partc/eval/para/mbpp_pp/test.jsonl",
+      "rule": "ssn (line 35)"
+    },
+    {
+      "path": "data_partc/eval/para/mbpp_pp/test.jsonl",
+      "rule": "ssn (line 35)"
+    },
+    {
+      "path": "data_partc/eval/para/mbpp_pp/test.jsonl",
+      "rule": "ssn (line 35)"
+    },
+    {
+      "path": "data_partc/eval/para/mbpp_pp/test.jsonl",
+      "rule": "ssn (line 35)"
+    },
+    {
+      "path": "data_partc/eval/para/mbpp_pp/test.jsonl",
+      "rule": "ssn (line 35)"
+    },
+    {
+      "path": "data_partc/eval/para/mbpp_pp/test.jsonl",
+      "rule": "ssn (line 35)"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-11-14-w8-mom.md",
+      "rule": "proprietary reference (line 22)"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-11-14-w8-mom.md",
+      "rule": "proprietary reference (line 32)"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-11-14-w8-mom.md",
+      "rule": "dob (line 107)"
+    },
+    {
+      "path": "scripts/release/check_public_safe.py",
+      "rule": "proprietary reference (line 15)"
+    },
+    {
+      "path": "scripts/release/check_public_safe.py",
+      "rule": "proprietary reference (line 15)"
+    },
+    {
+      "path": "scripts/release/check_public_safe.py",
+      "rule": "phone (line 20)"
+    },
+    {
+      "path": "scripts/release/check_public_safe.py",
+      "rule": "phone (line 20)"
+    },
+    {
+      "path": "scripts/release/check_public_safe.py",
+      "rule": "phone (line 20)"
+    },
+    {
+      "path": "tests/test_check_public_safe.py",
+      "rule": "proprietary reference (line 30)"
+    },
+    {
+      "path": "tests/test_check_public_safe.py",
+      "rule": "ssn (line 38)"
+    },
+    {
+      "path": "tests/test_check_public_safe.py",
+      "rule": "ssn (line 81)"
+    },
+    {
+      "path": "tests/test_check_public_safe.py",
+      "rule": "ssn (line 90)"
+    },
+    {
+      "path": "tests/test_check_public_safe.py",
+      "rule": "mrn (line 46)"
+    },
+    {
+      "path": "tests/test_check_public_safe.py",
+      "rule": "dob (line 48)"
+    },
+    {
+      "path": "tests/test_check_public_safe.py",
+      "rule": "phone (line 76)"
+    },
+    {
+      "path": "tests/test_check_public_safe.py",
+      "rule": "phone (line 90)"
+    }
+  ],
+  "residual_pattern_counts": {
+    "proprietary_name": 36,
+    "email": 12
+  },
+  "residual_inventory": [
+    {
+      "path": "RELEASE-CHECKLIST.md",
+      "rule": "proprietary_name",
+      "hits": 4,
+      "disposition": "exclusion policy, scanner rule or synthetic test; no proprietary source material"
+    },
+    {
+      "path": "RELEASE.md",
+      "rule": "proprietary_name",
+      "hits": 4,
+      "disposition": "exclusion policy, scanner rule or synthetic test; no proprietary source material"
+    },
+    {
+      "path": "data_partc/eval/para/bfcl_pp/test.jsonl",
+      "rule": "email",
+      "hits": 12,
+      "disposition": "unchanged public upstream benchmark fixtures; see RELEASE-CHECKLIST.md"
+    },
+    {
+      "path": "docs/eval-set-plan.md",
+      "rule": "proprietary_name",
+      "hits": 4,
+      "disposition": "exclusion policy, scanner rule or synthetic test; no proprietary source material"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-11-14-w8-mom.md",
+      "rule": "proprietary_name",
+      "hits": 7,
+      "disposition": "exclusion policy, scanner rule or synthetic test; no proprietary source material"
+    },
+    {
+      "path": "release/audit_public.py",
+      "rule": "proprietary_name",
+      "hits": 2,
+      "disposition": "exclusion policy, scanner rule or synthetic test; no proprietary source material"
+    },
+    {
+      "path": "scripts/release/check_public_safe.py",
+      "rule": "proprietary_name",
+      "hits": 10,
+      "disposition": "exclusion policy, scanner rule or synthetic test; no proprietary source material"
+    },
+    {
+      "path": "tests/test_check_public_safe.py",
+      "rule": "proprietary_name",
+      "hits": 5,
+      "disposition": "exclusion policy, scanner rule or synthetic test; no proprietary source material"
+    }
+  ],
+  "limitation": "Pattern screening is not an independent PHI audit. Public MedCalc clinical notes retain source provenance and CC BY-SA terms. Raw downloads, ignored generations/adapters and private git history are outside this tracked-tree audit and must be screened separately before uploads."
+}

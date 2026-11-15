@@ -1,0 +1,7 @@
+# Part D A: FP8 4B + Part B r16 adapters (not retrained)
+fp84-lora16-sql-lr2e-4@station-a:/models/hf/Qwen__Qwen3-4B-FP8+lora=/lab/adapters/pt4-lora16-sql-lr2e-4
+fp84-lora16-sql-lr2e-4-s1@station-a:/models/hf/Qwen__Qwen3-4B-FP8+lora=/lab/adapters/pt4-lora16-sql-lr2e-4-s1
+fp84-lora16-sql-lr2e-4-s2@station-a:/models/hf/Qwen__Qwen3-4B-FP8+lora=/lab/adapters/pt4-lora16-sql-lr2e-4-s2
+fp84-lora16-tools-lr2e-4@station-a:/models/hf/Qwen__Qwen3-4B-FP8+lora=/lab/adapters/pt4-lora16-tools-lr2e-4
+fp84-lora16-tools-lr2e-4-s1@station-a:/models/hf/Qwen__Qwen3-4B-FP8+lora=/lab/adapters/pt4-lora16-tools-lr2e-4-s1
+fp84-lora16-tools-lr2e-4-s2@station-a:/models/hf/Qwen__Qwen3-4B-FP8+lora=/lab/adapters/pt4-lora16-tools-lr2e-4-s2

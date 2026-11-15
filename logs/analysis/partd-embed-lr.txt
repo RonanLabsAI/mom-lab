@@ -1,0 +1,46 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 19842.78it/s]
+== Part D A/D/E analysis router=embed-lr
+  4B base                    core  65.22  para  61.12  mixed  65.00  para2  63.33
+  FP8-4B base                core  65.51  para  60.82  mixed  64.47  para2  61.91
+  AWQ-8B                     core  66.71  para  66.06  mixed  66.22  para2  64.10
+  4B lib r16                 core  66.55  para  63.21  mixed  69.25  para2  63.50
+  FP8-4B lib r16             core  66.73  para  63.55  mixed  68.75  para2  62.53
+  4B lib r64                 core  66.73  para  63.59  mixed  69.33  para2  63.76
+  4B lib r128                core  66.68  para  63.87  mixed  69.33  para2  63.85
+  4B lib sdreplay            core  66.05  para  62.72  mixed  67.81  para2  63.53
+  always-on r16 sql          core  62.01  para  60.76  mixed  65.29  para2  59.63
+  always-on sdreplay sql     core  66.12  para  61.51  mixed  66.00  para2  63.31
+  always-on r16 tools        core  60.40  para  51.98  mixed  58.07  para2  52.27
+  always-on sdreplay tools   core  65.45  para  61.20  mixed  66.24  para2  62.15
+  A1       FP8-4B lib >= AWQ-8B - 2 [core]                       +0.02 [-1.05, +1.13] PASS
+  A2       FP8-4B lib >= 4B lib - 2 [core]                       +0.19 [-0.63, +0.95] PASS
+  A3       FP8-4B lib > FP8-4B base [core]                       +1.22 [+0.62, +1.81] PASS
+  D1       always-on sdreplay sql > always-on r16 sql [core]     +4.11 [+3.20, +5.02] PASS
+  D1       always-on sdreplay tools > always-on r16 tools [core]  +5.05 [+4.19, +5.91] PASS
+  D2       sdreplay lib >= r16 lib - 2 [core bird_dev]           -2.52 [-4.30, -1.04] INCONCLUSIVE
+  D2       sdreplay lib >= r16 lib - 2 [core bfcl]               -0.47 [-1.40, +0.40] PASS
+  D3       sdreplay lib > r16 lib [core]                         -0.50 [-0.82, -0.21] FAIL
+  E1-r64   r64 lib > r16 lib [core bird_dev]                     +1.17 [-0.26, +2.61] INCONCLUSIVE
+  E1-r64   r64 lib > r16 lib [core bfcl]                         -0.07 [-0.93, +0.80] INCONCLUSIVE
+  E2-r64   r64 lib > r16 lib [core]                              +0.18 [-0.10, +0.46] INCONCLUSIVE
+  E1-r128  r128 lib > r16 lib [core bird_dev]                    +1.48 [-0.17, +3.04] INCONCLUSIVE
+  E1-r128  r128 lib > r16 lib [core bfcl]                        -0.67 [-1.67, +0.27] INCONCLUSIVE
+  E2-r128  r128 lib > r16 lib [core]                             +0.14 [-0.19, +0.44] INCONCLUSIVE
+  A1       FP8-4B lib >= AWQ-8B - 2 [para]                       -2.51 [-5.25, +0.48] INCONCLUSIVE
+  A2       FP8-4B lib >= 4B lib - 2 [para]                       +0.34 [-1.53, +2.21] PASS
+  A1       FP8-4B lib >= AWQ-8B - 2 [mixed]                      +2.53 [+0.53, +4.69] PASS
+  A2       FP8-4B lib >= 4B lib - 2 [mixed]                      -0.50 [-1.47, +0.47] PASS
+  E1-r64   r64 lib > r16 lib [mixed bfcl_ml]                     -0.56 [-1.89, +0.78] INCONCLUSIVE
+  E1-r128  r128 lib > r16 lib [mixed bfcl_ml]                    -0.89 [-2.33, +0.67] INCONCLUSIVE
+  A1       FP8-4B lib >= AWQ-8B - 2 [para2]                      -1.57 [-3.45, +0.33] INCONCLUSIVE
+  A2       FP8-4B lib >= 4B lib - 2 [para2]                      -0.97 [-2.17, +0.19] INCONCLUSIVE
+  A3       FP8-4B lib > FP8-4B base [para2]                      +0.62 [-0.42, +1.61] INCONCLUSIVE
+  D1       always-on sdreplay sql > always-on r16 sql [para2]    +3.68 [+2.11, +5.34] PASS
+  D1       always-on sdreplay tools > always-on r16 tools [para2]  +9.87 [+7.95, +11.89] PASS
+  D3       sdreplay lib > r16 lib [para2]                        +0.03 [-0.55, +0.61] INCONCLUSIVE
+  E1-r64   r64 lib > r16 lib [para2 bird_pp]                     +1.44 [-1.33, +4.22] INCONCLUSIVE
+  E2-r64   r64 lib > r16 lib [para2]                             +0.26 [-0.28, +0.79] INCONCLUSIVE
+  E1-r128  r128 lib > r16 lib [para2 bird_pp]                    +1.00 [-2.22, +4.00] INCONCLUSIVE
+  E2-r128  r128 lib > r16 lib [para2]                            +0.34 [-0.26, +0.94] INCONCLUSIVE
+wrote results/analysis/partd_embed-lr.json

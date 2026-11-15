@@ -1,0 +1,8 @@
+# finished trainq partd runs -> eval jobs (regex on run name)
+^pt4-lora(64|128)-  step=partd prio=3
+^pt4-lora16-sdreplay-  step=partd prio=3
+^pt4-lora(64|128)-  step=partdB root=data_partd domains=sql,tools prio=4
+^pt4-lora16-sdreplay-  step=partdB root=data_partd domains=sql,tools prio=4
+^pt4-lora(64|128)-  step=partd2 root=data_partc domains=para prio=5
+^pt4-lora16-sdreplay-  step=partd2 root=data_partc domains=para prio=5
+^(pt4|pt17)-lora16-(replay-)?(metar|medcalc)-  step=partdC root=data_partd_c harness=harness_d domains=aviation,medcalc,avknow prio=3

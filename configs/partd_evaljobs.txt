@@ -1,0 +1,50 @@
+# Part D eval jobs (scripts/evalq_p.py re-reads this file every loop). prio: lower first.
+fp84-lora16-sql-lr2e-4@station-a:/models/hf/Qwen__Qwen3-4B-FP8+lora=/lab/adapters/pt4-lora16-sql-lr2e-4 step=partd prio=2
+fp84-lora16-sql-lr2e-4-s1@station-a:/models/hf/Qwen__Qwen3-4B-FP8+lora=/lab/adapters/pt4-lora16-sql-lr2e-4-s1 step=partd prio=2
+fp84-lora16-sql-lr2e-4-s2@station-a:/models/hf/Qwen__Qwen3-4B-FP8+lora=/lab/adapters/pt4-lora16-sql-lr2e-4-s2 step=partd prio=2
+fp84-lora16-tools-lr2e-4@station-a:/models/hf/Qwen__Qwen3-4B-FP8+lora=/lab/adapters/pt4-lora16-tools-lr2e-4 step=partd prio=2
+fp84-lora16-tools-lr2e-4-s1@station-a:/models/hf/Qwen__Qwen3-4B-FP8+lora=/lab/adapters/pt4-lora16-tools-lr2e-4-s1 step=partd prio=2
+fp84-lora16-tools-lr2e-4-s2@station-a:/models/hf/Qwen__Qwen3-4B-FP8+lora=/lab/adapters/pt4-lora16-tools-lr2e-4-s2 step=partd prio=2
+base-qwen3-1.7b@station-a:/models/hf/Qwen__Qwen3-1.7B step=partdB root=data_partd domains=sql,tools prio=1
+base-qwen3-4b@station-a:/models/hf/Qwen__Qwen3-4B step=partdB root=data_partd domains=sql,tools prio=1
+base-qwen3-8b@station-a:/models/hf/Qwen__Qwen3-8B step=partdB root=data_partd domains=sql,tools prio=1
+base-qwen3-8b-awq@station-a:/models/hf/Qwen__Qwen3-8B-AWQ step=partdB root=data_partd domains=sql,tools prio=1
+base-qwen3-8b-fp8@station-a:/models/hf/Qwen__Qwen3-8B-FP8 step=partdB root=data_partd domains=sql,tools prio=1
+base-qwen3-4b-fp8@station-a:/models/hf/Qwen__Qwen3-4B-FP8 step=partdB root=data_partd domains=sql,tools prio=1
+pt4-lora16-sql-lr2e-4@station-a:/models/hf/Qwen__Qwen3-4B+lora=/lab/adapters/pt4-lora16-sql-lr2e-4 step=partdB root=data_partd domains=sql,tools prio=1
+fp84-lora16-sql-lr2e-4@station-a:/models/hf/Qwen__Qwen3-4B-FP8+lora=/lab/adapters/pt4-lora16-sql-lr2e-4 step=partdB root=data_partd domains=sql,tools prio=1
+pt4-lora16-sql-lr2e-4-s1@station-a:/models/hf/Qwen__Qwen3-4B+lora=/lab/adapters/pt4-lora16-sql-lr2e-4-s1 step=partdB root=data_partd domains=sql,tools prio=1
+fp84-lora16-sql-lr2e-4-s1@station-a:/models/hf/Qwen__Qwen3-4B-FP8+lora=/lab/adapters/pt4-lora16-sql-lr2e-4-s1 step=partdB root=data_partd domains=sql,tools prio=1
+pt4-lora16-sql-lr2e-4-s2@station-a:/models/hf/Qwen__Qwen3-4B+lora=/lab/adapters/pt4-lora16-sql-lr2e-4-s2 step=partdB root=data_partd domains=sql,tools prio=1
+fp84-lora16-sql-lr2e-4-s2@station-a:/models/hf/Qwen__Qwen3-4B-FP8+lora=/lab/adapters/pt4-lora16-sql-lr2e-4-s2 step=partdB root=data_partd domains=sql,tools prio=1
+pt4-lora16-tools-lr2e-4@station-a:/models/hf/Qwen__Qwen3-4B+lora=/lab/adapters/pt4-lora16-tools-lr2e-4 step=partdB root=data_partd domains=sql,tools prio=1
+fp84-lora16-tools-lr2e-4@station-a:/models/hf/Qwen__Qwen3-4B-FP8+lora=/lab/adapters/pt4-lora16-tools-lr2e-4 step=partdB root=data_partd domains=sql,tools prio=1
+pt4-lora16-tools-lr2e-4-s1@station-a:/models/hf/Qwen__Qwen3-4B+lora=/lab/adapters/pt4-lora16-tools-lr2e-4-s1 step=partdB root=data_partd domains=sql,tools prio=1
+fp84-lora16-tools-lr2e-4-s1@station-a:/models/hf/Qwen__Qwen3-4B-FP8+lora=/lab/adapters/pt4-lora16-tools-lr2e-4-s1 step=partdB root=data_partd domains=sql,tools prio=1
+pt4-lora16-tools-lr2e-4-s2@station-a:/models/hf/Qwen__Qwen3-4B+lora=/lab/adapters/pt4-lora16-tools-lr2e-4-s2 step=partdB root=data_partd domains=sql,tools prio=1
+fp84-lora16-tools-lr2e-4-s2@station-a:/models/hf/Qwen__Qwen3-4B-FP8+lora=/lab/adapters/pt4-lora16-tools-lr2e-4-s2 step=partdB root=data_partd domains=sql,tools prio=1
+pt17-replay-sql-r20-lr2e-5@station-b:mom-lab/runs/pt17-replay-sql-r20-lr2e-5 step=partdB root=data_partd domains=sql,tools prio=1
+pt17-replay-sql-r20-lr2e-5-s1@station-b:mom-lab/runs/pt17-replay-sql-r20-lr2e-5-s1 step=partdB root=data_partd domains=sql,tools prio=1
+pt17-replay-sql-r20-lr2e-5-s2@station-b:mom-lab/runs/pt17-replay-sql-r20-lr2e-5-s2 step=partdB root=data_partd domains=sql,tools prio=1
+pt17-lora16-sql-lr2e-4@station-b:mom-lab/runs/pt17-lora16-sql-lr2e-4 step=partdB root=data_partd domains=sql,tools prio=1
+pt17-lora16-sql-lr2e-4-s1@station-a:mom-lab/runs/pt17-lora16-sql-lr2e-4-s1 step=partdB root=data_partd domains=sql,tools prio=1
+pt17-lora16-sql-lr2e-4-s2@station-b:mom-lab/runs/pt17-lora16-sql-lr2e-4-s2 step=partdB root=data_partd domains=sql,tools prio=1
+pt17-lora16-tools-lr2e-4@station-a:mom-lab/runs/pt17-lora16-tools-lr2e-4 step=partdB root=data_partd domains=sql,tools prio=1
+pt17-lora16-tools-lr2e-4-s1@station-b:mom-lab/runs/pt17-lora16-tools-lr2e-4-s1 step=partdB root=data_partd domains=sql,tools prio=1
+pt17-lora16-tools-lr2e-4-s2@station-a:mom-lab/runs/pt17-lora16-tools-lr2e-4-s2 step=partdB root=data_partd domains=sql,tools prio=1
+pt4-distill-lr2e-5@station-b:mom-lab/runs/pt4-distill-lr2e-5 step=partdB root=data_partd domains=sql,tools prio=1
+pt4-distill-lr2e-5-s1@station-a:mom-lab/runs/pt4-distill-lr2e-5-s1 step=partdB root=data_partd domains=sql,tools prio=1
+pt4-distill-lr2e-5-s2@station-b:mom-lab/runs/pt4-distill-lr2e-5-s2 step=partdB root=data_partd domains=sql,tools prio=1
+pt4-pooled-lr2e-5@station-a:mom-lab/runs/pt4-pooled-lr2e-5 step=partdB root=data_partd domains=sql,tools prio=1
+pt4-pooled-lr2e-5-s1@station-b:mom-lab/runs/pt4-pooled-lr2e-5-s1 step=partdB root=data_partd domains=sql,tools prio=1
+pt4-pooled-lr2e-5-s2@station-a:mom-lab/runs/pt4-pooled-lr2e-5-s2 step=partdB root=data_partd domains=sql,tools prio=1
+fp84-lora16-sql-lr2e-4@station-a:/models/hf/Qwen__Qwen3-4B-FP8+lora=/lab/adapters/pt4-lora16-sql-lr2e-4 step=partd2 root=data_partc domains=para prio=5
+fp84-lora16-sql-lr2e-4-s1@station-a:/models/hf/Qwen__Qwen3-4B-FP8+lora=/lab/adapters/pt4-lora16-sql-lr2e-4-s1 step=partd2 root=data_partc domains=para prio=5
+fp84-lora16-sql-lr2e-4-s2@station-a:/models/hf/Qwen__Qwen3-4B-FP8+lora=/lab/adapters/pt4-lora16-sql-lr2e-4-s2 step=partd2 root=data_partc domains=para prio=5
+fp84-lora16-tools-lr2e-4@station-a:/models/hf/Qwen__Qwen3-4B-FP8+lora=/lab/adapters/pt4-lora16-tools-lr2e-4 step=partd2 root=data_partc domains=para prio=5
+fp84-lora16-tools-lr2e-4-s1@station-a:/models/hf/Qwen__Qwen3-4B-FP8+lora=/lab/adapters/pt4-lora16-tools-lr2e-4-s1 step=partd2 root=data_partc domains=para prio=5
+fp84-lora16-tools-lr2e-4-s2@station-a:/models/hf/Qwen__Qwen3-4B-FP8+lora=/lab/adapters/pt4-lora16-tools-lr2e-4-s2 step=partd2 root=data_partc domains=para prio=5
+base-qwen3-1.7b@station-a:/models/hf/Qwen__Qwen3-1.7B step=partdC root=data_partd_c harness=harness_d domains=aviation,medcalc,avknow prio=3
+base-qwen3-4b@station-a:/models/hf/Qwen__Qwen3-4B step=partdC root=data_partd_c harness=harness_d domains=aviation,medcalc,avknow prio=3
+base-qwen3-8b@station-a:/models/hf/Qwen__Qwen3-8B step=partdC root=data_partd_c harness=harness_d domains=aviation,medcalc,avknow prio=3
+base-qwen3-8b-awq@station-a:/models/hf/Qwen__Qwen3-8B-AWQ step=partdC root=data_partd_c harness=harness_d domains=aviation,medcalc,avknow prio=3

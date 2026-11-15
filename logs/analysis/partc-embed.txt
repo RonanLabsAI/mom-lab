@@ -1,0 +1,35 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 16145.04it/s]
+== Part C analysis (fresh paraphrase set): router=embed-lr
+  n items: {'gsm8k_pp': 294, 'bird_pp': 300, 'mbpp_pp': 88, 'bfcl_pp': 286, 'mmlupro_pp': 294, 'flores_pp': 300}  router acc: {'gsm8k_pp': 0.976, 'bird_pp': 0.963, 'mbpp_pp': 1.0, 'bfcl_pp': 0.969, 'mmlupro_pp': 0.68, 'flores_pp': 0.06}
+  1.7B base              para2  49.66 (n=1)
+  1.7B pooled            para2  53.12 (n=3)
+  1.7B lora              para2  51.65 (n=3)
+  1.7B replay            para2  53.68 (n=3)
+  1.7B distill           para2  53.83 (n=3)
+  4B base                para2  63.33 (n=1)
+  4B pooled              para2  62.14 (n=3)
+  4B lora                para2  63.50 (n=3)
+  4B distill             para2  62.98 (n=3)
+  4B pooled-Base-init    para2  62.06 (n=1)
+  4B 8B                  para2  66.08 (n=1)
+  4B awq4                para2  60.09 (n=1)
+  4B awq4+lora           para2  61.50 (n=3)
+  4B awq8                para2  64.10 (n=1)
+  4B fp8-4               para2  61.91 (n=1)
+  4B fp8-8               para2  65.38 (n=1)
+  4B lora-replay         para2  63.47 (n=1)
+  H1-1.7B                1.7B lora > base [para2]              +1.99 [+0.24, +3.86] PASS
+  H1-1.7B                1.7B lora >= pooled - 2 [para2]       -1.47 [-3.15, +0.34] INCONCLUSIVE
+  H3-1.7B                1.7B lora >= distill - 2 [para2]      -2.18 [-3.61, -0.67] INCONCLUSIVE
+  H1-replay (secondary)  1.7B replay > base [para2]            +4.02 [+2.34, +5.67] PASS
+  H1-replay (secondary)  1.7B replay >= pooled - 2 [para2]     +0.56 [-0.83, +2.02] PASS
+  H1-4B                  4B lora > base [para2]                +0.17 [-0.91, +1.29] INCONCLUSIVE
+  H1-4B                  4B lora >= pooled - 2 [para2]         +1.36 [-0.37, +3.18] PASS
+  H3-4B                  4B lora >= distill - 2 [para2]        +0.52 [-0.89, +2.03] PASS
+  H2                     4B lora >= 8B - 2 [para2]             -2.58 [-4.51, -0.56] INCONCLUSIVE
+  H2-4bit                AWQ-4B+lora >= AWQ-8B - 2 [para2]     -2.60 [-4.50, -0.66] INCONCLUSIVE
+  C-sec 4B lora-replay   4B lora-replay >= pooled - 2 [para2]  +1.33 [-0.37, +3.19] PASS
+  C-sec 4B lora-replay   4B lora-replay vs lora [para2]        -0.03 [-0.69, +0.62] INCONCLUSIVE
+  COMBINED (Part B non-para components + fresh para): {'H1-1.7B': 'INCONCLUSIVE', 'H3-1.7B': 'INCONCLUSIVE', 'H1-replay (secondary)': 'PASS', 'H1-4B': 'INCONCLUSIVE', 'H3-4B': 'INCONCLUSIVE', 'H2': 'INCONCLUSIVE', 'H2-4bit': 'INCONCLUSIVE'}
+wrote results/analysis/partc_embed-lr.json

@@ -1,0 +1,7 @@
+{
+  "reference": "/opt/release-user/projects/RonanLabs/mom-lab/results/partdC/base-qwen3-8b/gen/aviation/metar.test.jsonl",
+  "n_ref": 1000,
+  "n_new": 1000,
+  "identical": 1000,
+  "ok": true
+}

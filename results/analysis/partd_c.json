@@ -1,0 +1,375 @@
+{
+ "n": {
+  "metar": 1000,
+  "medcalc": 1100,
+  "preflight": 240
+ },
+ "missing": [],
+ "scores": {
+  "1.7B": {
+   "metar": 0.0,
+   "medcalc": 12.545454545454545,
+   "preflight": 52.083333333333336
+  },
+  "4B": {
+   "metar": 0.4,
+   "medcalc": 25.818181818181817,
+   "preflight": 67.08333333333333
+  },
+  "8B": {
+   "metar": 2.1,
+   "medcalc": 39.0,
+   "preflight": 71.66666666666667
+  },
+  "AWQ-8B": {
+   "metar": 4.4,
+   "medcalc": 35.63636363636363,
+   "preflight": 69.58333333333333
+  },
+  "4B+metar": {
+   "metar": 99.83333333333334,
+   "medcalc": 23.484848484848488,
+   "preflight": 64.16666666666667
+  },
+  "1.7B+metar": {
+   "metar": 99.1,
+   "medcalc": 12.515151515151516,
+   "preflight": 39.166666666666664
+  },
+  "4B+metar replay": {
+   "metar": 99.83333333333334,
+   "medcalc": 20.212121212121215,
+   "preflight": 65.83333333333333
+  },
+  "4B+medcalc": {
+   "metar": 0.26666666666666666,
+   "medcalc": 58.666666666666664,
+   "preflight": 59.027777777777786
+  },
+  "1.7B+medcalc": {
+   "metar": 0.0,
+   "medcalc": 45.78787878787879,
+   "preflight": 50.833333333333336
+  },
+  "4B+medcalc replay": {
+   "metar": 1.0333333333333334,
+   "medcalc": 58.333333333333336,
+   "preflight": 64.44444444444444
+  }
+ },
+ "metar_mean_field_accuracy": {
+  "1.7B": 49.885714285714286,
+  "4B": 73.95,
+  "8B": 82.55,
+  "AWQ-8B": 81.89285714285714,
+  "4B+metar": 99.98809523809524,
+  "1.7B+metar": 99.92380952380951,
+  "4B+metar replay": 99.98571428571431,
+  "4B+medcalc": 37.538095238095245,
+  "1.7B+medcalc": 21.861904761904764,
+  "4B+medcalc replay": 72.64999999999999
+ },
+ "tests": [
+  {
+   "hyp": "C1",
+   "bench": "metar",
+   "x": "4B+metar",
+   "y": "4B",
+   "kind": "beats",
+   "diff": 99.43333333333334,
+   "lo": 98.96583333333332,
+   "hi": 99.83333333333333,
+   "verdict": "PASS"
+  },
+  {
+   "hyp": "C2",
+   "bench": "metar",
+   "x": "4B+metar",
+   "y": "8B",
+   "kind": "beats",
+   "diff": 97.73333333333335,
+   "lo": 96.73249999999999,
+   "hi": 98.56666666666666,
+   "verdict": "PASS"
+  },
+  {
+   "hyp": "C3",
+   "bench": "metar",
+   "x": "1.7B+metar",
+   "y": "4B",
+   "kind": "beats",
+   "diff": 98.69999999999999,
+   "lo": 98.03333333333335,
+   "hi": 99.26666666666665,
+   "verdict": "PASS"
+  },
+  {
+   "hyp": "C3",
+   "bench": "metar",
+   "x": "1.7B+metar",
+   "y": "8B",
+   "kind": "beats",
+   "diff": 97.0,
+   "lo": 95.96666666666667,
+   "hi": 97.93333333333332,
+   "verdict": "PASS"
+  },
+  {
+   "hyp": "C4",
+   "bench": "metar",
+   "x": "4B+metar replay",
+   "y": "4B+metar",
+   "kind": "ni",
+   "diff": 0.0,
+   "lo": -0.1666666666666572,
+   "hi": 0.20000000000000284,
+   "verdict": "PASS"
+  },
+  {
+   "hyp": "C4-damage",
+   "bench": "medcalc",
+   "x": "4B+metar replay",
+   "y": "4B+metar",
+   "kind": "beats",
+   "diff": -3.2727272727272734,
+   "lo": -5.212121212121211,
+   "hi": -1.393181818181816,
+   "verdict": "FAIL"
+  },
+  {
+   "hyp": "C4-damage",
+   "bench": "preflight",
+   "x": "4B+metar replay",
+   "y": "4B+metar",
+   "kind": "beats",
+   "diff": 1.6666666666666572,
+   "lo": -0.8333333333333428,
+   "hi": 4.166666666666671,
+   "verdict": "INCONCLUSIVE"
+  },
+  {
+   "hyp": "extra",
+   "bench": "metar",
+   "x": "4B+metar",
+   "y": "AWQ-8B",
+   "kind": "desc",
+   "diff": 95.43333333333334,
+   "lo": 94.16666666666667,
+   "hi": 96.66666666666666,
+   "verdict": "descriptive"
+  },
+  {
+   "hyp": "extra",
+   "bench": "metar",
+   "x": "1.7B+metar",
+   "y": "AWQ-8B",
+   "kind": "desc",
+   "diff": 94.69999999999999,
+   "lo": 93.3,
+   "hi": 95.96666666666665,
+   "verdict": "descriptive"
+  },
+  {
+   "hyp": "C1",
+   "bench": "medcalc",
+   "x": "4B+medcalc",
+   "y": "4B",
+   "kind": "beats",
+   "diff": 32.848484848484844,
+   "lo": 29.545454545454547,
+   "hi": 36.000757575757575,
+   "verdict": "PASS"
+  },
+  {
+   "hyp": "C2",
+   "bench": "medcalc",
+   "x": "4B+medcalc",
+   "y": "8B",
+   "kind": "beats",
+   "diff": 19.666666666666664,
+   "lo": 16.241666666666674,
+   "hi": 22.909090909090907,
+   "verdict": "PASS"
+  },
+  {
+   "hyp": "C3",
+   "bench": "medcalc",
+   "x": "1.7B+medcalc",
+   "y": "4B",
+   "kind": "beats",
+   "diff": 19.969696969696972,
+   "lo": 16.909090909090914,
+   "hi": 23.000757575757575,
+   "verdict": "PASS"
+  },
+  {
+   "hyp": "C3",
+   "bench": "medcalc",
+   "x": "1.7B+medcalc",
+   "y": "8B",
+   "kind": "beats",
+   "diff": 6.787878787878789,
+   "lo": 3.6666666666666714,
+   "hi": 9.879545454545454,
+   "verdict": "PASS"
+  },
+  {
+   "hyp": "C4",
+   "bench": "medcalc",
+   "x": "4B+medcalc replay",
+   "y": "4B+medcalc",
+   "kind": "ni",
+   "diff": -0.3333333333333286,
+   "lo": -1.6068181818181915,
+   "hi": 0.9393939393939379,
+   "verdict": "PASS"
+  },
+  {
+   "hyp": "C4-damage",
+   "bench": "metar",
+   "x": "4B+medcalc replay",
+   "y": "4B+medcalc",
+   "kind": "beats",
+   "diff": 0.7666666666666668,
+   "lo": 0.33333333333333326,
+   "hi": 1.2333333333333334,
+   "verdict": "PASS"
+  },
+  {
+   "hyp": "C4-damage",
+   "bench": "preflight",
+   "x": "4B+medcalc replay",
+   "y": "4B+medcalc",
+   "kind": "beats",
+   "diff": 5.416666666666657,
+   "lo": 1.5277777777777715,
+   "hi": 9.305555555555543,
+   "verdict": "PASS"
+  },
+  {
+   "hyp": "extra",
+   "bench": "medcalc",
+   "x": "4B+medcalc",
+   "y": "AWQ-8B",
+   "kind": "desc",
+   "diff": 23.03030303030303,
+   "lo": 19.90833333333333,
+   "hi": 26.18181818181818,
+   "verdict": "descriptive"
+  },
+  {
+   "hyp": "extra",
+   "bench": "medcalc",
+   "x": "1.7B+medcalc",
+   "y": "AWQ-8B",
+   "kind": "desc",
+   "diff": 10.151515151515156,
+   "lo": 7.150757575757573,
+   "hi": 13.212121212121211,
+   "verdict": "descriptive"
+  },
+  {
+   "hyp": "C5",
+   "bench": "preflight",
+   "x": "8B",
+   "y": "4B",
+   "kind": "desc",
+   "diff": 4.583333333333343,
+   "lo": -0.8333333333333286,
+   "hi": 10.416666666666664,
+   "verdict": "descriptive"
+  },
+  {
+   "hyp": "C5",
+   "bench": "preflight",
+   "x": "4B+metar",
+   "y": "4B",
+   "kind": "desc",
+   "diff": -2.916666666666657,
+   "lo": -6.111111111111107,
+   "hi": 0.13888888888889994,
+   "verdict": "descriptive"
+  },
+  {
+   "hyp": "C5",
+   "bench": "preflight",
+   "x": "1.7B+metar",
+   "y": "1.7B",
+   "kind": "desc",
+   "diff": -12.916666666666671,
+   "lo": -17.083333333333336,
+   "hi": -8.888888888888886,
+   "verdict": "descriptive"
+  },
+  {
+   "hyp": "C5",
+   "bench": "preflight",
+   "x": "4B+metar replay",
+   "y": "4B",
+   "kind": "desc",
+   "diff": -1.25,
+   "lo": -4.861111111111107,
+   "hi": 2.3611111111111143,
+   "verdict": "descriptive"
+  },
+  {
+   "hyp": "C5",
+   "bench": "preflight",
+   "x": "4B+medcalc",
+   "y": "4B",
+   "kind": "desc",
+   "diff": -8.055555555555543,
+   "lo": -12.500000000000007,
+   "hi": -2.9166666666666714,
+   "verdict": "descriptive"
+  },
+  {
+   "hyp": "C5",
+   "bench": "preflight",
+   "x": "1.7B+medcalc",
+   "y": "1.7B",
+   "kind": "desc",
+   "diff": -1.25,
+   "lo": -6.666666666666671,
+   "hi": 4.166666666666671,
+   "verdict": "descriptive"
+  },
+  {
+   "hyp": "C5",
+   "bench": "preflight",
+   "x": "4B+medcalc replay",
+   "y": "4B",
+   "kind": "desc",
+   "diff": -2.6388888888888857,
+   "lo": -6.249999999999993,
+   "hi": 0.8333333333333286,
+   "verdict": "descriptive"
+  }
+ ],
+ "c6": [
+  {
+   "size": "1.7B",
+   "task": "metar",
+   "base": 0.0,
+   "gain": 99.1
+  },
+  {
+   "size": "1.7B",
+   "task": "medcalc",
+   "base": 12.545454545454545,
+   "gain": 33.24242424242424
+  },
+  {
+   "size": "4B",
+   "task": "metar",
+   "base": 0.4,
+   "gain": 99.43333333333334
+  },
+  {
+   "size": "4B",
+   "task": "medcalc",
+   "base": 25.818181818181817,
+   "gain": 32.848484848484844
+  }
+ ]
+}

@@ -1,0 +1,9 @@
+{
+  "baseline_commit": "cbf58ab012f6af41acde8f1200e045aa55664c9d",
+  "result_json_files": 893,
+  "changed_result_json_files": 865,
+  "numeric_leaves_checked": 2692256,
+  "benchmark_files_unchanged": 12,
+  "freeze_manifests_with_digest_literals_preserved": 12,
+  "all_equal": true
+}

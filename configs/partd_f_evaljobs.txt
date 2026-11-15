@@ -1,0 +1,20 @@
+# Part D addendum F (content/PART_D_F_ADDENDUM.md). Queue: scripts/evalq_f.py. Lower prio runs first.
+# prio 1-2 = primary (seed 0); 3-4 = extra sampling seeds; 6 = descriptive larger models (station-b only).
+base-qwen3-8b-fs@station-a:/models/hf/Qwen__Qwen3-8B step=partdF root=data_partd_f harness=harness_d domains=aviation,medcalc mml=32768 prio=1
+base-qwen3-4b-fs@station-a:/models/hf/Qwen__Qwen3-4B step=partdF root=data_partd_f harness=harness_d domains=aviation,medcalc mml=32768 prio=2
+base-qwen3-1.7b-fs@station-a:/models/hf/Qwen__Qwen3-1.7B step=partdF root=data_partd_f harness=harness_d domains=aviation,medcalc mml=32768 prio=2
+base-qwen3-8b-think-s0@station-a:/models/hf/Qwen__Qwen3-8B step=partdF root=data_partd_c harness=harness_d domains=aviation,medcalc,avknow think=1 temp=0.6 top_p=0.95 top_k=20 maxtok=16384 mml=32768 gseed=0 prio=1
+base-qwen3-8b-fsthink-s0@station-a:/models/hf/Qwen__Qwen3-8B step=partdF root=data_partd_f harness=harness_d domains=aviation,medcalc think=1 temp=0.6 top_p=0.95 top_k=20 maxtok=16384 mml=32768 gseed=0 prio=1
+base-qwen3-4b-think-s0@station-a:/models/hf/Qwen__Qwen3-4B step=partdF root=data_partd_c harness=harness_d domains=aviation,medcalc,avknow think=1 temp=0.6 top_p=0.95 top_k=20 maxtok=16384 mml=32768 gseed=0 prio=2
+base-qwen3-4b-fsthink-s0@station-a:/models/hf/Qwen__Qwen3-4B step=partdF root=data_partd_f harness=harness_d domains=aviation,medcalc think=1 temp=0.6 top_p=0.95 top_k=20 maxtok=16384 mml=32768 gseed=0 prio=2
+base-qwen3-8b-think-s1@station-a:/models/hf/Qwen__Qwen3-8B step=partdF root=data_partd_c harness=harness_d domains=aviation,medcalc,avknow think=1 temp=0.6 top_p=0.95 top_k=20 maxtok=16384 mml=32768 gseed=1 prio=3
+base-qwen3-8b-fsthink-s1@station-a:/models/hf/Qwen__Qwen3-8B step=partdF root=data_partd_f harness=harness_d domains=aviation,medcalc think=1 temp=0.6 top_p=0.95 top_k=20 maxtok=16384 mml=32768 gseed=1 prio=3
+base-qwen3-4b-think-s1@station-a:/models/hf/Qwen__Qwen3-4B step=partdF root=data_partd_c harness=harness_d domains=aviation,medcalc,avknow think=1 temp=0.6 top_p=0.95 top_k=20 maxtok=16384 mml=32768 gseed=1 prio=4
+base-qwen3-4b-fsthink-s1@station-a:/models/hf/Qwen__Qwen3-4B step=partdF root=data_partd_f harness=harness_d domains=aviation,medcalc think=1 temp=0.6 top_p=0.95 top_k=20 maxtok=16384 mml=32768 gseed=1 prio=4
+base-qwen3-8b-think-s2@station-a:/models/hf/Qwen__Qwen3-8B step=partdF root=data_partd_c harness=harness_d domains=aviation,medcalc,avknow think=1 temp=0.6 top_p=0.95 top_k=20 maxtok=16384 mml=32768 gseed=2 prio=3
+base-qwen3-8b-fsthink-s2@station-a:/models/hf/Qwen__Qwen3-8B step=partdF root=data_partd_f harness=harness_d domains=aviation,medcalc think=1 temp=0.6 top_p=0.95 top_k=20 maxtok=16384 mml=32768 gseed=2 prio=3
+base-qwen3-4b-think-s2@station-a:/models/hf/Qwen__Qwen3-4B step=partdF root=data_partd_c harness=harness_d domains=aviation,medcalc,avknow think=1 temp=0.6 top_p=0.95 top_k=20 maxtok=16384 mml=32768 gseed=2 prio=4
+base-qwen3-4b-fsthink-s2@station-a:/models/hf/Qwen__Qwen3-4B step=partdF root=data_partd_f harness=harness_d domains=aviation,medcalc think=1 temp=0.6 top_p=0.95 top_k=20 maxtok=16384 mml=32768 gseed=2 prio=4
+base-qwen3-14b@station-b:/models/hf/Qwen__Qwen3-14B step=partdF root=data_partd_c harness=harness_d domains=aviation,medcalc,avknow mml=32768 only=station-b prio=6
+base-qwen3-32b@station-b:/models/hf/Qwen__Qwen3-32B step=partdF root=data_partd_c harness=harness_d domains=aviation,medcalc,avknow mml=32768 only=station-b prio=6
+base-qwen3-32b-think-s0@station-b:/models/hf/Qwen__Qwen3-32B step=partdF root=data_partd_c harness=harness_d domains=aviation,medcalc,avknow think=1 temp=0.6 top_p=0.95 top_k=20 maxtok=16384 mml=32768 gseed=0 only=station-b prio=6

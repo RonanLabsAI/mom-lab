@@ -1,0 +1,5 @@
+# Part D addendum F smoke test: dev split, first 30 items, checks parsing and thinking truncation only (no test data).
+base-qwen3-8b-fs@station-a:/models/hf/Qwen__Qwen3-8B step=partdF-smoke root=data_partd_f harness=harness_d domains=aviation,medcalc mml=32768 split=dev limit=30 prio=0
+base-qwen3-8b-think-s0@station-a:/models/hf/Qwen__Qwen3-8B step=partdF-smoke root=data_partd_c harness=harness_d domains=aviation,medcalc,avknow think=1 temp=0.6 top_p=0.95 top_k=20 maxtok=16384 mml=32768 gseed=0 split=dev limit=30 prio=0
+base-qwen3-8b-fsthink-s0@station-a:/models/hf/Qwen__Qwen3-8B step=partdF-smoke root=data_partd_f harness=harness_d domains=aviation,medcalc think=1 temp=0.6 top_p=0.95 top_k=20 maxtok=16384 mml=32768 gseed=0 split=dev limit=30 prio=0
+base-qwen3-4b-think-s0@station-a:/models/hf/Qwen__Qwen3-4B step=partdF-smoke root=data_partd_c harness=harness_d domains=aviation,medcalc,avknow think=1 temp=0.6 top_p=0.95 top_k=20 maxtok=16384 mml=32768 gseed=0 split=dev limit=30 prio=0

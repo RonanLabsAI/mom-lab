@@ -1,0 +1,56 @@
+{
+ "gold/metar/dev": 100.0,
+ "gold/metar/test": 100.0,
+ "gold/medcalc/dev": 100.0,
+ "gold/medcalc/test": 100.0,
+ "gold/preflight/dev": 100.0,
+ "gold/preflight/test": 100.0,
+ "gold/medcalc/train_targets": 100.0,
+ "gold/medcalc/dev_with_explanation": 100.0,
+ "gold/medcalc/test_with_explanation": 100.0,
+ "gold/metar/train_targets": 100.0,
+ "overlap/metar/train-dev": {
+  "exact": 0,
+  "normalised": 0
+ },
+ "overlap/metar/train-test": {
+  "exact": 0,
+  "normalised": 0
+ },
+ "overlap/metar/dev-test": {
+  "exact": 0,
+  "normalised": 0
+ },
+ "metar/stations": {
+  "dev": 29,
+  "test": 73,
+  "train": 265
+ },
+ "overlap/medcalc/train-dev": {
+  "exact": 0,
+  "normalised": 0
+ },
+ "overlap/medcalc/train-test": {
+  "exact": 0,
+  "normalised": 0
+ },
+ "overlap/medcalc/dev-test": {
+  "exact": 0,
+  "normalised": 0
+ },
+ "overlap/medcalc/notes/train-dev": 0,
+ "overlap/medcalc/notes/train-test": 0,
+ "overlap/medcalc/notes/dev-test": 0,
+ "overlap/preflight/train-dev": {
+  "exact": 0,
+  "normalised": 0
+ },
+ "overlap/preflight/train-test": {
+  "exact": 0,
+  "normalised": 0
+ },
+ "overlap/preflight/dev-test": {
+  "exact": 0,
+  "normalised": 0
+ }
+}

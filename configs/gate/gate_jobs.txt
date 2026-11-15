@@ -1,0 +1,19 @@
+# METAR schema gate jobs (preregs/2026-11-14-metar-schema-gate.md). Run in file order by scripts/gate/run_gate.py.
+# keys: run route served model root schema think maxtok mml [temp top_p top_k gseed rparser]
+# root: data_gate_* are built in this worktree by scripts/gate/build_schema_prompts.py (raw-JSON prompt variant);
+# data_partd_c / data_partd_f are the frozen fenced prompts in the main checkout /opt/release-user/projects/RonanLabs/mom-lab.
+# Every arm is served with --max-model-len 32768 (5-shot prompts reach 4,586 tokens; + 4,096 new tokens > 8,192).
+# 8B, non-thinking server
+run=gate-qwen3-8b-zs-free route=research-mom-gate-qwen3-8b served=qwen3-8b model=/models/hf/Qwen__Qwen3-8B root=data_partd_c schema=0 think=0 maxtok=4096 mml=32768
+run=gate-qwen3-8b-fs-free route=research-mom-gate-qwen3-8b served=qwen3-8b model=/models/hf/Qwen__Qwen3-8B root=data_partd_f schema=0 think=0 maxtok=4096 mml=32768
+run=gate-qwen3-8b-zs-schema route=research-mom-gate-qwen3-8b served=qwen3-8b model=/models/hf/Qwen__Qwen3-8B root=data_gate_zs schema=1 think=0 maxtok=4096 mml=32768
+run=gate-qwen3-8b-fs-schema route=research-mom-gate-qwen3-8b served=qwen3-8b model=/models/hf/Qwen__Qwen3-8B root=data_gate_fs schema=1 think=0 maxtok=4096 mml=32768
+# 32B, non-thinking server
+run=gate-qwen3-32b-zs-free route=research-mom-gate-qwen3-32b served=qwen3-32b model=/models/hf/Qwen__Qwen3-32B root=data_partd_c schema=0 think=0 maxtok=4096 mml=32768
+run=gate-qwen3-32b-fs-free route=research-mom-gate-qwen3-32b served=qwen3-32b model=/models/hf/Qwen__Qwen3-32B root=data_partd_f schema=0 think=0 maxtok=4096 mml=32768
+run=gate-qwen3-32b-zs-schema route=research-mom-gate-qwen3-32b served=qwen3-32b model=/models/hf/Qwen__Qwen3-32B root=data_gate_zs schema=1 think=0 maxtok=4096 mml=32768
+run=gate-qwen3-32b-fs-schema route=research-mom-gate-qwen3-32b served=qwen3-32b model=/models/hf/Qwen__Qwen3-32B root=data_gate_fs schema=1 think=0 maxtok=4096 mml=32768
+# 8B, thinking server (reasoning parser; grammar applies after </think>)
+run=gate-qwen3-8b-fsthink-schema-s0 route=research-mom-gate-qwen3-8b served=qwen3-8b model=/models/hf/Qwen__Qwen3-8B root=data_gate_fs schema=1 think=1 maxtok=16384 mml=32768 temp=0.6 top_p=0.95 top_k=20 gseed=0 rparser=qwen3
+# 32B, thinking server (zero-shot, as F's 32B thinking run)
+run=gate-qwen3-32b-think-schema-s0 route=research-mom-gate-qwen3-32b served=qwen3-32b model=/models/hf/Qwen__Qwen3-32B root=data_gate_zs schema=1 think=1 maxtok=16384 mml=32768 temp=0.6 top_p=0.95 top_k=20 gseed=0 rparser=qwen3

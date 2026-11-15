@@ -1,0 +1,23 @@
+{
+  "model": "base-qwen3-8b-think-s1",
+  "revision": "",
+  "endpoint": "http://host-3cc546d0.invalid:8681/v1",
+  "hardware": "RTX PRO 6000 batch-invariant",
+  "run_id": "base-qwen3-8b-think-s1",
+  "step": "partdF",
+  "settings": {
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "top_k": 20,
+    "presence_penalty": 0.0,
+    "seed": 1,
+    "max_tokens_override": 16384,
+    "chat_template_kwargs": {
+      "enable_thinking": true
+    },
+    "default_max_tokens": 2048,
+    "limit": null
+  },
+  "git_hash": "unknown",
+  "generated_utc": "2026-11-04T03:19:03+00:00"
+}

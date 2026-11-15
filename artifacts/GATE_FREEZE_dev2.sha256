@@ -1,0 +1,3 @@
+bb27a22db5fcd36ee0bb28b35d99bd8d29dd797c5f1b7ab6568f6dda4e4da7c5  scripts/gate/smoke_check.py
+41736c245e98b96e92025e3a5821e30494d83ac46277e02a656658ab1a77195e  tests/test_gate_smoke.py
+3003c1be1bc722dbbaf758fe87d35400578f977bb43912b57a82ab12d1670cab  content/PART_G_DEVIATIONS.md

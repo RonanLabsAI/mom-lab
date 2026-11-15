@@ -1,0 +1,49 @@
+== Part B analysis: split=test router=oracle
+  1.7B base              core  55.54 (n=1)  para  49.47 (n=1)  mixed  52.67 (n=1)
+  1.7B pooled            core  54.12 (n=3)  para  52.85 (n=3)  mixed  57.60 (n=3)
+  1.7B lora              core  57.14 (n=3)  para  51.62 (n=3)  mixed  57.33 (n=3)
+  1.7B replay            core  57.80 (n=3)  para  52.78 (n=3)  mixed  58.17 (n=3)
+  1.7B distill           core  57.54 (n=3)  para  53.82 (n=3)  mixed  57.48 (n=3)
+  4B base                core  65.22 (n=1)  para  61.12 (n=1)  mixed  65.00 (n=1)
+  4B pooled              core  60.92 (n=3)  para  63.93 (n=3)  mixed  67.81 (n=3)
+  4B lora                core  66.55 (n=3)  para  63.21 (n=3)  mixed  69.25 (n=3)
+  4B distill             core  65.75 (n=3)  para  62.10 (n=3)  mixed  66.70 (n=3)
+  4B pooled-Base-init    core  61.21 (n=1)  para  61.56 (n=1)  mixed  67.78 (n=1)
+  4B 8B                  core  67.94 (n=1)  para  66.76 (n=1)  mixed  68.08 (n=1)
+  4B awq4                core  63.06 (n=1)  para  59.04 (n=1)  mixed  61.94 (n=1)
+  4B awq4+lora           core  64.80 (n=3)  para  60.72 (n=3)  mixed  67.25 (n=3)
+  4B awq8                core  66.71 (n=1)  para  66.06 (n=1)  mixed  66.22 (n=1)
+  4B fp8-4               core  65.51 (n=1)  para  60.82 (n=1)  mixed  64.47 (n=1)
+  4B fp8-8               core  68.07 (n=1)  para  66.47 (n=1)  mixed  67.31 (n=1)
+  H1-1.7B                1.7B lora > base [core]             +1.59 [+0.65, +2.51] PASS
+  H1-1.7B                1.7B lora > pooled [core]           +3.01 [+2.11, +3.96] PASS
+  H3-1.7B                1.7B lora > distill [core]          -0.40 [-1.20, +0.38] INCONCLUSIVE
+  H1-replay (secondary)  1.7B replay > base [core]           +2.26 [+1.34, +3.20] PASS
+  H1-replay (secondary)  1.7B replay > pooled [core]         +3.68 [+2.81, +4.54] PASS
+  H1-1.7B                1.7B lora > base [para]             +2.15 [-0.61, +4.72] INCONCLUSIVE
+  H1-1.7B                1.7B lora >= pooled - 2 [para]      -1.23 [-3.82, +1.24] INCONCLUSIVE
+  H3-1.7B                1.7B lora >= distill - 2 [para]     -2.20 [-4.55, +0.07] INCONCLUSIVE
+  H1-replay (secondary)  1.7B replay > base [para]           +3.31 [+0.75, +5.65] PASS
+  H1-replay (secondary)  1.7B replay >= pooled - 2 [para]    -0.07 [-2.37, +2.24] INCONCLUSIVE
+  H1-1.7B                1.7B lora > base [mixed]            +4.67 [+2.78, +6.56] PASS
+  H1-1.7B                1.7B lora >= pooled - 2 [mixed]     -0.27 [-1.87, +1.42] PASS
+  H3-1.7B                1.7B lora >= distill - 2 [mixed]    -0.15 [-1.55, +1.30] PASS
+  H1-replay (secondary)  1.7B replay > base [mixed]          +5.50 [+3.50, +7.42] PASS
+  H1-replay (secondary)  1.7B replay >= pooled - 2 [mixed]   +0.56 [-1.00, +2.19] PASS
+  H1-4B                  4B lora > base [core]               +1.33 [+0.74, +1.95] PASS
+  H1-4B                  4B lora > pooled [core]             +5.62 [+4.66, +6.58] PASS
+  H3-4B                  4B lora > distill [core]            +0.80 [-0.05, +1.62] INCONCLUSIVE
+  H2                     4B lora >= 8B - 2 [core]            -1.40 [-2.48, -0.27] INCONCLUSIVE
+  H2-4bit                AWQ-4B+lora >= AWQ-8B - 2 [core]    -1.91 [-3.05, -0.77] INCONCLUSIVE
+  H1-4B                  4B lora > base [para]               +2.09 [+0.42, +3.77] PASS
+  H1-4B                  4B lora >= pooled - 2 [para]        -0.72 [-3.02, +1.54] INCONCLUSIVE
+  H3-4B                  4B lora >= distill - 2 [para]       +1.11 [-0.94, +3.07] PASS
+  H2                     4B lora >= 8B - 2 [para]            -3.56 [-6.49, -0.71] INCONCLUSIVE
+  H2-4bit                AWQ-4B+lora >= AWQ-8B - 2 [para]    -5.34 [-8.41, -2.42] FAIL
+  H1-4B                  4B lora > base [mixed]              +4.25 [+2.58, +5.86] PASS
+  H1-4B                  4B lora >= pooled - 2 [mixed]       +1.44 [-0.07, +2.96] PASS
+  H3-4B                  4B lora >= distill - 2 [mixed]      +2.55 [+1.25, +3.90] PASS
+  H2                     4B lora >= 8B - 2 [mixed]           +1.17 [-0.83, +3.31] PASS
+  H2-4bit                AWQ-4B+lora >= AWQ-8B - 2 [mixed]   +1.03 [-1.08, +3.25] PASS
+  HYPOTHESES: {'H1-1.7B': 'INCONCLUSIVE', 'H3-1.7B': 'INCONCLUSIVE', 'H1-replay (secondary)': 'INCONCLUSIVE', 'H1-4B': 'INCONCLUSIVE', 'H3-4B': 'INCONCLUSIVE', 'H2': 'INCONCLUSIVE', 'H2-4bit': 'FAIL'}
+wrote results/analysis/partb_test_oracle.json

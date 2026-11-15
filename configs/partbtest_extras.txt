@@ -1,0 +1,31 @@
+# Part B test pass: --extra list for scripts/evalq.py (one per line; '#' lines ignored).
+# The other 22 arms come from logs/queue/partb.state.json (queue configs/queues/partb.jsonl).
+# Launch: see content/PART_B_RUNBOOK.md 'Test pass'. Frozen with the prereg.
+awq4-lora16-sql-lr2e-4@station-a:/models/hf/Qwen__Qwen3-4B-AWQ+lora=/lab/adapters/pt4-lora16-sql-lr2e-4
+awq4-lora16-sql-lr2e-4-s1@station-a:/models/hf/Qwen__Qwen3-4B-AWQ+lora=/lab/adapters/pt4-lora16-sql-lr2e-4-s1
+awq4-lora16-sql-lr2e-4-s2@station-a:/models/hf/Qwen__Qwen3-4B-AWQ+lora=/lab/adapters/pt4-lora16-sql-lr2e-4-s2
+awq4-lora16-tools-lr2e-4@station-a:/models/hf/Qwen__Qwen3-4B-AWQ+lora=/lab/adapters/pt4-lora16-tools-lr2e-4
+awq4-lora16-tools-lr2e-4-s1@station-a:/models/hf/Qwen__Qwen3-4B-AWQ+lora=/lab/adapters/pt4-lora16-tools-lr2e-4-s1
+awq4-lora16-tools-lr2e-4-s2@station-a:/models/hf/Qwen__Qwen3-4B-AWQ+lora=/lab/adapters/pt4-lora16-tools-lr2e-4-s2
+b4-pooled-lr2e-5@station-a:mom-lab/runs/b4-pooled-lr2e-5
+base-qwen3-1.7b@station-a:/models/hf/Qwen__Qwen3-1.7B
+base-qwen3-4b@station-a:/models/hf/Qwen__Qwen3-4B
+base-qwen3-4b-awq@station-a:/models/hf/Qwen__Qwen3-4B-AWQ
+base-qwen3-4b-fp8@station-a:/models/hf/Qwen__Qwen3-4B-FP8
+base-qwen3-8b@station-a:/models/hf/Qwen__Qwen3-8B
+base-qwen3-8b-awq@station-a:/models/hf/Qwen__Qwen3-8B-AWQ
+base-qwen3-8b-fp8@station-a:/models/hf/Qwen__Qwen3-8B-FP8
+pt17-lora16-code-lr2e-4@station-b:mom-lab/runs/pt17-lora16-code-lr2e-4
+pt17-lora16-sql-lr2e-4@station-b:mom-lab/runs/pt17-lora16-sql-lr2e-4
+pt17-lora16-tools-lr2e-4@station-a:mom-lab/runs/pt17-lora16-tools-lr2e-4
+pt17-pooled-lr2e-5@station-a:mom-lab/runs/pt17-pooled-lr2e-5
+pt17-pooled-lr2e-5-s1@station-a:mom-lab/runs/pt17-pooled-lr2e-5-s1
+pt17-pooled-lr2e-5-s2@station-a:mom-lab/runs/pt17-pooled-lr2e-5-s2
+pt17-replay-code-r20-lr2e-5@station-a:mom-lab/runs/pt17-replay-code-r20-lr2e-5
+pt17-replay-code-r20-lr2e-5-s1@station-b:mom-lab/runs/pt17-replay-code-r20-lr2e-5-s1
+pt17-replay-sql-r20-lr2e-5@station-b:mom-lab/runs/pt17-replay-sql-r20-lr2e-5
+pt17-replay-sql-r20-lr2e-5-s1@station-b:mom-lab/runs/pt17-replay-sql-r20-lr2e-5-s1
+pt17-replay-tools-r20-lr2e-5@station-a:mom-lab/runs/pt17-replay-tools-r20-lr2e-5
+pt17-replay-tools-r20-lr2e-5-s1@station-a:mom-lab/runs/pt17-replay-tools-r20-lr2e-5-s1
+pt4-lora16-sql-lr2e-4@station-b:mom-lab/runs/pt4-lora16-sql-lr2e-4
+pt4-lora16-tools-lr2e-4@station-b:mom-lab/runs/pt4-lora16-tools-lr2e-4

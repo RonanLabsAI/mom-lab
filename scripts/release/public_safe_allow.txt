@@ -1,0 +1,18 @@
+# Reviewed exceptions for check_public_safe.py (2026-11-13 PT, W8). Format: <path-glob> <rule_token>  # reason
+# Every line was checked by hand; see RELEASE.md "Public-safety check". The proprietary-path rule cannot be exempted.
+data_partc/eval/para/mbpp_pp/test.jsonl ssn  # pp2-mbpp-427: MBPP date-format test strings like '2024-02-299', not identifiers
+data_partc/eval/para/bird_pp/test.jsonl phone  # pp2-bird-dev-1368: fictional 555 number from the public BIRD student_club database
+scripts/release/check_public_safe.py proprietary_reference  # the checker's own docstring names the rule
+scripts/release/check_public_safe.py phone  # the checker's own docstring gives format examples (555 numbers)
+tests/test_check_public_safe.py proprietary_reference  # synthetic fixture text for the rule's test
+tests/test_check_public_safe.py ssn  # synthetic fixtures
+tests/test_check_public_safe.py mrn  # synthetic fixture
+tests/test_check_public_safe.py dob  # synthetic fixture
+tests/test_check_public_safe.py phone  # synthetic fixture (555 number)
+docs/superpowers/plans/*.md proprietary_reference  # the plan states the proprietary-content exclusion rule
+docs/superpowers/plans/*.md dob  # the plan quotes the date-of-birth pattern
+RELEASE.md proprietary_reference  # states the exclusion rule
+RELEASE.md ssn  # quotes the rule pattern names
+docs/eval-set-plan.md proprietary_reference  # states the exclusion rule
+
+data_partc/eval/para/bfcl_pp/test.jsonl owner_email  # 12 email fixtures in the public upstream benchmark; no PI contact address

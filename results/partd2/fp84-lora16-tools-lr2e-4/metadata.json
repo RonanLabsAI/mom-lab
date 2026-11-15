@@ -1,0 +1,23 @@
+{
+  "model": "fp84-lora16-tools-lr2e-4",
+  "revision": "",
+  "endpoint": "http://host-3cc546d0.invalid:8681/v1",
+  "hardware": "RTX PRO 6000 batch-invariant",
+  "run_id": "fp84-lora16-tools-lr2e-4",
+  "step": "partd2",
+  "settings": {
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "top_k": 0,
+    "presence_penalty": 0.0,
+    "seed": 0,
+    "max_tokens_override": 4096,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "default_max_tokens": 2048,
+    "limit": null
+  },
+  "git_hash": "unknown",
+  "generated_utc": "2026-11-02T01:01:03+00:00"
+}
