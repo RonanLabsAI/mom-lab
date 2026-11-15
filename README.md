@@ -69,6 +69,19 @@ All numbers are test split unless marked. Sources: `results/analysis/*.json` and
 - Nulls kept at full weight: merging (all merges below pooled), rank 64/128 over rank 16 (all 8 tests
   inconclusive), self-distilled replay in a routed library (FAIL, -0.50 [-0.82, -0.21]).
 
+## Data and adapters on Hugging Face
+
+- Dataset: [RonanLabs/mom-lab-metar-medcalc](https://huggingface.co/datasets/RonanLabs/mom-lab-metar-medcalc).
+  METAR (train 8,000, dev 300, test 1,000, plus the 5-shot prompt variants), MedCalc-Bench v1.2 derived (train
+  9,827, dev 300, test 1,100; CC BY-SA 4.0) and Pre-Flight (dev 60, test 240; MIT, Airside Labs), byte-identical
+  to `data_partd_c/SHA256SUMS`, plus the test generations of the six 4B adapters. Licences per part are on the
+  dataset card.
+- Adapters: [RonanLabs/mom-lab-qwen3-4b-adapters](https://huggingface.co/RonanLabs/mom-lab-qwen3-4b-adapters).
+  Rank-16 LoRA adapters for `Qwen/Qwen3-4B` at revision `1cfa9a7208912126459214e8b04321603b3df60c`: METAR
+  (seeds 0-2, Apache-2.0) and MedCalc (seeds 0-2, CC BY-SA 4.0). The base weights are not included or relicensed.
+- Not uploaded: the 20% replay mixtures (they include OPUS-100 samples, licence unresolved), the MedCalc few-shot
+  prompt files (their exemplars come from a repository without a licence file), raw downloads and NOTAM probes.
+
 ## Layout
 
 | Path | What it holds |
@@ -86,7 +99,7 @@ All numbers are test split unless marked. Sources: `results/analysis/*.json` and
 | `RELEASE.md`, `LICENSES.md` | What ships, what does not, and under which licence |
 
 Not in git: raw downloads, built training mixtures, model generations (`results/**/gen/`), weights and adapters.
-See `RELEASE.md`.
+See `RELEASE.md`. The Part D-C/D-F data, the 4B adapter generations and the 4B adapters are on Hugging Face (above).
 
 ## Rerun
 

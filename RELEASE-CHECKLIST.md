@@ -25,7 +25,9 @@ merged, published, submitted or uploaded. Base: `feat/w8-mom-v2` at `cbf58ab`.
 - Kept on purpose: "Threadripper" as a product name (the lab's public fleet page
   names it); Spark run ids `spark1`-`spark3` and Station aliases `station-a/b`
   are ordinal labels with no address.
-- Hugging Face upload: not done (next step below).
+- Hugging Face upload: done 2026-11-14 ~17:55 PT (W21), public under the RonanLabs
+  organization: https://huggingface.co/datasets/RonanLabs/mom-lab-metar-medcalc and
+  https://huggingface.co/RonanLabs/mom-lab-qwen3-4b-adapters . Details below.
 
 ## Prepared
 
@@ -57,18 +59,33 @@ merged, published, submitted or uploaded. Base: `feat/w8-mom-v2` at `cbf58ab`.
   environments, caches, raw downloads, NOTAM probes, local fleet state and any
   unreviewed build output. Keep the release manifests and the experiment's result
   JSONs. Choose which dated internal planning/consult notes are useful to publish.
-- [ ] Create the Hugging Face dataset repository and upload reviewed METAR,
+- [x] Create the Hugging Face dataset repository and upload reviewed METAR,
   Pre-Flight and MedCalc artifacts with source revisions, original notices,
   checksums, transformation descriptions and dataset cards. Mark MedCalc-derived
   data CC BY-SA 4.0 with attribution; retain other datasets' source terms.
-- [ ] Screen ignored generations and rebuilt/downloaded data separately before
+  Done (W21): `RonanLabs/mom-lab-metar-medcalc`, eval and train files byte-identical
+  to `data_partd_c/SHA256SUMS`, METAR 5-shot variants, the six 4B adapters' test
+  generations, per-part licences on the card and a root `SHA256SUMS`. Held back:
+  replay mixtures (OPUS-100 samples), MedCalc few-shot prompts (exemplars from a
+  repository without a licence file), raw downloads, NOTAM probes.
+- [x] Screen ignored generations and rebuilt/downloaded data separately before
   HF upload; the tracked-tree scan does not cover them. MedCalc contains public,
   de-identified clinical case reports and vignettes. Confirm that only the
   documented public sources are present; no lab/private patient data are allowed.
-- [ ] Upload approved adapters with model cards, exact base-model revisions,
+  Done (W21): pattern screen of every uploaded file found no private address, host,
+  path, user name, email, token or proprietary material. All 11,227 MedCalc notes and
+  9,827 training explanations occur verbatim in the MedCalc-Bench CSVs, which match
+  revision `83a1a56d` byte for byte. The 18 generation files re-score to the
+  published per-item results.
+- [x] Upload approved adapters with model cards, exact base-model revisions,
   training-source inventory, checksums, evaluations and limitations. MedCalc-trained
   adapters retain CC BY-SA 4.0 attribution plus the Qwen3 base notices. Base weights
   are not relicensed by the code's Apache-2.0 licence.
+  Done (W21): `RonanLabs/mom-lab-qwen3-4b-adapters`, METAR seeds 0-2 (Apache-2.0)
+  and MedCalc seeds 0-2 (CC BY-SA 4.0) on `Qwen/Qwen3-4B` @ `1cfa9a72`, whose shard
+  hashes match the training copies. Adapter weights are byte-identical to the
+  training outputs; only the base path in `adapter_config.json` and
+  `train_args.json` changed. Other adapters (1.7B, replay, Parts A-C) are not uploaded.
 - [ ] Verify the 96 unavailable external freeze entries and six environment
   receipts on the original hosts/archives if certifying them. No SSH or GPU work
   was performed here. Rebuild or copy the 94 unavailable ignored local artifacts
